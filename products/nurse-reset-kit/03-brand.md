@@ -1,21 +1,20 @@
 # Brand — 2026-10-26
 
 ## Handoff
-- **Recommended brand: Off-Clock Club.** Tagline: **"Sleep when the world's awake."** Hero product: **The Off-Clock Pair** (2-pack, $59, "gift one, keep one"). The kit itself is called **The Off-Clock Reset**.
+- **Recommended brand: Off-Clock Club.** Tagline: **"Sleep when the world's awake."** Hero product: **The Off-Clock Pair** (2-pack, $59, "gift one, keep one"). The kit itself is called **The Off-Clock Reset**. These replace the 02-validation working names "Post-Shift Reset Kit" and "Shift-Buddy 2-pack".
 - **Alternates:** (2) **Sunrise Sleeper** ("Home by 7. Out by 7:01."), (3) **Day Sleep Club** ("The 7 a.m. wind-down"). All checks are web-search signals only, never certainty (see the shortlist table).
 - **Name checks (2026-10-26):**
   - offclockclub.com **looks available** (Verisign RDAP returned 404; not a guarantee). offclock.com is taken.
   - No trademark or brand hits for "Off-Clock Club" in web search.
   - I could not verify Instagram or TikTok handles (Instagram returned 429, TikTok returned a JS shell). Social handles are **unclear**; the owner must check by hand.
   - **A real USPTO search is still required before printing cards or pouches.**
-- **Dead names, do not retry:** Quiet Hours (an existing face-tools/self-care label sold at SSENSE), Dayshade, Dayrest, Hush Hour, Offshift, Morning Moon, Home by Seven, Clock Out Co, Sundown Sleep, Afterclock. The `.com` is registered for all of these.
-- **New conflict found: do NOT name anything "Wind Down Kit".** Pinch Provisions sells a "Wind Down Kit" at $32 (sleep mask, stone facial roller, lavender mist) at belleandblush.com. It is not aimed at nurses. We may use "wind-down" as a plain phrase in copy but never as a product or kit name.
+  - Open owner items (unchanged from 02-validation): USPTO search, handle checks, C1 (CJ quote), C2 (Meta ad 30+ days).
+- **Names ruled out, and the new conflict:** do not retry Quiet Hours (an existing face-tools/self-care label sold at SSENSE), Dayshade, Dayrest, Hush Hour, Offshift, Morning Moon, Home by Seven, Clock Out Co, Sundown Sleep, Afterclock. The `.com` is registered for all of these except Quiet Hours (not checked; ruled out because the brand exists). **Do NOT name anything "Wind Down Kit":** Pinch Provisions sells a "Wind Down Kit" at $32 (sleep mask, stone facial roller, lavender mist) at belleandblush.com. It is not aimed at nurses. We may use "wind-down" as a plain phrase in copy but never as a product or kit name.
 - **Offer:** $59 Pair (default). The $34 single appears only if C1 passes (landed ≤ $11.33). Shipping is built into the price. Guarantee is 30 days. A mask light-leak is covered as a defect.
 - **Voice:** quiet, wry, in-the-know. Never medical, never "hero" or "angel" cliches. The owner is a brand, not a nurse.
 - **Two visual directions for Gate B:** **A "After Dark"** (deep navy and plum, brass accent, serif editorial; premium and calm) vs. **B "Golden Hour"** (peach, cobalt and cream, rounded sans, sticker-label; warm and giftable). Prompts are below.
 - **Segment:** Name is broad enough to extend to other night-shift healthcare workers later; launch positioning stays nurses-first (Gate A).
 - **Packaging within budget:** printed 4x6 insert card plus a **stock pouch with a printed brand sticker** at launch (est. +$0.05 on the 2-pack, landed ~$19.35 vs the $19.67 cap). Custom-print, woven-label and satin pouches are priced in "Shared packaging rules"; satin breaks the cap. All pouch prices are `assumed` until CJ quotes. No rigid box.
-- **Open owner items:** USPTO search, handle checks, C1 (CJ quote) and C2 (Meta ad 30+ days) are unchanged from 02-validation.
 
 ---
 
@@ -94,7 +93,7 @@ All figures are `estimated` (02-validation) until the CJ quote.
 
 | Element | Decision |
 |---|---|
-| **Hero: The Off-Clock Pair** | **$59**, 2 full kits (each: stainless-head ice roller, contoured blackout mask, foam earplugs, pouch) in one parcel. Default on the product page. Copy: "Gift one. Keep one." Also lands the $59 vs. about $25 per-kit anchor |
+| **Hero: The Off-Clock Pair** | **$59**, 2 full kits (each: stainless-head ice roller, contoured blackout mask, foam earplugs, pouch) in one parcel. Default on the product page. Copy: "Gift one. Keep one." Also lands the $59 vs. about $25 per-kit anchor (`estimated`: roller ~$8 + mask $10–14 + earplugs + pouch on Amazon) |
 | **Single: The Off-Clock Reset** | **$34 (or $36) only if C1 passes** (landed ≤ $11.33 at $34, ≤ $12.00 at $36). Otherwise hide the single and sell the Pair only. If the single exists, it makes the Pair look like the better deal |
 | **Shipping** | Built into the price. **Before the US test parcel arrives:** copy says only "Free US shipping" plus "delivery time confirmed at launch", with **no day range** (L-003). **After it arrives within 7-15 business days:** copy may say "Free US shipping, 7-15 business days". If it takes longer, there is no launch (02-validation kill criteria) |
 | **Free-shipping threshold** | None needed if the Pair is the hero. If a single exists: free shipping on the Pair, singles add a shipping line. Do not invent a threshold the margin cannot carry |
@@ -118,7 +117,7 @@ All figures are `estimated` (02-validation) until the CJ quote.
   - Use fake scarcity or countdown timers.
 - **Sample headline:** *"Sleep when the world's awake."*
 - **Sample caption (TikTok/Reels):** *"7:12 a.m. Lights on. Phone down. Roller on. Mask on. See you at 3."*
-- **Sample support reply:** *"So sorry the mask let light in at the nose. That shouldn't happen. Reply with a photo and we'll send a replacement today, no return needed. Sleep well."*
+- **Sample support reply:** *"So sorry the mask let light in at the nose. That shouldn't happen. Reply with a photo and we'll send a replacement, no return needed. Sleep well."*
 
 ## Visual identity (palette, fonts, logo prompt, imagery style, packaging)
 
@@ -140,7 +139,7 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
 - **Logo direction:** lowercase serif wordmark "off-clock club" with a small brass half-moon sitting over the hyphen like a sunrise cut off by an eyelid. Icon alternative: a clock face whose hands both point at 7.
 - **Image-generation prompt (logo):** *"Minimal wordmark logo reading 'off-clock club' in a soft lowercase serif (Fraunces style), cream on deep navy #14172B, with a tiny brass #C79A4B half-moon above the hyphen, flat vector, generous spacing, no medical symbols, no cross, no stethoscope, square 1:1."*
 - **Photography/video:** low-key, side-lit, deep shadows, brass and cream props, slow ASMR (roller frosting, mask Velcro, curtains closing); bedroom-at-sunrise reveal shot with a lights-on blackout test.
-- **Packaging (launch = option (a)):** the stock pouch with one printed brand sticker in navy and cream with a brass half-moon, plus a 4x6 insert card printed navy with cream type. Only the printed colours and artwork are specific to this direction. A navy cotton or satin pouch, a woven label and an extra sticker seal on the outer bag are **unpriced upgrades**. They stay out until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves.
+- **Packaging (launch = option (a)):** the stock pouch with one printed brand sticker in navy and cream with a brass half-moon, plus a 4x6 insert card printed navy with cream type. Only the printed colours and artwork are specific to this direction. A navy cotton or satin pouch, a woven label and an extra sticker seal on the outer bag are upgrades (priced in the shared packaging table below where possible, none quoted by CJ yet). They stay out until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves.
 
 ### Direction B: "Golden Hour" (warm, playful, giftable)
 - **Mood:** the golden light of 7 a.m. just before the curtains close; friendly, sticker-label energy, reads well in a gift guide and on a Reel thumbnail.
@@ -158,7 +157,7 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
 - **Logo direction:** chunky lowercase rounded wordmark "off-clock club" in cobalt on a peach pill/sticker shape with a small tangerine sun peeking over the "k"; secondary badge "gift one, keep one" as a round stamp.
 - **Image-generation prompt (logo):** *"Playful sticker-style logo reading 'off-clock club' in chunky rounded lowercase sans (Bricolage Grotesque style), cobalt #1F3FBF on a sunrise-peach #FFC9A8 pill shape, a small tangerine #FF7A3D half-sun peeking over the final letter, thick outline, flat vector, no medical symbols, square 1:1."*
 - **Photography/video:** bright morning window light, peach and cobalt props, hand-held phone POV, "unboxing as a gift" shots, text overlays in the brand fonts, quick cuts for TikTok.
-- **Packaging (launch = option (a)):** the same stock pouch with one printed brand sticker in peach and cobalt with the tangerine sun, plus a 4x6 insert card printed peach. The "gift one, keep one" badge and the handwritten-style gift-note area are printed on the card, not added as a separate stamp. Only the printed colours and artwork are specific to this direction. A cobalt printed pouch, a woven label, a separate rubber or printed stamp and an extra tangerine sticker seal are **unpriced upgrades**. They stay out until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves.
+- **Packaging (launch = option (a)):** the same stock pouch with one printed brand sticker in peach and cobalt with the tangerine sun, plus a 4x6 insert card printed peach. The "gift one, keep one" badge and the handwritten-style gift-note area are printed on the card, not added as a separate stamp. Only the printed colours and artwork are specific to this direction. A cobalt printed pouch, a woven label, a separate rubber or printed stamp and an extra tangerine sticker seal are upgrades (priced in the shared packaging table below where possible, none quoted by CJ yet). They stay out until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves.
 
 ### Shared packaging rules (budget under $500)
 - **Insert card (about $0.30 each, `assumed`):** front = thanks plus "The 3-step 7 a.m." (cool, dark, quiet); back = care notes (wipe the roller dry, keep it out of the freezer for over 2 hours to avoid cracking, `assumed`; confirm with the CJ spec sheet), 30-day guarantee, support email, QR to a care page. The gift variant has a "To / From" panel on the back.
@@ -171,7 +170,7 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
   | (c) Stock pouch + woven label sewn in | ~$0.45-0.65 | +$0.15 to +$0.35 | ~$19.45-19.65 | Borderline |
   | (d) Satin pouch (custom) | ~$0.90-1.20 | +$0.60 to +$0.90 | ~$19.90-20.20 | **No** |
 
-  Recommendation: **launch with (a)**; move to (b) only if the CJ quote for the actual 2-pack is still ≤ $19.67 with the printed pouch included. Do not use (d) unless the price rises (owner approval needed). **Both directions launch on option (a): one stock pouch, one printed sticker, one insert card.** The direction changes only the colours and artwork printed on the sticker and the card, so A vs. B does not change the `assumed` +$0.05 cost. Anything beyond (a) is an unpriced upgrade, excluded until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves. That includes satin or cotton pouches, custom-colour pouches, woven labels, extra seals and stamps.
+  Recommendation: **launch with (a)**; move to (b) only if the CJ quote for the actual 2-pack is still ≤ $19.67 with the printed pouch included. Do not use (d) unless the price rises (owner approval needed). **Both directions launch on option (a): one stock pouch, one printed sticker, one insert card.** The direction changes only the colours and artwork printed on the sticker and the card, so we assume the same +$0.05 unit cost for A and B (`assumed`, not quoted by CJ). Anything beyond (a) is an unpriced upgrade, excluded until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves. That includes satin or cotton pouches, custom-colour pouches, woven labels, extra seals and stamps.
 - **MOQ and how CJ packs it:** CJ's [custom packaging page](https://cjdropshipping.com/customPackaging) says MOQ can start "as low as ONE unit" and lists no prices or lead times (`measured` claim by CJ, unverified in practice). CJ's [packaging guide](https://blog.cjdropshipping.cn/detail/1285140646310354945) says custom items like cards go in the parcel's spare space (BZSP packaging SKUs) and a package linked to one product applies only to that product. So the kit must be created as **one bundled SKU** in CJ with the pouch, card and sticker attached to that SKU. Confirm pouch availability, price and lead time through CJ's "Start Customizing" form. **No rigid box yet.**
 - **Do not print** a specific delivery time, a medical claim, or an RN/credential symbol on any insert.
 

@@ -22,3 +22,4 @@ or prompt fix).
 | 2026-10-26 | nurse-reset-kit | qa brand | stage-qa | haiku | bg | verdict | FAIL | ~47 s; 2 real blockers + 1 false positive |
 | 2026-10-26 | nurse-reset-kit | brand (fix round 1) | brand-strategist | sonnet | bg | 03-brand.md | FAIL (2nd) | ~36 s; new issues: L-003 shipping-window claim, unpriced packaging extras, overclaimed name uniqueness |
 | 2026-10-26 | nurse-reset-kit | brand (fix round 2, ESCALATED) | brand-strategist | opus | bg | 03-brand.md | QA round 3 pending | ~43 s; escalation rule fired: 2 QA fails → opus |
+| 2026-10-26 | nurse-reset-kit | qa brand round 3 | stage-qa | haiku | bg | verdict | FAIL (2 trivial blockers) | ~77 s; orchestrator fixed both blockers + 5 minors directly instead of a 4th agent round. Open minors: source links (MASK O'CLOCK, Cherokee, BFA URL), verbatim avatar quotes (growth plan to supply) |
