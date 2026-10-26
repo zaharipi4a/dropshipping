@@ -59,3 +59,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r2 (funny-gifts) | haiku | background | PASS | 8 trivial minors left for validator (timing one-liner, labels); lane pick: none |
 | 2026-10-26 | scout-xmas2-20261026 | product-scout rework (useful-daily) | inherit | resumed via SendMessage | QA r2 pending | wallet + knife both near misses; lane has no ranked picks |
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r2 (useful-daily) | haiku | background | FAIL r2 → orchestrator fixed | 3 blocking (wallet viability wording, timing rule, missing combos note) + minors 1-3, 5 fixed directly; lane has no pick, so no further QA round |
+| 2026-10-26 | scout-xmas2-20261026 | product-validator | opus | background | QA pending | merge round 1 + round 2 near misses; honest path (a)/(b)/(c) |
