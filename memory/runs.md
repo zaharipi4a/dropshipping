@@ -30,5 +30,6 @@ or prompt fix).
 | 2026-10-26 | nurse-reset-kit | growth (fix round 1) | growth-strategist | opus | bg | — | stopped | owner killed the product at Gate B |
 | 2026-10-26 | scout-xmas-20261026 | scout ×3 lanes | product-scout | sonnet | parallel bg | 01-scouting-{cozy-home,personal-gifts,gadgets-fun}.md | pending | first real fan-out |
 | 2026-10-26 | — | evolve (FB-005) | evolver | opus | bg ∥ scouts | agents/LEARNINGS → CL-005, L-005 refined, L-008 new | n/a | natural positioning, timing; running scouts used old Part 2, so the validator applies L-005/L-008 |
-| 2026-10-26 | scout-xmas-20261026 | product-scout (lane personal-gifts) | inherit | background fan_out | QA pending | top: satin sleep gift set $42; engraved bar necklace (Printify US) $49 |
-| 2026-10-26 | scout-xmas-20261026 | product-scout (lane gadgets-fun) | inherit | background fan_out | QA pending | top: Christmas book nook kit $59; music box kit $42 (fails L-002) |
+| 2026-10-26 | scout-xmas-20261026 | product-scout (lane personal-gifts) | inherit | background fan_out | QA FAIL r1 (6 blocking: no appeal/timing cols, necklace L-002/L-004/L-006) → sent back | top: satin sleep gift set $42; engraved bar necklace (Printify US) $49 |
+| 2026-10-26 | scout-xmas-20261026 | product-scout (lane gadgets-fun) | inherit | background fan_out | QA FAIL r1 (6 blocking: no appeal/timing cols, CM math, weak proof, rejected items in top 5) → sent back | top: Christmas book nook kit $59; music box kit $42 (fails L-002) |
+| 2026-10-26 | scout-xmas-20261026 | stage-qa ×2 (personal-gifts, gadgets-fun) | haiku | background parallel | — | both FAIL round 1; main cause: scouts loaded pre-CL-005 instructions |
