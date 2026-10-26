@@ -38,3 +38,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas-20261026 | stage-qa r2 (personal-gifts) | haiku | background | FAIL r2 | 3 blocking: L-006 unflagged on picks, satin unit cost unsupported (mask $6.73 quote → ~49% landed), gap contradicts Kitsch/Brushworks → escalated to opus |
 | 2026-10-26 | scout-xmas-20261026 | product-scout escalation (personal-gifts) | opus | background | QA r3 pending | fix satin cost/gap/L-006 |
 | 2026-10-26 | scout-xmas-20261026 | stage-qa r2 (gadgets-fun) | haiku | background | FAIL r2 | 2 trivial blockers (landed sum, Handoff wording) → orchestrator fixed directly instead of an opus rerun, since the lane verdict is HOLD; minors left for validator |
+| 2026-10-26 | scout-xmas-20261026 | stage-qa r1 (cozy-home) | haiku | background | FAIL r1 | 6 blocking: appeal/timing cols, micro-niches (L-005), $4 unit cost unsourced, combo 2/4/5 math; demonstrated 14–21d lead → China cutoff ~Nov 12–19 → sent back with US-route search |
