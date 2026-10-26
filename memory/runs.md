@@ -35,3 +35,5 @@ or prompt fix).
 | 2026-10-26 | scout-xmas-20261026 | stage-qa ×2 (personal-gifts, gadgets-fun) | haiku | background parallel | — | both FAIL round 1; main cause: scouts loaded pre-CL-005 instructions |
 | 2026-10-26 | scout-xmas-20261026 | product-scout ×2 rework (personal-gifts, gadgets-fun) | inherit | resumed via SendMessage | QA r2 pending | personal-gifts: necklace dropped, satin set $42 stays; gadgets-fun: book nook held for 2027 unless CJ US SKU |
 | 2026-10-26 | scout-xmas-20261026 | product-scout (lane cozy-home) | inherit | background fan_out | QA r1 pending | top: aurora projector "Night In" gift box $39 (landed ~33%); 3-in-1 sunset lamp $37–39 |
+| 2026-10-26 | scout-xmas-20261026 | stage-qa r2 (personal-gifts) | haiku | background | FAIL r2 | 3 blocking: L-006 unflagged on picks, satin unit cost unsupported (mask $6.73 quote → ~49% landed), gap contradicts Kitsch/Brushworks → escalated to opus |
+| 2026-10-26 | scout-xmas-20261026 | product-scout escalation (personal-gifts) | opus | background | QA r3 pending | fix satin cost/gap/L-006 |
