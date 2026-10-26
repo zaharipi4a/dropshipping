@@ -44,6 +44,7 @@ Format: `- YYYY-MM-DD [slug|global] [agent] DECISION — reason`
 - 2026-10-26 [scout-20261026] [orchestrator] CORRECTION to the earlier product-validator GO entry: verdict is CONDITIONAL GO (C1: CJ landed ≤ thresholds, 2-pack ≤ $19.67; C2: a 30+ day Meta Ad Library ad for ice roller / blackout mask / nurse-gift kit). The $34 single is not sold at landed $12.30 (36.2%). Hero offer = $59 2-pack.
 - 2026-10-26 [nurse-reset-kit] [orchestrator] GATE A: owner proceeds with Post-Shift Reset Kit (conditional on C1 CJ quote + C2 30+ day Meta ad). Folder renamed from scout-20261026. Curl kit held for January.
 - 2026-10-26 [global] [orchestrator] Platform: custom website + Stripe + CJdropshipping API instead of Shopify (owner preference).
+- 2026-10-26 [nurse-reset-kit] [brand-strategist] DECISION (pending Gate B) brand = Off-Clock Club, tagline "Sleep when the world's awake.", hero = The Off-Clock Pair ($59, gift one keep one). Alternates: Sunrise Sleeper, Day Sleep Club. Offclockclub.com looks available (Verisign RDAP 404); no web trademark hits; IG/TikTok handles unverifiable (unclear); USPTO search still required before printing. Rejected: Quiet Hours (existing self-care label), "Wind Down Kit" (Pinch Provisions $32 kit), plus ~10 names with taken .com. Two visual directions offered: A After Dark (navy/plum/brass, serif) vs B Golden Hour (peach/cobalt, rounded sans). See 03-brand.md.
 
 ---
 
