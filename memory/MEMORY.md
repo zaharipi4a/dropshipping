@@ -50,6 +50,12 @@ Format: `- YYYY-MM-DD [slug|global] [agent] DECISION — reason`
 - 2026-10-26 [nurse-reset-kit] [orchestrator] KILLED by owner at Gate B ("leave this nurse kit"). Files kept for reference; brand Off-Clock Club unused.
 - 2026-10-26 [scout-xmas-20261026] [orchestrator] New run: Christmas gift / self-purchase holiday-feel product. Delivery before Dec 25 is the hard constraint.
 - 2026-10-26 [scout-xmas-20261026] [product-validator] CONDITIONAL GO (43/60): aurora / ocean-wave projector lamp from **US stock**. SKU: Doba Honesty House D01027HNF0W, 4.85-day measured average delivery. Price $34.99 single / $64 2-pack. Delivered cost $10.17 is estimated from Doba's "up to $5.01 (33% margin)" hint: landed 29.1%, CM $21.19, BE ROAS 1.65. Latest safe order Dec 9, giving 24–29 selling days. Conditions, all due by Nov 2: Doba price ≤ $11.66, stock ≥ 50, no unsecured coin-cell remote, manual ordering allowed without the $149.99/mo API plan, and the owner approves the L-006 exception. A CJ US-warehouse SKU at ≤ $11.66 including the $0.50 fee replaces Doba. All China-route candidates fail L-002 and/or L-008 for 2026. If the conditions fail: build the store/brand now, launch Valentine's on the China route (latest order about Jan 20, 2027), and hold the book nook for Oct 2027. See 02-validation.md.
+- 2026-10-26 [scout-xmas-20261026] [product-validator] CORRECTION after Stage QA r1 to the entry above:
+  - Verdict: **GO only with an explicit owner waiver** covering the CJ-only rule (L-006) and the CJ US-warehouse condition (FB-005 / validator rule). Score 43/60 with the waiver; without it timing = 1, 37/60 = NO-GO this season.
+  - The 4.85-day delivery is platform-displayed, not independently verified.
+  - The 4.5% + $0.30 Stripe fee is assumed, not from the owner brief.
+  - Customer shipping copy: "Ships from a US warehouse; delivery window confirmed after our test order" (L-003).
+  - L-004 is met by 4 sales signals: Amazon B0B4518KC2, the Amazon top-10 average of ~3,900/mo, TikTok OneFire 34.6K and TikTok DESUNIC 22.6K.
 
 ---
 
@@ -136,3 +142,4 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 [validator] Travel jewelry case gift ($29) — NO-GO: no dropship route (1688 bulk MOQ 200, the $1.08 price is unverified); 39.2% landed on readable quotes; $10–16 anchor.
 - 2026-10-26 [validator] CJ pre-engraved bar necklace ($32) — NO-GO: not personalised (appeal 3), no engraved-specific sales proof (L-004), generic bar necklace −20% MoM; landed 33.0% only at ≥ $32.
 - 2026-10-26 [validator] Late-Dec/New Year "winter cozy" launch as a standalone plan — rejected: aurora searches fall from 18,100 (Dec) to 5,400 (Jan) (RankHero); usable only as a tail after the Christmas cutoff.
+- 2026-10-26 [validator] Fuzzy-sock gift box (6 pairs, $34, China) — NO-GO: landed $11.88 = 34.9% (passes only at ≥ $35.63) against a $9.99 Amazon gift-sock anchor; not sourced; China-only timing.

@@ -98,7 +98,7 @@ tr.pick td{background:var(--accent-soft)}
     <div class="kpi"><b>1.65</b><span>break-even ROAS</span></div>
     <div class="kpi"><b>24–29</b><span>selling days to the Dec 9 safe last order</span></div>
   </div>
-  <p class="muted">The condition: the cost comes from a margin hint on Doba's page ("up to $5.01 per sale, 33% margin"), not from a quote. If Doba's real price is above <b>$11.66</b>, or it doesn't allow manual ordering, there is no Christmas product this year. Then we switch to the Valentine's plan below.</p>
+  <p class="muted">Two conditions. <b>(1) Your waiver.</b> Doba is not CJ. Our rules say "CJ only" and "only trust CJ-listed US stock", so this needs your explicit OK. Without it the lamp scores 37/60 and is a no-go this season. <b>(2) The real price.</b> The cost comes from a margin hint on Doba's page ("up to $5.01 per sale, 33% margin"), not from a quote. If Doba's real price is above <b>$11.66</b>, or it doesn't allow manual ordering, there is no Christmas product this year. Then we switch to the Valentine's plan below.</p>
 </section>
 
 <section class="stack-lg">
@@ -110,7 +110,8 @@ tr.pick td{background:var(--accent-soft)}
   <div class="tbl"><table>
     <thead><tr><th>#</th><th>Product</th><th class="r">Price</th><th class="r">Score</th><th class="r">Landed</th><th>Last safe order</th><th>Verdict</th></tr></thead>
     <tbody>
-      <tr class="pick"><td class="num">1</td><td><b>Aurora lamp</b>, US stock (Doba)</td><td class="r num">$34.99</td><td class="r num">43</td><td class="r num">29%</td><td class="num">Dec 9</td><td><span class="pill maybe">Conditional go</span></td></tr>
+      <tr class="pick"><td class="num">1a</td><td><b>Aurora lamp</b>, US stock (Doba), <b>with your waiver</b></td><td class="r num">$34.99</td><td class="r num">43</td><td class="r num">29%</td><td class="num">Dec 9</td><td><span class="pill go">Go, if checks pass</span></td></tr>
+      <tr><td class="num">1b</td><td>Same lamp, <b>without the waiver</b> (CJ-only rule)</td><td class="r num">$34.99</td><td class="r num">37</td><td class="r num">29%</td><td class="num">Dec 9</td><td><span class="pill no">No-go 2026</span></td></tr>
       <tr><td class="num">2</td><td>Aurora lamp, shipped from China (CJ)</td><td class="r num">$39</td><td class="r num">35</td><td class="r num">38–46%</td><td class="num">Nov 30</td><td><span class="pill no">No-go 2026</span></td></tr>
       <tr><td class="num">3</td><td>3-in-1 sunset lamp, China</td><td class="r num">$41</td><td class="r num">35</td><td class="r num">33–38%</td><td class="num">Nov 30</td><td><span class="pill no">No-go 2026</span></td></tr>
       <tr><td class="num">4</td><td>Satin sleep gift set</td><td class="r num">$47</td><td class="r num">32</td><td class="r num">33–34%</td><td class="num">Nov 27–30</td><td><span class="pill maybe">Valentine's maybe</span></td></tr>
@@ -133,9 +134,9 @@ tr.pick td{background:var(--accent-soft)}
       <h3>Proof it already sells</h3>
       <ul>
         <li>Top Amazon listing sells <b class="num">~9–10k units/mo</b> at $36–44, with ~9.6k reviews <span class="label">estimated</span></li>
+        <li>Amazon top-10 listings average <b class="num">~3,900 units/mo</b> each <span class="label">estimated</span></li>
         <li>TikTok Shop: OneFire <b class="num">34.6k sold</b> at $32.37, DESUNIC 22.6k sold <span class="label">as displayed</span></li>
-        <li>Amazon "northern lights projector": <b class="num">~33.9k searches/week</b> (Mar 2026) <span class="label">estimated</span></li>
-        <li>13+ US-stock listings on Doba, including Christmas-tagged ones</li>
+        <li class="muted">Context, not sales proof: ~33.9k Amazon searches/week (Mar 2026), and 13+ US-stock listings on Doba</li>
       </ul>
     </div>
     <div class="box">
@@ -157,7 +158,7 @@ tr.pick td{background:var(--accent-soft)}
         <li><b>Makes sense on sight.</b> One photo of a ceiling full of northern lights reads as "cozy Christmas gift". No explaining needed.</li>
         <li><b>Works as a gift and for yourself.</b> It's both a present and the "Christmas-time feel" in your own room.</li>
         <li><b>A video-first product.</b> The lights-off, lights-on moment is a 3-second hook.</li>
-        <li><b>Arrives in time.</b> US stock with a measured 4.85-day average delivery on Doba.</li>
+        <li><b>Arrives in time.</b> US stock. Doba shows a 4.85-day average delivery, platform-displayed and not yet verified. Our own test order confirms it before we promise any delivery window.</li>
       </ul>
     </div>
     <div class="box">
@@ -175,12 +176,12 @@ tr.pick td{background:var(--accent-soft)}
     <thead><tr><th>Per order</th><th class="r">$34.99 single</th><th class="r">$64 two-pack</th></tr></thead>
     <tbody>
       <tr><td>Product incl. US delivery <span class="label">estimated</span></td><td class="r num">10.17</td><td class="r num">20.34</td></tr>
-      <tr><td>Stripe 4.5% + $0.30</td><td class="r num">1.87</td><td class="r num">3.18</td></tr>
+      <tr><td>Stripe 4.5% + $0.30 <span class="label">assumed</span> (US 2.9% + 30¢ + ~1.5% cross-border)</td><td class="r num">1.87</td><td class="r num">3.18</td></tr>
       <tr><td>Returns allowance 5% <span class="label">assumed</span></td><td class="r num">1.75</td><td class="r num">3.20</td></tr>
       <tr><td><b>Left before ads</b></td><td class="r num"><b>21.19</b></td><td class="r num"><b>37.27</b></td></tr>
     </tbody>
   </table></div>
-  <p class="foot">Fixed launch costs are about $98: Doba plan for 2 months, a $0.99 trial, domain, a filming sample and one US test order. That's covered after ~5 orders and leaves ~$350–400 of your $500 for seeding and ads.</p>
+  <p class="foot">Fixed launch costs are about $98 on the cheapest Doba plan ($60–300 range, unverified until the trial): Doba plan for 2 months, a $0.99 trial, domain, a filming sample and one US test order. That's covered after ~5 orders and leaves ~$350–400 of your $500 for seeding and ads.</p>
 
   <div class="links">
     <a href="https://www.doba.com/product/nqFUVPtqyYDQ/dropshipping-ocean-wave-projector-light-16-colors-rotating-water-lamp-remote-beach-decor-sea-themed-gradual-northern-lights-projector-for-office-bedroom-bar-restauranthalloween-and-christmas-gifts.html">Doba: the US-stock SKU (D01027HNF0W)</a>
@@ -229,8 +230,8 @@ tr.pick td{background:var(--accent-soft)}
   <ol class="todo">
     <li><b>Free CJ account:</b> search "aurora projector", "northern lights projector" and "ocean wave projector" with the <b>US Warehouse</b> filter. If one costs ≤ $11.16 with US shipping, we use CJ instead and need no exception. Also search "satin pillowcase eye mask set" for Valentine's.</li>
     <li><b>Doba $0.99 trial:</b> for item D01027HNF0W, note the price (must be ≤ $11.66), the stock (want 50+) and the remote's battery type. Check that the box doesn't say "kids", and that manual orders and blind shipping (no supplier branding) are allowed.</li>
-    <li><b>Decide:</b> is Doba OK as an exception to "CJ only", with you entering orders by hand for about $30/month?</li>
-    <li><b>Samples:</b> order one lookalike lamp to yourself for filming (~$15), and one Doba test order to a US address ($10.17) to measure real delivery time.</li>
+    <li><b>Your waiver:</b> do you approve Doba as an exception to "CJ only" and to "only trust CJ-listed US stock", with you entering orders by hand? The plan costs $30–150/month, unverified until the trial.</li>
+    <li><b>Samples:</b> order one lookalike lamp to yourself for filming (~$15), and one Doba test order to a US address ($10.17) to measure real delivery time. Ads show the lamp that actually ships, or say clearly when a lookalike is used.</li>
   </ol>
 </section>
 
@@ -242,7 +243,7 @@ tr.pick td{background:var(--accent-soft)}
   <div class="timeline">
     <div class="tl"><span class="d">Nov–Dec</span><span>Build the custom store, Stripe, CJ API and brand calmly. Warm up socials organically. Quote CJ SKUs and order samples.</span></div>
     <div class="tl"><span class="d">Early Dec</span><span>Validate the Valentine's pick: satin gift set ("gift for her") or the lamp as a "cozy date-night glow".</span></div>
-    <div class="tl"><span class="d">~Jan 5</span><span>Launch. China-route last safe order for Valentine's delivery is <b>Jan 20</b>.</span></div>
+    <div class="tl"><span class="d">~Jan 5</span><span>Launch. China-route last safe order for Valentine's delivery is <b>Jan 20</b>, only if a CJ sample or quote first demonstrates the transit time.</span></div>
     <div class="tl"><span class="d">Aug 2027</span><span>Restart the book nook for Christmas 2027 with an exclusive scene.</span></div>
   </div>
   <p class="muted">A late-December "New Year cozy" launch on its own isn't worth it, because lamp searches drop ~70% in January. It only works as the tail end of the Christmas launch.</p>

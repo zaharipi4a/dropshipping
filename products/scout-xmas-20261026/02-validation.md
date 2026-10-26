@@ -1,22 +1,23 @@
 # Validation — 2026-10-26
 
 ## Handoff
-- **Only one candidate can still deliver Christmas 2026: the aurora / ocean-wave projector lamp, shipped from US stock.** It is a **CONDITIONAL GO** (43/60). Every China-shipped candidate is NO-GO or HOLD this season, because none of them passes both L-002 and L-008.
-- **New finding: there is a US-stock SKU with a published margin hint.** Doba supplier Honesty House, item D01027HNF0W, "Ocean Wave Projector Light… Gradual Northern Lights": free US shipping via GOFO, handling 2 bd (1 bd average), delivery 3–5 days with a **measured average of 4.85 days** (Doba platform data), 99.81% fulfilment rate, 0.51% refund rate. The page says "up to $5.01 per sale (33% margin)". Reading that as profit / MSRP gives a delivered cost of **$10.17** (`estimated`, derived). The alternative reading (profit / cost) gives **$15.18**, which fails L-002. The price itself is behind Doba sign-up.
+- **Only one candidate can still deliver Christmas 2026: the aurora / ocean-wave projector lamp, shipped from US stock.** It is a **GO only with an owner waiver: 43/60 with the waiver, 37/60 = NO-GO this season without it.** The US stock is on Doba, not CJ. My learned rule (FB-005) says never assume US-warehouse stock without a listed CJ US SKU or quote, so without the waiver timing scores 1. Every China-shipped candidate is NO-GO or HOLD this season, because none of them passes both L-002 and L-008.
+- **New finding: there is a US-stock SKU with a published margin hint.** Doba supplier Honesty House, item D01027HNF0W, "Ocean Wave Projector Light… Gradual Northern Lights": free US shipping via GOFO, handling 2 bd (1 bd average), delivery 3–5 days with an **average of 4.85 days** (platform-displayed, not independently verified), 99.81% fulfilment rate, 0.51% refund rate. The page says "up to $5.01 per sale (33% margin)". Reading that as profit / MSRP gives a delivered cost of **$10.17** (`estimated`, derived). The alternative reading (profit / cost) gives **$15.18**, which fails L-002. The price itself is behind Doba sign-up.
 - **Hero offer: $34.99 single** (inside the proven $29–37 cluster, so the scout's $39 is dropped) **plus a $64 two-pack.** At $10.17 the single lands at **29.1%**, with CM $21.19 and **break-even ROAS 1.65**. The two-pack lands at 31.8%, with CM $37.27 and BE ROAS 1.72. Kill threshold: the Doba price must be **≤ $11.66** (or ≤ $13.00 if we sell at $39).
 - **Timing (`estimated`):** the safe latest customer order is **Dec 9** (1 bd owner order-entry lag + 2 bd handling + 7 bd transit), with Dec 14 as a stretch. From a Nov 10–15 launch that is **24–29 selling days**, enough for a 7–10 day organic test. The CJ China route's latest order is Nov 30 (assumed), about 15 days with no test buffer.
 - **Three gating facts:**
-  - **L-006 exception.** Doba is not CJ, so the owner must approve it at Gate A.
+  - **Owner waiver.** Doba is not CJ, so at Gate A the owner must explicitly waive both the CJ-only rule (L-006) and the CJ US-warehouse condition (FB-005).
   - **Doba API needs the Standard plan, $149.99/mo** (third-party sources), which the budget can't carry. The plan is the Limited plan ($29.99/mo) with **manual order entry** by the owner, if Doba allows it (unverified).
-  - **Doba cannot add custom inserts.** The gift message is digital (email or printable card), and copy must not promise a gift box.
+  - **Doba cannot add custom inserts** (`assumed`: no custom-packaging option seen on the listings). The gift message is digital (email or printable card), and copy must not promise a gift box.
+  - **Shipping copy (L-003):** "Ships from a US warehouse; delivery window confirmed after our test order." A day range is allowed only once the step-4 test order has been measured.
 - **Compliance:** the remote must not use an unsecured coin cell. Reese's Law (16 CFR 1263) requires a secured compartment and warnings, so prefer a touch-control unit or an AAA remote. Under CPSIA, "16+" is only our marketing; whether the product counts as a children's product (12 and under) depends on how it's marketed and packaged. Never use "kids", "nursery" or "baby" wording, and check that the retail box doesn't say "for kids". FCC Part 15B SDoC (LED controller) must be confirmed with the supplier. Avoid "Northern Galaxy", "Galaxy" or Govee/Hatch lookalike names.
 - **Positioning:** "Northern lights for the long winter nights", a cozy-glow gift or self-treat for anyone with a dark winter room. Adult room styling and video-first content; the product itself is the 3-second demo (L-001). The weakness is that identical lamps sell for $12.99–13.74 on TikTok and eBay, so we win only on content, styling and trust. This is a thin-moat play.
 - **Fallback if the conditions fail by Nov 2:** path (b). Build the site and brand now on the lamp or on a neutral cozy-glow brand, and launch for Valentine's on the China/CJ route (latest China order about Jan 20, 2027). Book nook stays on **HOLD for Oct 2027**.
 - **Owner to-do (all free except the $0.99 trial):**
   1. Doba $0.99 trial: price, stock count and remote battery for D01027HNF0W, plus manual-order and blind-ship support.
   2. Free CJ account searches with the US-warehouse filter for "aurora projector", "northern lights projector" and "ocean wave projector".
-  3. Approve or deny the L-006 exception.
-  4. One sample.
+  3. Give an explicit waiver, or decline, covering both the CJ-only rule (L-006) and the CJ US-warehouse condition in the validator's learned rule (FB-005 / L-008).
+  4. One sample: film the SKU that actually ships, or disclose that the filmed unit is a substitute.
 
 ## Ranking
 
@@ -24,37 +25,51 @@ Rubric: each criterion is scored 1–5 (5 = best or safest). Margin, obvious app
 
 | # | Candidate (route, price) | Margin ×2 | Demand | Appeal ×2 | Timing ×2 | Diff. | Supplier | Creative | Risk ×2 | **Total /60** | Landed % | BE ROAS | Latest safe order → selling days from Nov 10–15 | Verdict |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Aurora / ocean-wave lamp, **Doba US stock**, $34.99 (2-pack $64) | 3 | 5 | 4 | 4 | 2 | 3 | 5 | 3 | **43** | 29.1% (est.) | 1.65 | Dec 9 (stretch Dec 14) → 24–29 | **CONDITIONAL GO** |
-| 2 | Aurora lamp, CJ China, $39 | 1 | 5 | 4 | 2 | 3 | 2 | 5 | 3 | 35 | 38–46% | 2.28–2.42 | Nov 30 (assumed) → 15–20, no test buffer | NO-GO (2026) |
-| 3 | 3-in-1 sunset lamp, China, $41 | 2 | 4 | 4 | 2 | 2 | 2 | 5 | 3 | 35 | 33.1% (250 g) / 38% (450 g) | 1.77 | Nov 30 → 15–20 | NO-GO (2026) |
-| 4 | Satin sleep gift set, Brightpath bulk, $47 | 2 | 4 | 5 | **1** | 1 | 2 | 3 | 3 | 32 | 33.1–34.1% | 1.76 | Nov 27–30, stock at CJ about Nov 19 → about 8–11 | **NO-GO (2026)**, timing 1; Valentine's MAYBE |
-| 5 | Christmas book nook kit, China, $59 | 1 | 5 | 4 | **1** | 3 | 2 | 4 | 3 | 32 | 35–50% | 1.81–2.47 | Nov 29–Dec 1 → about 14–21, no test | **HOLD for Oct 2027** |
+| 1a | Aurora / ocean-wave lamp, **Doba US stock, with owner waiver**, $34.99 (2-pack $64) | 3 | 5 | 4 | 4 | 2 | 3 | 5 | 3 | **43** | 29.1% (est.) | 1.65 | Dec 9 (stretch Dec 14) → 24–29 | **GO** (note 1) |
+| 1b | Same lamp, **no waiver** (rule: no listed CJ US SKU or quote) | 3 | 5 | 4 | **1** | 2 | 3 | 5 | 3 | **37** | 29.1% (est.) | 1.65 | not counted (no CJ US stock) | **NO-GO** this season |
+| 2 | Aurora lamp, CJ China, $39 | 1 | 5 | 4 | 2 | 3 | 2 | 5 | 3 | 35 | 38–46% | 2.28–2.42 | Nov 30 (assumed) → 15–20, no test buffer | NO-GO |
+| 3 | 3-in-1 sunset lamp, China, $41 | 2 | 4 | 4 | 2 | 2 | 2 | 5 | 3 | 35 | 33.1% (250 g) / 38% (450 g) | 1.77 | Nov 30 → 15–20 | NO-GO |
+| 4 | Satin sleep gift set, Brightpath bulk, $47 | 2 | 4 | 5 | **1** | 1 | 2 | 3 | 3 | 32 | 33.1–34.1% | 1.76 | Nov 27–30, stock at CJ about Nov 19 → about 8–11 | **NO-GO** (note 2) |
+| 5 | Christmas book nook kit, China, $59 | 1 | 5 | 4 | **1** | 3 | 2 | 4 | 3 | 32 | 35–50% | 1.81–2.47 | Nov 29–Dec 1 → about 14–21, no test | **NO-GO** this season (note 3) |
 | 6 | Travel jewelry case gift, 1688 bulk, $29 | 2 | 4 | 4 | **1** | 2 | 1 | 2 | 4 | 31 | 30.3% (unverified $1.08) / 39.2% | 1.69–1.99 | no dropship route → 0 | NO-GO |
 | 7 | CJ pre-engraved bar necklace, China, $32 | 3 | 2 | 3 | 2 | 1 | 3 | 2 | 3 | 30 | 33.0% | 1.77 | Dec 7 (CJ claim) → 22–27 | NO-GO (appeal 3, L-004) |
 
-Totals check. Row 1: 6+5+8+8+2+3+5+6 = 43. Row 2: 2+5+8+4+3+2+5+6 = 35. Row 3: 4+4+8+4+2+2+5+6 = 35. Row 4: 4+4+10+2+1+2+3+6 = 32. Row 5: 2+5+8+2+3+2+4+6 = 32. Row 6: 4+4+8+2+2+1+2+8 = 31. Row 7: 6+2+6+4+1+3+2+6 = 30.
+**Verdict notes.**
+1. **Row 1a, conditions.** This is a GO only if all of these hold:
+   - **The owner waives the CJ-only rule and the CJ US-warehouse condition.** The Doba listing is evidence of US stock, but it is not a listed CJ US SKU or quote, so my learned rule (FB-005) scores timing 1 without a waiver (row 1b).
+   - The Doba price is ≤ $11.66.
+   - Stock is ≥ 50 units.
+   - The remote has no unsecured coin cell.
+   - Manual ordering is allowed.
+   - All of the above is confirmed by Nov 2.
+
+   A CJ US SKU at ≤ $11.66 including the $0.50 fee needs no waiver and replaces Doba.
+2. **Row 4:** timing scores 1, so it is NO-GO for Christmas 2026. For Valentine's it is a MAYBE (see section 4).
+3. **Row 5:** hold the book nook for Oct 2027.
+
+Totals check. Row 1a: 6+5+8+8+2+3+5+6 = 43. Row 1b: 6+5+8+2+2+3+5+6 = 37. Row 2: 2+5+8+4+3+2+5+6 = 35. Row 3: 4+4+8+4+2+2+5+6 = 35. Row 4: 4+4+10+2+1+2+3+6 = 32. Row 5: 2+5+8+2+3+2+4+6 = 32. Row 6: 4+4+8+2+2+1+2+8 = 31. Row 7: 6+2+6+4+1+3+2+6 = 30.
 
 **Honest bottom line:** nothing from the three lanes passes as scouted. The lamp survives only because of a US-stock SKU found in this stage, and its cost is derived from a margin hint rather than a quote. If the Doba price comes back above $11.66, or manual ordering isn't allowed, there is **no Christmas 2026 product**, and the owner should take path (b).
 
 ## Common assumptions (all rows)
-- Payment: Stripe 4.5% + $0.30 per order (owner brief).
+- Payment: 4.5% + $0.30 per order (`assumed`). Basis: US base rate 2.9% + $0.30 ([Stripe pricing](https://stripe.com/pricing)) plus about 1.5% for cross-border and FX (memory/MEMORY.md insight, 2026-10-26). The rate for the owner's own country is not confirmed.
 - Returns allowance: 5% of price (`assumed`).
 - Transactional email: $0.01 per order (`assumed`; free tiers such as Resend or Postmark make it about $0).
 - CJ per-order fee: $0 on the China route (`assumed`). The CJ US-warehouse fee is $0.50 per parcel (knowledge/suppliers.md) and applies **only to CJ US stock, not to Doba.**
 - China landed = unit × 1.35 (35% duty, `assumed`) + shipping + $1.00 clearance (`assumed`).
 - US-stock landed (Doba) = Doba item price (when the listing says "free shipping included", that price already covers delivery) + variable shipping (only if the SKU isn't free-ship) + a Doba per-order fee (none found: one review says there are no transaction fees, `unverified`). There is no duty and no clearance, because the goods are already imported and the duty is inside the wholesale price.
-- **Lamp weight (resolves QA minor):** a comparable Doba ocean-wave cube lists **1.0 lb (454 g), 6×6×6 in** (`measured` on the [ManifeststoreLLC listing](https://www.doba.com/product/vMCRFDPYnQVj/dropshipping-ocean-wave-ceiling-projector16-colors-ocean-wave-light-projector-water-ripple-ambient-night-light-with-remote-touch-control-aurora-projector-non-wood-for-bedroomroom-decorkids-room-cubic.html)). The lane's 250 g ($6.50 shipping) was optimistic. For China-route lamps I use about 450 g at **$8.50** shipping (`assumed`).
+- **Lamp weight (resolves QA minor):** a comparable Doba ocean-wave cube lists **1.0 lb (454 g), 6×6×6 in**. This was measured on a comparable listing (ManifeststoreLLC), not on this SKU ([ManifeststoreLLC listing](https://www.doba.com/product/vMCRFDPYnQVj/dropshipping-ocean-wave-ceiling-projector16-colors-ocean-wave-light-projector-water-ripple-ambient-night-light-with-remote-touch-control-aurora-projector-non-wood-for-bedroomroom-decorkids-room-cubic.html)). The lane's 250 g ($6.50 shipping) was optimistic. For China-route lamps I use about 450 g at **$8.50** shipping (`assumed`).
 - Realistic cold-traffic CPA for a $35–40 home-decor gift on Meta in Q4: **$18–30** (`assumed`; Q4 CPMs are high and the product is a commodity). So paid traffic is marginal at best, and organic content has to carry the test.
 - Launch is about Nov 10–15. The internal delivery target is Dec 23 (2-day buffer before Dec 25, a Friday). Business days counted back from Wed Dec 23 are: Dec 22 (1), 21 (2), 18 (3), 17 (4), 16 (5), 15 (6), 14 (7), 11 (8), 10 (9), 9 (10) … Nov 30 (17).
 
 ## Per-candidate analysis
 
-### 1. Aurora / ocean-wave projector lamp, Doba US stock: CONDITIONAL GO
+### 1. Aurora / ocean-wave projector lamp, Doba US stock: GO with owner waiver (43/60), NO-GO without it (37/60)
 
 **Product found.** [Honesty House "Ocean Wave Projector Light, 16 Colors… Gradual Northern Lights Projector"](https://www.doba.com/product/nqFUVPtqyYDQ/dropshipping-ocean-wave-projector-light-16-colors-rotating-water-lamp-remote-beach-decor-sea-themed-gradual-northern-lights-projector-for-office-bedroom-bar-restauranthalloween-and-christmas-gifts.html), item D01027HNF0W.
 - Ships from the US via GOFO, free shipping included.
 - Handling: 2 bd estimated, 1 bd average.
-- Delivery: 3–5 days estimated, **4.85 days actual average**.
+- Delivery: 3–5 days estimated, **4.85 days average** (platform-displayed, not independently verified).
 - Fulfilment 99.81%, refund rate 0.51%.
 - The supplier has 95 active products.
 - Margin hint: "up to $5.01 per sale (33% margin)".
@@ -77,7 +92,7 @@ These are `measured` as displayed on the Doba page. Doba computes them, and I ha
 | Duty / clearance | 0 | 0 | 0 |
 | Packaging / insert | 0 (Doba can't insert; digital gift note) | 0 | 0 |
 | **Landed** | **10.17 = 29.1%** ✅ | 10.17 = 26.1% ✅ | 20.34 = 31.8% ✅ |
-| Stripe 4.5% + $0.30 | 1.87 | 2.06 | 3.18 |
+| Stripe 4.5% + $0.30 (`assumed`, see Common assumptions) | 1.87 | 2.06 | 3.18 |
 | Returns 5% | 1.75 | 1.95 | 3.20 |
 | Email | 0.01 | 0.01 | 0.01 |
 | **Contribution margin (BE CPA)** | **21.19** | 24.81 | 37.27 |
@@ -90,47 +105,52 @@ These are `measured` as displayed on the Doba page. Doba computes them, and I ha
 
 | Item | Cost |
 |---|---|
-| Doba Limited plan, 2 months (Nov, Dec) | $29.99 × 2 = $60 (Basic plan: $120; Standard plan with API: $300, too expensive). Plan prices from [ecommerce-platforms](https://ecommerce-platforms.com/ecommerce-reviews/doba-review) (updated 2026-04-27) and [SaaSworthy](https://www.saasworthy.com/product/doba/pricing). Sources conflict, so check at sign-up. |
+| Doba plan, 2 months (Nov, Dec) | **Unverified range until the trial: $60–300.** Limited $29.99 × 2 = $60; Basic $59.99 × 2 = $120; Standard (API) $149.99 × 2 = $300, too expensive. Sources: [ecommerce-platforms](https://ecommerce-platforms.com/ecommerce-reviews/doba-review) (updated 2026-04-27) and [SaaSworthy](https://www.saasworthy.com/product/doba/pricing). **Conflict:** [TechRadar](https://www.techradar.com/coupons/doba) gives only $29.99–59.99, while the other two add a $149.99 Standard tier, which is the one that includes the API. [PricingSaaS](https://pricingsaas.com/companies/doba) has Limited at $28.66. Confirm at sign-up. |
 | Doba trial | $0.99 |
 | Domain | $12 |
 | Hosting | $0 (free tier) |
 | Transactional email | $0 (free tier) |
-| Sample to the owner for filming | about $15. Doba ships US-domestic only, and the owner is outside the US, so buy a lookalike China unit via CJ or AliExpress. |
+| Sample to the owner for filming | about $15. Doba ships US-domestic only (`assumed`: every listing read shows US ship-from and US carriers only), and the owner is outside the US. **Preferred:** have the Doba test-order unit forwarded to the owner, or have a US helper film it, so the content shows the SKU that ships. **If a lookalike China unit (CJ/AliExpress) is filmed instead,** say so in the content notes. Ads and product pages must not present a substitute as the product: use only footage whose look matches the shipped SKU, checked against the test-order unit. |
 | Test order to a US address | $10.17 (needs a US friend or a reshipper) |
 | **Total** | **about $98** (about $158 on the Basic plan) |
 
 Fixed costs are covered after about 5 orders ($98 / $21.19). That leaves about $340–400 of the $500 for seeding and ads.
 
-**Demand proof (strong, 4 independent signals):**
-- Amazon B0B4518KC2 at about 9–10k units/mo at $36–44 ([asinsight](https://www.asinsight.com/report/US/northern-lights-projector), estimated).
-- TikTok Shop: OneFire 34.6K sold at $32.37 ([TikTok Shop](https://shop.tiktok.com/us/k/northern-lights-projector), as displayed).
+**Demand proof: 3+ sales signals (L-004 passes).** There are 4 sales-type signals across 2 platforms and 4 sellers.
+1. **Amazon B0B4518KC2:** about 9,000 units/mo at $35.99 (Mar 2026) and about 10,000 at $43.99 (Jun 2026), with 9.1–9.6K reviews ([asinsight northern-lights-projector](https://www.asinsight.com/report/US/northern-lights-projector), [asinsight cloud-light](https://www.asinsight.com/report/US/cloud-light), estimated).
+2. **Amazon top-10 average:** about 3,900 units/mo at an average $31.69 (Mar 2026), so demand isn't carried by one ASIN ([asinsight northern-lights-projector](https://www.asinsight.com/report/US/northern-lights-projector), estimated). This comes from the same tracker as signal 1 but covers different sellers.
+3. **TikTok Shop OneFire aurora:** 34.6K sold at $32.37 ([TikTok Shop](https://shop.tiktok.com/us/k/northern-lights-projector), lifetime count as displayed).
+4. **TikTok Shop DESUNIC aurora + ripple:** 22.6K sold at $12.99 ([TikTok Shop](https://shop.tiktok.com/us/k/northern-lights-projector), lifetime count as displayed).
+
+**Context (not sales signals):**
 - Seasonality: RankHero "northern lights projector" was 3,600 in Oct 2025, **14,800 in Nov, 18,100 in Dec, then 5,400 in Jan 2026** ([RankHero](https://www.rankhero.com/keywords/northern-lights-projector), estimated, global, 54% US). The peak is still ahead.
-- Many Doba suppliers carry it in US stock.
+- Supply: many Doba suppliers carry it in US stock. That is supply, not demand.
 - Meta Ad Library: still unchecked (login wall).
 
-**Competition.** 124 Amazon listings and 12+ on TikTok Shop, mostly unbranded. Floor prices are TikTok $12.99 and eBay US $13.74 with free shipping ([eBay](https://www.ebay.com/itm/156660521665)). Premium smart lamps from Govee and Hatch sell at $64–170. We can out-angle the field on adult cozy styling and winter-night content, but we can't out-price it. Differentiation score is 2.
+**Competition.** 124 Amazon listings and 12+ on TikTok Shop, mostly unbranded. Floor prices are TikTok $12.99 (DESUNIC, [TikTok Shop](https://shop.tiktok.com/us/k/northern-lights-projector)) and eBay US $13.74 with free shipping ([eBay](https://www.ebay.com/itm/156660521665)). Premium smart lamps from Govee and Hatch sell at $64–170 (`assumed`: this figure is from the cozy-home lane's listing scan, and no URL was captured). We can out-angle the field on adult cozy styling and winter-night content, but we can't out-price it. Differentiation score is 2.
 
 **Risks:**
-- (1) L-006 exception plus manual order entry. Owner workload is about 3 minutes per order, plus a time-zone lag that the 1 bd buffer covers. Tracking must be pasted into the shipping email by hand.
+- (1) An owner waiver is needed for both the CJ-only rule (L-006) and the CJ US-warehouse condition (FB-005), and order entry is manual. Owner workload is about 3 minutes per order, plus a time-zone lag that the 1 bd buffer covers. Tracking must be pasted into the shipping email by hand.
 - (2) Single supplier with unknown stock depth. A December stock-out is plausible.
-- (3) The remote battery is unknown. **Reject an unsecured CR2025 coin cell** (Reese's Law, 16 CFR 1263, in force since Mar 2024: secured compartment, warning labels, child-resistant cell packaging). A touch or AAA unit, or a documented compliant remote, is required.
-- (4) CPSIA: "16+" is our marketing, not a legal exemption. CPSC decides whether something is a children's product (12 and under) from labelling, packaging, marketing and consumer perception, and the supplier titles say "kids room". Our listing and creatives must be adult-only, and the retail box must be checked on the sample.
+- (3) The remote battery is unknown. **Reject an unsecured CR2025 coin cell** (Reese's Law, 16 CFR part 1263 / ANSI/UL 4200A-2023, applies to products made or imported from Oct 23, 2023: the compartment must need a tool or two simultaneous hand movements to open, plus warnings on product, packaging and instructions; [CPSC guidance](https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Button-Cell-and-Coin-Battery), [CPSC FAQ](https://www.cpsc.gov/FAQ/Button-Cell-and-Coin-Battery-FAQs)). A touch or AAA unit, or a documented compliant remote, is required.
+- (4) CPSIA: "16+" is our marketing, not a legal exemption. CPSC decides whether something is a children's product (12 and under) from labelling, packaging, marketing and consumer perception ([CPSC CPC page](https://cpsc.gov/cpc)), and the supplier titles say "kids room". Our listing and creatives must be adult-only, and the retail box must be checked on the sample.
 - (5) FCC Part 15B SDoC (digital LED controller) and USB power (no AC adapter, so no UL question). Ask the supplier.
 - (6) IP: no "Northern Galaxy", "Galaxy" or Govee/Hatch lookalike branding or product photos. Shoot our own content.
 - (7) No custom gift packaging on Doba. Copy must not promise a gift box (L-003 spirit). Offer a digital gift message and a printable card instead.
-- (8) Honest shipping copy: "ships from a US warehouse, typically 4–7 days". Use only figures Doba demonstrates, and recheck after the test order.
+- (8) Honest shipping copy (L-003): "Ships from a US warehouse; delivery window confirmed after our test order." Publish a day range only after the step-4 test order has been measured, and use only that measured figure.
 
 **Timing.**
 - Demand peak: Nov–Dec (above).
-- Warehouse: US (`measured` on the listing).
-- Processing + transit: 1–2 bd + an average of 4.85 days (`measured`, platform average).
+- Warehouse: US, per the Doba listing ("Ships from: United States"). **This is not a CJ US-warehouse SKU or quote.** My learned rule (FB-005) says never assume US-warehouse stock without one. So the US-stock timing below counts only if the owner explicitly waives that condition and the CJ-only rule (L-006). Without the waiver, timing scores 1, the total is 37/60, and the lamp is NO-GO this season (the China route, row 2, is the only CJ path).
+- Processing + transit: 1–2 bd + an average of 4.85 days (platform-displayed, not independently verified).
 - Plan: 1 bd owner entry + 2 bd handling + 7 bd peak-season transit = 10 bd, so the **latest safe order is Dec 9** (`estimated`). The stretch date is Dec 14 (7 bd).
+- Reconciling with the lane file: the cozy-home lane gave Dec 11 for this route (8 bd = 2 bd handling + about 6 bd transit). My Dec 9 adds 1 bd for the owner's manual order-entry lag (time zone) and 1 bd of extra peak-season transit buffer.
 - Selling window: Nov 10 → Dec 9 = 29 days; Nov 15 → Dec 9 = 24 days. The organic test (Nov 10/15–22) fits inside, leaving about 17 days of scaled selling.
 - After Dec 9, sell as a "winter nights self-treat" with honest "arrives after Christmas" wording until about Jan 10. Volume falls about 70% in January, so this is a tail, not a plan.
 
 ### 2. Aurora lamp, CJ China route, $39: NO-GO for 2026
 - Economics at about 450 g (shipping $8.50, assumed): landed = unit × 1.35 + $9.50.
-  - At the CJ snippet unit cost of $6.20: landed **$17.87 = 45.8%**. CM = 39 − 17.87 − 2.06 − 1.95 − 0.01 = **$17.11**, BE ROAS **2.28**.
+  - At $6.20, the low end of the $6.20–7.94 CJ search snippet: that snippet is a **Bluetooth-speaker galaxy projector**, not a plain aurora lamp, so it is only a proxy (unverified). Landed **$17.87 = 45.8%**. CM = 39 − 17.87 − 2.06 − 1.95 − 0.01 = **$17.11**, BE ROAS **2.28**.
   - With a $1 CJ gift insert: CM $16.11, BE ROAS **2.42**, which is close to the 2.5 red flag.
   - L-002 ceiling: unit ≤ (13.00 − 9.50) / 1.35 = **$2.59** at 450 g, or ≤ $4.07 at the lane's 250 g. No source shows a cost that low.
 - Timing: latest order Nov 30 (`assumed`, 2 + 15 bd, not demonstrated). That is 15–20 days from launch and overlaps the organic test, so there is no buffer, and peak-season China transit risk applies. Timing score 2.
@@ -138,6 +158,7 @@ Fixed costs are covered after about 5 orders ($98 / $21.19). That leaves about $
 - Revives only if a CJ **US-warehouse** aurora SKU lands at ≤ $11.66 including the $0.50 fee (for $34.99), meaning the CJ unit plus CJ US shipping is ≤ $11.16. In that case it replaces Doba, because it is L-006-native.
 
 ### 3. 3-in-1 sunset / aurora / ocean lamp, China, $41: NO-GO for 2026
+- Unit cost choice: I use $4.50 (`assumed`), not the $2.68 CJ sunset snippet. The $2.68 is a "from" price whose variants are unclear, most likely the basic single-effect lamp. A 3-in-1 (sunset + aurora + ocean) costs more, and SaleHoo lists a 16-colour single sunset lamp at $4.24 ([SaleHoo](https://www.salehoo.com/trends/sunset-lamp)). Even at $2.68, landed at 450 g would be 3.62 + 9.50 = $13.12 = 32.0% of $41. That only just passes, and it is still above the proven $37.
 - Rounding resolved: landed = 4.50 + 6.50 + 1.575 + 1.00 = **$13.575 ≈ $13.58** (the lane rounded to $13.60). At the rounded $13.58 the pass price is **≥ $40.74** (13.58 × 3).
 - At $41 (250 g): Stripe $2.15, returns $2.05, email $0.01, so **CM $23.21 and BE ROAS 1.77**.
 - At the realistic 450 g: landed 6.08 + 9.50 = $15.58 = 38.0%, which fails.
@@ -149,20 +170,23 @@ Fixed costs are covered after about 5 orders ($98 / $21.19). That leaves about $
 - **Economics (route A):** landed = set and box $6.20 + card $0.13 + shipping $6.00 + duty $2.22 + clearance $1.00 = **$15.55 = 33.1% of $47**.
   - The lane left inbound freight from the factory to CJ uncosted. At $0.50 per set (`assumed`), landed is **$16.05 = 34.1%, which fails**.
   - On $15.55: Stripe $2.42, returns $2.35, email $0.01, so **CM $26.67 and BE ROAS 1.76**.
-  - $47 is above the Kitsch anchor ($29 linked; $36–40 holiday sets, `assumed`).
+  - $47 is above the Kitsch anchor: [Kitsch satin sleep set $29](https://mykitsch.com/products/satin-sleep-set); Kitsch holiday sets at $36–40 (`assumed`, no URL captured in the lane).
 - **Timing.** Demand peak: satin pillowcase searches are 60,500 in Nov–Dec, 40,500 in Jan and 33,100 in Feb ([RankHero](https://www.rankhero.com/keywords/satin-pillowcase), estimated, global). There is no February spike.
   - The Brightpath 15-day production (supplier-stated) needs **a bulk order and payment by Oct 30**: 20 × $6.20 = $124, plus a $6.50 sample, plus inbound freight of about $20 (`assumed`), so about $150 of inventory risk.
   - That is money, so under CLAUDE.md rule 5 it needs explicit owner approval. Gate A would effectively have to happen within 3 days, before any sample is seen.
   - Stock would reach CJ China about Nov 19 (Nov 14 plus 3–5 days inbound, `assumed`). The latest customer order is Nov 27–30 (`assumed`), so there are about **8–11 selling days and no organic test**.
   - Per the learned rule, timing 1 means NO-GO this season.
-- **Other problems:** no CJ SKU (L-006 exception); a commodity with no positioning gap (Kitsch, Brushworks and W7 already sell Christmas sets); weak creative demo. Copy must never say "silk".
-- **Valentine's (Feb 14, 2027):** it is a natural "gift for her" with appeal 5, and the Daranfang route ($3.33, 30-day lead) passes L-002 on a Jan schedule. It is a MAYBE only with a CJ SKU at ≤ $5.18 per boxed set, priced at $42–45.
+- **Other problems:** no CJ SKU (L-006 exception); a commodity with no positioning gap. Others already sell Christmas sets: [Kitsch holiday gift set](https://www.lookfantastic.it/p/kitsch-satin-pillowcase-and-scrunchie-gift-set/14797630), [Brushworks gift-boxed set](https://www.lookfantastic.com/p/brushworks-luxury-satin-sleep-set/13183963/) and the [W7 Christmas set](https://www.medino.com/product/w7-sleep-talk-christmas-gift-set); weak creative demo. Copy must never say "silk".
+- **Valentine's (Feb 14, 2027):** it is a natural "gift for her" with appeal 5. It is a MAYBE, and the thresholds are aligned as follows:
+  - **Route B (Daranfang, set $3.33 + box $1.90 + card $0.13 = $5.36, 30-day lead, bulk MOQ 50):** landed $14.24, so it **passes L-002 only at ≥ $42.72** (14.24 × 3). Inbound freight is extra.
+  - **CJ SKU route:** a boxed set at ≤ $5.18 keeps landed ≤ $14.00, so it passes at $42 (≤ $5.36 would pass at $42.72).
+  - So the Valentine's price is **$42.72 or more** (e.g. $44), unless a CJ quote of ≤ $5.18 allows $42.
 
 ### 5. Christmas book nook kit, $59: HOLD for Oct 2027 (confirmed)
-- Landed $20.45–29.20 = 35–50%. CM = 59 − landed − Stripe $2.96 − returns $2.95 − email $0.01 = **$32.63 to $23.87**. BE ROAS **1.81 to 2.47** (top of the range is near the red flag).
+- Landed $20.45–29.20 = 35–50%. CM = 59 − landed − Stripe $2.96 − returns $2.95 − email $0.01 = **$32.63 to $23.88**. BE ROAS **1.81 to 2.47** (top of the range is near the red flag).
 - No US-stock SKU. Latest order Nov 29–Dec 1, about 2 weeks of selling, with no test time.
 - IP risk: copied Rolife and Cutebee art.
-- Strong proof: Anavrin runs 724 Meta ads ([BrandSearch](https://brandsearch.co/brands/byanavrin.com)), and "christmas book nook" gets 63% of its yearly searches in Oct–Dec.
+- Strong proof: Anavrin runs 724 Meta ads ([BrandSearch](https://brandsearch.co/brands/byanavrin.com)), and "christmas book nook" gets 63% of its yearly searches in Oct–Dec ([RankHero](https://www.rankhero.com/keywords/christmas-book-nook), estimated).
 - Restart in Aug 2027 with an exclusive scene and a CJ quote landing ≤ $19.67.
 
 ### 6. Travel jewelry case gift, $29: NO-GO
@@ -179,7 +203,7 @@ Fixed costs are covered after about 5 orders ($98 / $21.19). That leaves about $
 - Timing works: CJPacket 7–12 days is a CJ listing claim. 3 bd + about 9 bd = 12 bd, so the latest order is Dec 7.
 - It still fails because the engraving is pre-designed, not the buyer's name. That kills the gift point: appeal 3 and differentiation 1.
 - No engraved-specific sales proof (L-004 fails). The generic bar necklace is down 20% MoM ([asinsight](https://www.asinsight.com/report/US/bar-necklace)).
-- Jewelry also carries state lead/cadmium rules (e.g. California) and tarnish returns.
+- Jewelry also carries state lead/cadmium rules (e.g. California's lead-in-jewelry limits and Prop 65 warnings: `assumed` from general knowledge, not fetched this stage) and tarnish returns.
 
 ### Dismissed from the lanes, confirmed
 - Flame diffuser: landed 44% plus leak risk.
@@ -191,11 +215,11 @@ Fixed costs are covered after about 5 orders ($98 / $21.19). That leaves about $
 | Path | What it means | Timing | Verdict |
 |---|---|---|---|
 | (a) Late-December / New Year "winter cozy self-treat" with US stock | Launch about Dec 15–Jan 10 on the lamp as a self-purchase | Aurora searches drop from 18,100 (Dec) to 5,400 (Jan), about −70% ([RankHero](https://www.rankhero.com/keywords/northern-lights-projector)). Gift intent ends Dec 25, January CPMs are cheap, but demand is thin. | **Not a standalone plan.** Use it only as the tail of path 1 (Dec 10–Jan 10). |
-| (b) Build store and brand now, launch a winter or Valentine's product on time | The owner spends Nov–Dec building the custom site, Stripe, the CJ API integration and the brand, plus organic warm-up; quotes CJ SKUs calmly; orders samples. Valentine's 2027 is Sun Feb 14. China-route latest order for a Fri Feb 12 delivery: 17 bd back = **Jan 20** (Feb 11 (1) … Feb 1 (9), Jan 29 (10) … Jan 20 (17)). A launch about Jan 5 gives about 15 days. | Candidates: satin sleep set "gift for her" (appeal 5, no Feb search spike, Kitsch anchor); aurora/ocean lamp as a "cozy date-night glow" gift (Doba titles tag Valentine's, weak evidence); travel jewelry case as an add-on. | **Recommended fallback.** No money is at risk now, and the lamp's brand and site carry over. Validate the Valentine's pick in early December. |
+| (b) Build store and brand now, launch a winter or Valentine's product on time | The owner spends Nov–Dec building the custom site, Stripe, the CJ API integration and the brand, plus organic warm-up; quotes CJ SKUs calmly; orders samples. Valentine's 2027 is Sun Feb 14. China-route latest order for a Fri Feb 12 delivery: 17 bd back = **Jan 20** (Feb 11 (1) … Feb 1 (9), Jan 29 (10) … Jan 20 (17)). A launch about Jan 5 gives about 15 days. **Condition:** the 17 bd China transit is an assumption. It must be demonstrated (a CJ sample order to a US address, or a CJ shipping quote with the listed delivery days for the chosen SKU) before the ~Jan 5 launch, or the Jan 20 cutoff moves earlier. | Candidates: satin sleep set "gift for her" (appeal 5, no Feb search spike, Kitsch anchor); aurora/ocean lamp as a "cozy date-night glow" gift (Doba titles tag Valentine's, weak evidence); travel jewelry case as an add-on. | **Recommended fallback.** No money is at risk now, and the lamp's brand and site carry over. Validate the Valentine's pick in early December. |
 | (c) Hold the Christmas winner for Oct 2027 | Book nook (and the lamp on the CJ route if US stock-in becomes affordable) | Start sourcing in Aug 2027 and launch by Oct 15, 2027 | **Yes for the book nook.** It runs alongside (b), not instead of it. |
 
 ## Recommendation
-**Pursue: the aurora / ocean-wave projector lamp from US stock (Doba Honesty House D01027HNF0W, or a CJ US-warehouse equivalent if one exists), at $34.99, with a $64 two-pack "one to give, one to keep".** The owner must do these steps, and steps 1–4 must be done **by Mon Nov 2**:
+**Pursue: the aurora / ocean-wave projector lamp from US stock (Doba Honesty House D01027HNF0W, or a CJ US-warehouse equivalent if one exists), at $34.99, with a $64 two-pack "one to give, one to keep".** On Doba this is a GO only with the owner's step-3 waiver (43/60). Without the waiver it is NO-GO (37/60). The owner must do these steps, and steps 1–4 must be done **by Mon Nov 2**:
 
 1. **Free CJ account search with the US-warehouse filter** for "aurora projector", "northern lights projector" and "ocean wave projector".
    - If a SKU's CJ unit plus US shipping is ≤ $11.16 (≤ $11.66 including the $0.50 fee), use it: it is L-006-native, and the API and custom packaging work.
@@ -205,23 +229,29 @@ Fixed costs are covered after about 5 orders ($98 / $21.19). That leaves about $
    - the remote battery type (no unsecured coin cell) and whether the box says "kids";
    - whether the Limited or Basic plan allows **manual order entry** and **blind shipping** (no supplier invoice or branding);
    - whether a per-order fee exists.
-3. **Approve or deny the L-006 exception** (Doba, manual orders, about $30/mo) at Gate A.
-4. **Samples:** one lookalike China unit to the owner for filming (about $15), and one Doba test order to a US address ($10.17) to measure real handling + transit and check packaging.
+3. **Explicit owner waiver at Gate A, or a decline.** The waiver covers two rules:
+   - **(a) the CJ-only fulfilment rule (L-006):** use Doba, with manual orders, at about $30–60/mo;
+   - **(b) the CJ US-warehouse condition in the validator's learned rule (FB-005 / L-008):** accept Doba-listed US stock, which is not a CJ US SKU or quote, as the delivery basis.
+
+   Without both waivers the lamp scores 37/60 and is NO-GO this season. That waiver is not needed if step 1 finds a qualifying CJ US SKU.
+4. **Samples:**
+   - One Doba test order to a US address ($10.17), to measure real handling + transit and check the packaging.
+   - **Film the SKU that ships.** Forward the test unit, or have a US helper film it. If a lookalike China unit (about $15) is filmed instead, disclose that internally, and never present it as the product in ads or on the product page.
 5. **Ask the supplier** (via Doba messages) for an FCC SDoC or test report, and the battery details.
 
-**Positioning that beats the field.** Sell the feeling and the moment, not a night light. "Northern lights for the long winter nights": an adult cozy-room glow gift or self-treat. Shoot real adult rooms at dusk, and use the 3-second lights-off / lights-on demo (L-001). Use honest US shipping wording and a digital gift message. Stay away from kids, astronauts and "galaxy" wording.
+**Positioning that beats the field.** Sell the feeling and the moment, not a night light. "Northern lights for the long winter nights": an adult cozy-room glow gift or self-treat. Shoot real adult rooms at dusk, and use the 3-second lights-off / lights-on demo (L-001). Use honest shipping wording ("Ships from a US warehouse; delivery window confirmed after our test order") and a digital gift message. Stay away from kids, astronauts and "galaxy" wording.
 
 **Upsell:** the two-pack at $64 ("one for you, one to give"). Later, if a US-stock SKU passes L-002, a USB warm-white string light add-on.
 
 **If any check in steps 1–2 fails:** kill the Christmas 2026 launch and switch to path (b), Valentine's, with the book nook on hold for 2027 (c).
 
 ## What would make us kill it later
-- **Before Gate B (by Nov 2):** Doba price > $11.66, or stock < 50, or no manual ordering, or an unsecured coin-cell remote with no compliant alternative, or the owner declines the L-006 exception (and no CJ US SKU exists). Any one of these kills it and triggers path (b).
+- **Before Gate B (by Nov 2):** Doba price > $11.66, or stock < 50, or no manual ordering, or an unsecured coin-cell remote with no compliant alternative, or the owner declines the step-3 waiver (and no CJ US SKU exists). Any one of these kills it and triggers path (b).
 - **Test order:** handling + transit over 7 bd, damaged or "kids" packaging, or supplier branding in the parcel → pause.
 - **Organic test (launch through Nov 22):** fewer than 10,000 total views across 9+ posts, or fewer than 150 store visits, or 0 add-to-carts → no paid spend; finish organic-only through Dec 9.
 - **Paid (after Gate C):** $60 spent (about 3× the $21 BE CPA) with 0 purchases, or a rolling CPA above $25 after $120 → stop ads.
 - **Operations:** any stock-out, late-delivery rate over 5%, or refund rate over 8% → stop taking Christmas orders immediately.
-- **Hard date:** stop all "arrives by Christmas" wording after **Dec 9** (stretch Dec 14 only if the measured test-order time is ≤ 5 bd).
+- **Hard date:** stop all "arrives by Christmas" wording after Dec 9, unless the measured test order is ≤ 5 bd, then after Dec 14.
 
 ## Sources
 - Doba: [Honesty House ocean-wave / northern-lights projector](https://www.doba.com/product/nqFUVPtqyYDQ/dropshipping-ocean-wave-projector-light-16-colors-rotating-water-lamp-remote-beach-decor-sea-themed-gradual-northern-lights-projector-for-office-bedroom-bar-restauranthalloween-and-christmas-gifts.html), [Honesty House wood-base ocean projector](https://www.doba.com/product/EyQMqYtOmJDb/dropshipping-ocean-projector-for-bedroom-16-color-shower-lamp-for-room-decor-ambient-lighting-with-solid-wood-base-mood-lighting-with-adjustable-brightness-for-bedroom-classroom-home-decohalloweenchristmas.html), [ManifeststoreLLC ocean-wave cube (1.0 lb)](https://www.doba.com/product/vMCRFDPYnQVj/dropshipping-ocean-wave-ceiling-projector16-colors-ocean-wave-light-projector-water-ripple-ambient-night-light-with-remote-touch-control-aurora-projector-non-wood-for-bedroomroom-decorkids-room-cubic.html), [ManifeststoreLLC sunset lamp](https://www.doba.com/product/kpCgeQcqrFVt/dropshipping-sunset-lamp-projector180-degree-rotation-sun-projection-light-led-night-light-floor-lamp-with-usb-portsunset-lamps-for-photography-party-bedroom-decorchristmas-gifts-for-women.html), [night-light projector list](https://www.doba.com/dropshipping/night-light-projector.html), [sunset lamp list](https://www.doba.com/dropshipping/sunset-lamp.html)
@@ -229,4 +259,8 @@ Fixed costs are covered after about 5 orders ($98 / $21.19). That leaves about $
 - Other US-stock leads and price floor: [Ship To The Moon aurora projector](https://www.shiptothemoon.com/dropshipping-product/aurora-water-ripple-projector/), [eBay US $13.74 listing](https://www.ebay.com/itm/156660521665)
 - Seasonality: [RankHero northern lights projector](https://www.rankhero.com/keywords/northern-lights-projector), [RankHero satin pillowcase](https://www.rankhero.com/keywords/satin-pillowcase)
 - Proof and costs carried over from the lanes: [asinsight northern-lights-projector](https://www.asinsight.com/report/US/northern-lights-projector), [asinsight sunset-lamp](https://www.asinsight.com/report/US/sunset-lamp), [TikTok Shop northern-lights-projector](https://shop.tiktok.com/us/k/northern-lights-projector), [asinsight bar-necklace](https://www.asinsight.com/report/US/bar-necklace), [CJ 3D engraved bar necklace](https://www.cjdropshipping.com/product/3d-engraved-bar-necklace-p-627F36AE-579C-4D2D-A4C8-940C390414D6.html), [Brightpath satin set](https://qzbrightpath.en.made-in-china.com/product/BfZpmcLxOjUR/China-Satin-Eye-Mask-Scrunchie-Pillowcase-Promotional-Gift-Set-with-Logo.html), [BrandSearch Anavrin](https://brandsearch.co/brands/byanavrin.com), and all links in the three 01-scouting files.
-- Regulation (from general knowledge, not fetched this stage): Reese's Law 16 CFR part 1263 (button/coin cells); CPSIA children's-product definition (12 and under, CPSC factors); FCC Part 15 Subpart B SDoC.
+- Regulation:
+  - Reese's Law: [CPSC button cell and coin battery guidance](https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Button-Cell-and-Coin-Battery) and [CPSC FAQ](https://www.cpsc.gov/FAQ/Button-Cell-and-Coin-Battery-FAQs).
+  - CPSIA children's-product test: [CPSC CPC page](https://cpsc.gov/cpc).
+  - FCC Part 15 Subpart B SDoC and California jewelry lead rules: general knowledge, `assumed`.
+- Payments: [Stripe pricing](https://stripe.com/pricing). The 1.5% cross-border/FX uplift is `assumed`, per the memory/MEMORY.md insight.
