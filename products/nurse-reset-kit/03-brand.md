@@ -4,7 +4,7 @@
 - **Recommended brand: Off-Clock Club.** Tagline: **"Sleep when the world's awake."** Hero product: **The Off-Clock Pair** (2-pack, $59, "gift one, keep one"). The kit itself is called **The Off-Clock Reset**.
 - **Alternates:** (2) **Sunrise Sleeper** ("Home by 7. Out by 7:01."), (3) **Day Sleep Club** ("The 7 a.m. wind-down"). All checks are web-search signals only, never certainty (see the shortlist table).
 - **Name checks (2026-10-26):**
-  - offclockclub.com was **unregistered** per a Verisign RDAP 404, so it looks available. offclock.com is taken.
+  - offclockclub.com **looks available** (Verisign RDAP returned 404; not a guarantee). offclock.com is taken.
   - No trademark or brand hits for "Off-Clock Club" in web search.
   - I could not verify Instagram or TikTok handles (Instagram returned 429, TikTok returned a JS shell). Social handles are **unclear**; the owner must check by hand.
   - **A real USPTO search is still required before printing cards or pouches.**
@@ -13,7 +13,8 @@
 - **Offer:** $59 Pair (default). The $34 single appears only if C1 passes (landed ≤ $11.33). Shipping is built into the price. Guarantee is 30 days. A mask light-leak is covered as a defect.
 - **Voice:** quiet, wry, in-the-know. Never medical, never "hero" or "angel" cliches. The owner is a brand, not a nurse.
 - **Two visual directions for Gate B:** **A "After Dark"** (deep navy and plum, brass accent, serif editorial; premium and calm) vs. **B "Golden Hour"** (peach, cobalt and cream, rounded sans, sticker-label; warm and giftable). Prompts are below.
-- **Packaging within budget:** a printed 4x6 insert card (gift-note side) plus a cotton/satin drawstring pouch with a one-colour print or woven label, if CJ MOQ allows. Fallback is a standard pouch with a branded sticker. There is no rigid box.
+- **Segment:** Name is broad enough to extend to other night-shift healthcare workers later; launch positioning stays nurses-first (Gate A).
+- **Packaging within budget:** printed 4x6 insert card plus a **stock pouch with a printed brand sticker** at launch (est. +$0.05 on the 2-pack, landed ~$19.35 vs the $19.67 cap). Custom-print, woven-label and satin pouches are priced in "Shared packaging rules"; satin breaks the cap. All pouch prices are `assumed` until CJ quotes. No rigid box.
 - **Open owner items:** USPTO search, handle checks, C1 (CJ quote) and C2 (Meta ad 30+ days) are unchanged from 02-validation.
 
 ---
@@ -21,11 +22,12 @@
 ## Recommended brand
 - **Name:** Off-Clock Club
 - **Tagline:** Sleep when the world's awake.
-- **Promise (one sentence):** A cool, dark, quiet 7 a.m. in a pouch: the day-sleep ritual for people who work through the night, and the gift that proves you thought about their actual life.
+- **Promise (one sentence):** A cool, dark, quiet 7 a.m. in a pouch: the day-sleep ritual for night-shift nurses, and the gift that proves you thought about their actual life.
+- **Primary segment (Gate A):** US night-shift nurses and 12-hour nurses, plus the people who buy gifts for them. Other night-shift healthcare workers are a secondary audience the name happens to cover; they are not in launch copy or targeting.
 - **Why this name:**
-  - "Off-clock" is the exact moment of relief after a 12-hour shift, and it is worker-neutral. It covers nurses, techs, aides, paramedics and security, so we are not boxed into a credential or a medical signal.
+  - "Off-clock" is the exact moment of relief after a 12-hour shift. It is nurse-first in our positioning but not credential-bound, so it can stretch later to other night-shift healthcare workers without a rename, and it carries no medical signal.
   - "Club" gives gift buyers a belonging cue ("welcome them to the club") without needing a subscription.
-  - The name has no medical emblem, avoids the TransGo "Shift Kit" mark and Pinch's "Wind Down Kit", and was the only strong candidate with an open exact-match `.com` and no web hits.
+  - The name has no medical emblem, avoids the TransGo "Shift Kit" mark and Pinch's "Wind Down Kit", and is the only candidate found with a looks-available exact-match `.com` and no web hits.
 - **Weaknesses (honest):**
   - Descriptive-leaning, so trademark protection is moderate.
   - "Club" can imply a membership we do not have; the site must say "the club is the people, not a subscription."
@@ -56,7 +58,7 @@ Also tried and found taken `.com` (no need to retry): Clock Out Co, Sundown Slee
 The growth-strategist owns the full avatar in `04-growth-plan.md`. This sketch only sets the voice.
 
 - **Who (assumed from 02-validation):** two buyers.
-  - *The sleeper:* US night-shift or 12-hour healthcare worker (RN, CNA, tech, paramedic), who sleeps 8 a.m.-3 p.m. in a house full of daylight and noise.
+  - *The sleeper (primary):* US night-shift or 12-hour nurse (secondary, not targeted at launch: other night healthcare staff), who sleeps 8 a.m.-3 p.m. in a house full of daylight and noise.
   - *The gifter:* partner, parent, friend or colleague buying for them, often anchored at $8-14 gifts ("gifts for nurses" search, 02-validation) and tired of mugs.
 - **Top 3 pains:** (1) bright, noisy daytime sleep; (2) coming home wired but exhausted with tired eyes and face; (3) gifters: "I don't know what's actually useful to someone on nights."
 - **Top 3 desires:** (1) a repeatable "off switch" ritual; (2) feeling looked after rather than thanked with a slogan; (3) gifters: something thoughtful that gets used.
@@ -94,7 +96,7 @@ All figures are `estimated` (02-validation) until the CJ quote.
 | **Free-shipping threshold** | None needed if the Pair is the hero. If a single exists: free shipping on the Pair, singles add a shipping line. Do not invent a threshold the margin cannot carry |
 | **Guarantee** | **30-day guarantee.** Defect (rust, light-leak, broken strap) = replacement or refund, no return needed. Other returns = customer pays return shipping. Honest, not "100% satisfaction forever" |
 | **Gift options** | Gift-message field at Stripe checkout, plus a card with a blank "To / From" side. Ships in the same plain parcel (no price slip) |
-| **Cross-sell / upsell** | After purchase: spare mask ($9-12) or a 10-pair earplug refill (about $6, `assumed`), **only if it ships in the same parcel**. Later: a "Unit Gift" 3-pack at about $79 for charge nurses buying for a team (after the Pair sells, per 02-validation) |
+| **Cross-sell / upsell** | After purchase: spare mask ($9-12) or a 10-pair earplug refill (about $6, `assumed`), **only if it ships in the same parcel**. Later: a "Unit Gift" 3-pack at about $79 (`assumed` price, not yet costed) for charge nurses buying for a team (after the Pair sells, per 02-validation) |
 | **Seasonal** | December: "Order by Dec 3 for Christmas" only if the test parcel proves it (L-003). Nurses Week (May 6-12): reuse the Pair as "Nurses Week gift" |
 
 ## Voice & tone (with samples)
