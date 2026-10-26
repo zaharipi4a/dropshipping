@@ -1,0 +1,327 @@
+<title>First Product Shortlist</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single 880px decision brief. Verdict board first, then one dossier per product, then the owner's to-do list. */
+:root{
+  --bg:#f5f6f9; --surface:#ffffff; --fg:#151a26; --muted:#5b6377; --line:#dde1ea;
+  --accent:#2f47c9; --accent-soft:#e7ebfb;
+  --go:#17794a; --go-soft:#e2f3ea; --maybe:#9a6200; --maybe-soft:#fbf0d9; --no:#b3322b; --no-soft:#f9e3e1;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f121a; --surface:#171b26; --fg:#e7eaf2; --muted:#9aa3b8; --line:#2a3040;
+  --accent:#8fa2ff; --accent-soft:#1f2645;
+  --go:#5fd39a; --go-soft:#14301f; --maybe:#f0b44c; --maybe-soft:#33270f; --no:#ff8a80; --no-soft:#3a1916; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f121a; --surface:#171b26; --fg:#e7eaf2; --muted:#9aa3b8; --line:#2a3040;
+  --accent:#8fa2ff; --accent-soft:#1f2645;
+  --go:#5fd39a; --go-soft:#14301f; --maybe:#f0b44c; --maybe-soft:#33270f; --no:#ff8a80; --no-soft:#3a1916; color-scheme:dark}
+
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding-block:40px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:48px}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.01em}
+h2{font-size:26px;font-weight:700}
+h3{font-size:18px;font-weight:600;font-family:var(--body)}
+p{margin:0;max-width:68ch}
+a{color:var(--accent);text-underline-offset:2px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.stack{display:grid;gap:14px}
+.stack-lg{display:grid;gap:24px}
+.muted{color:var(--muted)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+ul{margin:0;padding-left:20px;display:grid;gap:6px}
+.lede{font-size:17px;max-width:62ch}
+
+/* verdict pills */
+.pill{display:inline-block;font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.pill.go{background:var(--go-soft);color:var(--go)}
+.pill.maybe{background:var(--maybe-soft);color:var(--maybe)}
+.pill.no{background:var(--no-soft);color:var(--no)}
+.label{font-family:var(--mono);font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px;white-space:nowrap}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td.r,th.r{text-align:right}
+tr.pick td{background:var(--accent-soft)}
+
+/* recommendation banner */
+.rec{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--go);border-radius:10px;padding:22px 24px;display:grid;gap:12px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi{display:grid;gap:2px}
+.kpi b{font-family:var(--mono);font-size:22px;font-weight:500;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12.5px;color:var(--muted)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.section-head{display:grid;gap:6px;border-top:1px solid var(--line);padding-top:28px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
+@media (max-width:700px){.two{grid-template-columns:minmax(0,1fr)}}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:grid;gap:10px;min-width:0}
+.cond{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;align-items:baseline}
+.cond .k{font-family:var(--mono);font-weight:500;color:var(--accent)}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font-size:13.5px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:4px 10px;text-decoration:none}
+.links a:hover{border-color:var(--accent)}
+.todo li{list-style:none;margin-left:-20px;padding-left:28px;position:relative}
+.todo li::before{content:"";position:absolute;left:4px;top:5px;width:12px;height:12px;border:1.5px solid var(--muted);border-radius:3px}
+.foot{font-size:13px;color:var(--muted)}
+</style>
+
+<main class="wrap">
+
+<header class="stack">
+  <div class="eyebrow">Gate A · run scout-20261026 · 26 Oct 2026 · US market · &lt;$500 budget</div>
+  <h1>Pick the first product</h1>
+  <p class="lede">The scout found 10 products already selling in the US and looked for a group of buyers each one's current sellers ignore. The validator then ran the full cost math and risk checks on the best 5. One is a conditional go, one is held for January, three are out.</p>
+</header>
+
+<section class="rec" aria-labelledby="rec-h">
+  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="pill go">Conditional go</span><span class="eyebrow">Recommended</span></div>
+  <h2 id="rec-h">Post-Shift Reset Kit for night-shift nurses</h2>
+  <p>A stainless ice roller, a contoured blackout sleep mask, foam earplugs and a pouch, sold as a 7&nbsp;a.m. wind-down for people who sleep while everyone else is awake. Lead offer is the <strong>$59 two-pack</strong>: one to gift, one to keep.</p>
+  <div class="kpis">
+    <div class="kpi"><b>$59</b><span>2-pack price</span></div>
+    <div class="kpi"><b>$19.30</b><span>landed cost · 32.7%</span></div>
+    <div class="kpi"><b>$33.49</b><span>margin per order before ads</span></div>
+    <div class="kpi"><b>1.76</b><span>break-even ROAS</span></div>
+  </div>
+  <p class="muted" style="font-size:13px">All money figures are <span class="label">estimated</span>. Supplier sites need a login, so unit costs are not yet quoted.</p>
+</section>
+
+<section class="stack" aria-labelledby="board-h">
+  <h2 id="board-h">The five finalists</h2>
+  <p class="muted">Score out of 40, with margin and risk counted double. Margin is what's left per order after product, shipping, duty, fees and a returns allowance, before any ad spend. Break-even ROAS is how many dollars of sales each ad dollar must bring in to not lose money; lower is easier.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>#</th><th>Product → who it's for</th><th class="r">Price</th><th class="r">Landed</th><th class="r">Margin</th><th class="r">BE ROAS</th><th class="r">Score</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr class="pick"><td class="num">1</td><td><strong>Post-Shift Reset Kit</strong> → night-shift nurses</td><td class="r num">$34 / $59</td><td class="r num">$12.30 / $19.30</td><td class="r num">$17.87 / $33.49</td><td class="r num">1.90 / 1.76</td><td class="r num">30</td><td><span class="pill go">Cond. go</span></td></tr>
+      <tr><td class="num">2</td><td><strong>Stage-Ready Curl Kit</strong> → teen &amp; adult dancers, cheer</td><td class="r num">$29 / $49</td><td class="r num">$10.29 / $15.53</td><td class="r num">$15.35 / $28.21</td><td class="r num">1.89 / 1.74</td><td class="r num">29</td><td><span class="pill maybe">Maybe · Jan</span></td></tr>
+      <tr><td class="num">3</td><td>Salt-Season Paw Kit → city dog owners in winter</td><td class="r num">$36</td><td class="r num">$13.90</td><td class="r num">$18.08</td><td class="r num">1.99</td><td class="r num">24</td><td><span class="pill no">No go</span></td></tr>
+      <tr><td class="num">4</td><td>Pet-Stay Turnover Kit → pet-friendly Airbnb hosts</td><td class="r num">$39</td><td class="r num">$13.70</td><td class="r num">$20.99</td><td class="r num">1.86</td><td class="r num">22</td><td><span class="pill no">No go</span></td></tr>
+      <tr><td class="num">5</td><td>Colony Winter 3-pack → outdoor-cat caretakers</td><td class="r num">$39</td><td class="r num">$20.43</td><td class="r num">$14.26</td><td class="r num">2.73</td><td class="r num">19</td><td><span class="pill no">No go</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted" style="font-size:13px">Where two numbers are shown: single kit / 2-pack. The rule is that landed cost stays at or under one third of the price. No single kit passes on current estimates; both 2-packs do.</p>
+</section>
+
+<!-- ============ PICK 1 ============ -->
+<section class="stack-lg" aria-labelledby="p1-h">
+  <div class="section-head">
+    <div class="eyebrow">Finalist 1 · recommended</div>
+    <h2 id="p1-h">Post-Shift Reset Kit</h2>
+    <p class="muted">Night-shift nurses and 12-hour healthcare workers, plus the people who buy gifts for them.</p>
+  </div>
+
+  <div class="two">
+    <div class="box">
+      <h3>Why it was chosen</h3>
+      <ul>
+        <li><strong>The parts already sell in volume.</strong> Generic ice rollers sell about 6,000–10,000 units a month each on Amazon, and blackout masks up to 50,000. Premium $38–39 masks still sell 7,000–8,000 a month, which shows people pay $30+ for good sleep gear.</li>
+        <li><strong>Nobody sells it to nurses.</strong> Nurse gift boxes are lotion, socks and tumblers. Gift guides mention sleep masks, but nobody ships a ready-made post-night-shift kit.</li>
+        <li><strong>It can sell now.</strong> Christmas gifting is the window, with the last safe order date around Dec 3. Nurses Week (May 6–12) is the next peak.</li>
+        <li><strong>Low compliance risk.</strong> Adult product, no batteries, no children's-product rules. Claims stay cosmetic.</li>
+        <li><strong>Easy to film.</strong> Lights-on blackout test, frosty roller close-ups, "7:15 a.m. after a 12-hour shift" POV.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>What has to be true first</h3>
+      <div class="cond">
+        <span class="k">C1</span><span>A supplier quote lands the 2-pack at <span class="num">$19.67</span> or less. Above that it fails the one-third rule and is killed. The single kit sells at $34 only if it lands at ≤ $11.33, or at $36 if ≤ $12.00.</span>
+        <span class="k">C2</span><span>You find at least one ice-roller, blackout-mask or nurse-gift ad in Meta Ad Library that has run 30+ days. All sales proof so far comes from one Amazon tracker; this is the second, independent source. Without it the verdict drops to maybe.</span>
+      </div>
+      <p class="muted" style="font-size:13px">The segment itself has no direct sales proof yet. The bet is that a proven product plus an unserved audience sells; the organic test checks that cheaply.</p>
+    </div>
+  </div>
+
+  <div class="stack">
+    <h3>Cost per order</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Line</th><th class="r">Single $34</th><th class="r">2-pack $59</th></tr></thead>
+      <tbody>
+        <tr><td>Product (roller, mask, earplugs, pouch)</td><td class="r num">$4.00</td><td class="r num">$7.70</td></tr>
+        <tr><td>US import duty, 35% <span class="label">assumed</span></td><td class="r num">$1.40</td><td class="r num">$2.70</td></tr>
+        <tr><td>Customs clearance per parcel <span class="label">assumed</span></td><td class="r num">$1.00</td><td class="r num">$1.00</td></tr>
+        <tr><td>Shipping China → US</td><td class="r num">$5.60</td><td class="r num">$7.60</td></tr>
+        <tr><td>Branded insert card</td><td class="r num">$0.30</td><td class="r num">$0.30</td></tr>
+        <tr><td><strong>Landed cost</strong></td><td class="r num"><strong>$12.30</strong> · 36.2%</td><td class="r num"><strong>$19.30</strong> · 32.7%</td></tr>
+        <tr><td>Payment fees, 4.5% + $0.30 (cross-border)</td><td class="r num">$1.83</td><td class="r num">$2.96</td></tr>
+        <tr><td>Apps + 5% returns allowance</td><td class="r num">$2.00</td><td class="r num">$3.25</td></tr>
+        <tr><td><strong>Margin before ads</strong></td><td class="r num"><strong>$17.87</strong></td><td class="r num"><strong>$33.49</strong></td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted" style="font-size:13px">Duty is the biggest unknown since the US ended duty-free entry for low-value China parcels. The current stack is about 17.5–46% depending on the product code. At the worst case it adds about $0.45 per kit, so shipping decides the margin more than duty does.</p>
+  </div>
+
+  <div class="stack">
+    <h3>Sales proof</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Signal</th><th>Label</th><th>Source</th></tr></thead>
+      <tbody>
+        <tr><td>Ice rollers: top generic listings about 10k / 7k / 6k units a month; top-10 average about 6.8k (Aug 2026)</td><td><span class="label">estimated</span></td><td><a href="https://www.asinsight.com/report/US/ice-roller">asinsight</a>, <a href="https://www.asinsight.com/report/US/facial-ice-roller">facial ice roller</a></td></tr>
+        <tr><td>Blackout masks: MZOO about 50k a month, MyHalos 20k; premium Nodpod ($38) 8k, Manta ($39) 7k</td><td><span class="label">estimated</span></td><td><a href="https://www.asinsight.com/report/US/blackout-eye-mask-for-sleeping">asinsight</a></td></tr>
+        <tr><td>Review counts on leaders: rollers 38k and 54k, masks 70k and 99k</td><td><span class="label">measured</span></td><td>same pages</td></tr>
+        <tr><td>"Gifts for nurses" on Amazon: about 2,400 searches a week; top sellers are $8–14 self-care items. No kit, roller or mask in the top 10</td><td><span class="label">estimated</span></td><td><a href="https://www.asinsight.com/report/US/gifts-for-nurses">asinsight</a></td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="stack">
+    <h3>Product and supplier links</h3>
+    <div class="links">
+      <a href="https://cjdropshipping.com/search/ice+roller.html">CJ: ice roller search</a>
+      <a href="https://syncee.com/product/681191_82791_7558938198266/eye-face-ice-roller-massager">Syncee: stainless ice roller</a>
+      <a href="https://ibspot.com/products/roseflower-face-ice-roller-ice-roller-for-face-eyes-ice-mould-for-face-effectively-remove-swelling-reduce-pores-repair-sunburn-leak-proof-9">US-shipped roller benchmark</a>
+      <a href="https://www.walmart.com/ip/16842901764">Walmart: generic "for nurses" roller</a>
+    </div>
+    <h3 style="margin-top:6px">Gap evidence</h3>
+    <div class="links">
+      <a href="https://benable.com/crisjourdan/self-care-tools-for-burnout-nurses-ed">Nurse self-care list</a>
+      <a href="https://bfa-collective.beehiiv.com/p/christmas-gifts-for-night-shift-nurses">Night-shift nurse gift guide</a>
+      <a href="https://www.healinghandsscrubs.com/blog/nurses-week-gift-ideas.html">Nurses Week gift ideas</a>
+      <a href="https://www.cherokeeuniforms.com/blog/holiday-christmas-gifts-for-nurses.html">Cherokee nurse gifts</a>
+      <a href="https://nursa.com/blog/10-nursing-subscription-boxes-to-try">Nurse subscription boxes</a>
+    </div>
+    <p class="muted" style="font-size:13px">The supplier sites need a free login to show prices. Use a stainless-steel roller head: gel and water rollers leak in transit.</p>
+  </div>
+</section>
+
+<!-- ============ SEARCH DEMAND ============ -->
+<section class="stack" aria-labelledby="sd-h" id="search-demand">
+  <div class="section-head">
+    <div class="eyebrow">Search demand</div>
+    <h2 id="sd-h">Searches per month</h2>
+  </div>
+  <p class="muted">US searches per month from public keyword tools. These are third-party estimates, not Google Ads data, so read them as orders of magnitude. Amazon figures are weekly in the source; monthly numbers are weekly × 4.3.</p>
+  <h3>Nurse kit</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Keyword</th><th class="r">Google US / mo</th><th class="r">Amazon US / mo</th><th>Trend and season</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>sleep mask</td><td class="r num">60,500</td><td class="r num">~577,000</td><td>Flat all year, peaks in December</td><td><a href="https://www.rankhero.com/keywords/sleep-mask">RankHero</a> · <a href="https://www.asinsight.com/report/US/sleep-mask">asinsight</a></td></tr>
+      <tr><td>ice roller</td><td class="r num">not found</td><td class="r num">~52,000</td><td>Growing; 40–50K worldwide per Exploding Topics</td><td><a href="https://www.asinsight.com/report/US/ice-roller">asinsight</a> · <a href="https://explodingtopics.com/topic/ice-roller?period=180">Exploding Topics</a></td></tr>
+      <tr><td>gifts for nurses</td><td class="r num">6,600</td><td class="r num">~10,400</td><td>About 6× higher in December than its low; smaller peak in May for Nurses Week</td><td><a href="https://www.rankhero.com/keywords/gifts-for-nurses">RankHero</a> · <a href="https://www.asinsight.com/report/US/gifts-for-nurses">asinsight</a></td></tr>
+      <tr><td>nurse gifts</td><td class="r num">5,400</td><td class="r num">—</td><td>December 14.8K, May 12.1K, February low 3.6K</td><td><a href="https://www.rankhero.com/keywords/nurse-gifts">RankHero</a></td></tr>
+      <tr><td>blackout sleep mask</td><td class="r num">1,000</td><td class="r num">—</td><td>Roughly flat</td><td><a href="https://www.rankhero.com/keywords/blackout-sleep-mask">RankHero</a></td></tr>
+      <tr><td>night shift nurse gifts, how to sleep after night shift</td><td class="r num">not found</td><td class="r num">—</td><td>Too small for the free tools to report</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Curl kit</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Keyword</th><th class="r">Google US / mo</th><th class="r">Amazon US / mo</th><th>Trend and season</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>heatless curls</td><td class="r num">~11,800</td><td class="r num">~63,000</td><td>Mixed: worldwide Google interest down from 165K to 110K over the year, Amazon rank rising in July</td><td><a href="https://www.asinsight.com/report/US/heatless-curls">asinsight</a> · <a href="https://www.rankhero.com/keywords/heatless-curls">RankHero</a></td></tr>
+      <tr><td>heatless curling rod</td><td class="r num">—</td><td class="r num">~4,600</td><td>Rank rising</td><td><a href="https://www.asinsight.com/report/US/heatless-curling-rod">asinsight</a></td></tr>
+      <tr><td>heatless hair curler</td><td class="r num">~3,500</td><td class="r num">—</td><td>Up 18% year on year (unverified)</td><td><a href="https://meetglimpse.com/trend/heatless-hair-curler/">Glimpse</a></td></tr>
+      <tr><td>competition curls, cheer hair curls</td><td class="r num">not found</td><td class="r num">—</td><td>Too small for the free tools to report</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <div class="box">
+    <h3>What the search numbers say</h3>
+    <ul>
+      <li><strong>Demand for both products is large.</strong> People search for sleep masks, ice rollers and heatless curls tens of thousands of times a month on Amazon alone.</li>
+      <li><strong>Nobody searches for the segment version yet</strong>, such as "night shift nurse gifts" or "competition curls". That is normal for a positioning gap: these buyers are reached through content and communities, not search ads. It is also why the plan is organic video first.</li>
+      <li><strong>Timing favors the nurse kit.</strong> "Gifts for nurses" jumps about 6× in December, which is exactly the window we can make.</li>
+    </ul>
+  </div>
+  <p class="muted" style="font-size:13px">The ~11,800 Google figure for "heatless curls" came from a search snippet that couldn't be opened; the ~10,400 Amazon figure for "gifts for nurses" is 2,422 a week × 4.3. Ahrefs, MerchantWords, Semrush, Google Trends and Keyword Planner were blocked or need a login.</p>
+</section>
+
+<!-- ============ PICK 2 ============ -->
+<section class="stack-lg" aria-labelledby="p2-h">
+  <div class="section-head">
+    <div class="eyebrow">Finalist 2 · held for January</div>
+    <h2 id="p2-h">Stage-Ready Curl Kit</h2>
+    <p class="muted">Teen (13+) and adult competitive dancers and cheerleaders, plus studio teachers.</p>
+  </div>
+  <div class="two">
+    <div class="box">
+      <h3>Why it made the list</h3>
+      <ul>
+        <li><strong>Strongest sales proof of all ten.</strong> Top Amazon heatless curlers sell about 10k units a month each. On TikTok Shop, one brand did about 11.4k orders in four weeks (Aug–Sep 2026), and Kitsch's set shows 29.5k sold.</li>
+        <li><strong>Huge organic reach.</strong> #heatlesscurls and #overnightcurls drew 224M+ views in 30 days.</li>
+        <li><strong>Gap:</strong> dance and cheer stores only sell bun kits. Nobody sells heatless curls to performers.</li>
+        <li><strong>Cheapest to test.</strong> Lightest item, samples about $3, and the unwind reveal films in one second.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Why it's not first</h3>
+      <ul>
+        <li>One satin rod gives soft waves. Competition curls are usually tight ringlets, so the kit may not do the job. A sample test settles this.</li>
+        <li>Most competition dancers are 12 or under. Marketing to their parents can make it a regulated children's product, with $300–800 in lab testing.</li>
+        <li>Kitsch's $16 set anchors the price against our $29.</li>
+        <li>Its season opens in January, while the nurse kit can sell now.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="stack">
+    <h3>Product, supplier and proof links</h3>
+    <div class="links">
+      <a href="https://www.aliexpress.us/item/3256805031959718.html">AliExpress rod #1</a>
+      <a href="https://www.aliexpress.com/item/1005009732984234.html">AliExpress rod #2</a>
+      <a href="https://www.aliexpress.us/item/3256806718423541.html">AliExpress rod #3</a>
+      <a href="https://ae42f2efe3d08679.en.made-in-china.com/product/BrDYpjTVbuhS/China-Magic-Foam-Sponge-Heatless-Hair-Curl-Rollers-Curling-Rod-Satin-Hair-Curlers.html">Factory, custom logo, $1.00–1.65</a>
+      <a href="https://www.asinsight.com/report/US/heatless-curlers">Amazon sales data</a>
+      <a href="https://www.tt123.com/t/IhrZ34Oy">TikTok Shop sales report</a>
+      <a href="https://www.tiktokshop.com/pdp/heatless-curling-set-by-kitsch-satin-overnight-curler-for-all-hair-types/1729388618950217778">Kitsch set (29.5k sold)</a>
+      <a href="https://chalkbucket.com/threads/a-different-way-to-make-those-competition-curls-hair-friendly-no-heat.35402/post-179543">Parents asking for no-heat comp curls</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REJECTED ============ -->
+<section class="stack" aria-labelledby="rej-h">
+  <div class="section-head">
+    <div class="eyebrow">Ruled out</div>
+    <h2 id="rej-h">Three finalists that didn't pass</h2>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Product</th><th>Why it's out</th><th>Links</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Salt-Season Paw Kit</strong></td><td>Dexas MudBuster already owns the winter road-salt angle at $10–15. Size variants mean returns; bulky; needs a dog to film.</td><td><a href="https://www.asinsight.com/report/US/dog-paw-cleaner">Amazon data</a> · <a href="https://www.walmart.com/ip/18906555803">Walmart best seller</a></td></tr>
+      <tr><td><strong>Pet-Stay Turnover Kit</strong></td><td>Hosts are cost-minded buyers who already get these tools on Amazon. The leading roller design is called patented, and this category sees active design-patent takedowns.</td><td><a href="https://www.asinsight.com/report/US/pet-hair-remover">Amazon data</a> · <a href="https://news.bloomberglaw.com/ip-law/amazon-sellers-sue-competitor-in-pet-hair-rake-patent-dispute">Patent dispute</a></td></tr>
+      <tr><td><strong>Colony Winter 3-pack</strong></td><td>Too heavy to ship profitably: landed is 52% of price and break-even ROAS 2.73. Buyers are rescue-funded and price-sensitive.</td><td><a href="https://www.asinsight.com/report/US/self-warming-cat-bed">Amazon data</a></td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">Also scouted and set aside early: scalp massager (a brand already owns the protective-styles angle), dog lick mat (demand down 9% a year), snuffle mat (too heavy), tear-off microfiber roll (possibly a short spike).</p>
+</section>
+
+<!-- ============ TODO ============ -->
+<section class="stack" aria-labelledby="todo-h">
+  <div class="section-head">
+    <div class="eyebrow">Your move</div>
+    <h2 id="todo-h">If you pick the nurse kit</h2>
+  </div>
+  <div class="two">
+    <div class="box">
+      <h3>Before the brand is approved</h3>
+      <ul class="todo">
+        <li>Open a free <a href="https://cjdropshipping.com/">CJdropshipping</a> account and quote a stainless roller, a contoured mask and earplugs: unit cost, weight, shipping to the US with duty paid (C1).</li>
+        <li>Search <a href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country=US&amp;q=ice%20roller">Meta Ad Library for "ice roller"</a>, <a href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country=US&amp;q=blackout%20sleep%20mask">"blackout sleep mask"</a> and <a href="https://www.facebook.com/ads/library/?active_status=all&amp;ad_type=all&amp;country=US&amp;q=nurse%20gift">"nurse gift"</a>. Screenshot any ad running 30+ days (C2).</li>
+        <li>Order 2 samples to yourself and 1 to a US address <strong>by about Oct 30</strong>. Shipping copy waits for the US parcel's real delivery time.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Timeline and budget</h3>
+      <ul>
+        <li>Store live target <strong>Nov 15</strong>; hard cutoff Nov 20 for the Christmas angle.</li>
+        <li>Pre-launch spend about <span class="num">$76–91</span>: samples, test parcel, domain, Shopify trial.</li>
+        <li>About <span class="num">$300</span> held for a paid test, only after an organic video proves itself.</li>
+        <li>About <span class="num">$70–85</span> reserve for refunds, reships and one re-sample.</li>
+        <li>Kill if fewer than 3 organic sales after 40 posts over 6 weeks.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="foot stack">
+  <p>Couldn't be checked automatically: Meta Ad Library and TikTok Creative Center (login), Kalodata and FastMoss dashboards (paid), Amazon Best Sellers (blocked), supplier prices (login). Public reports were used instead and every figure is labeled. Full reports: <span class="num">products/scout-20261026/01-scouting.md</span> and <span class="num">02-validation.md</span> in the repo.</p>
+</footer>
+</main>

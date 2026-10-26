@@ -11,4 +11,8 @@ or prompt fix).
 | 2026-10-26 | scout-20261026 | validate | product-validator | opus | bg | 02-validation.md | FAIL → sent back | ~7 min; QA: L-004 proof signals not sales-type, L-002 violated by GO verdict, Kitsch misattribution |
 | 2026-10-26 | scout-20261026 | file-knowledge | librarian (via general-purpose) | haiku | bg ∥ validator | knowledge/* (10 products, 11 suppliers, 31 competitors, 6 communities, 6 hooks, 31 sources) | n/a | ran in parallel with validation |
 | 2026-10-26 | scout-20261026 | qa | stage-qa | haiku | fg | verdict | — | ~74 s; caught 3 blocking + 10 minor issues; arithmetic verified |
-| 2026-10-26 | scout-20261026 | validate (fix round 1) | product-validator | opus | bg | 02-validation.md | pending | |
+| 2026-10-26 | scout-20261026 | validate (fix round 1) | product-validator | opus | bg | 02-validation.md | minor only (1 blocker fixed by orchestrator: memory correction) | ~4 min |
+| 2026-10-26 | scout-20261026 | qa (round 2) | stage-qa | haiku | bg | verdict | — | ~2 min |
+| 2026-10-26 | scout-20261026 | search-demand | general-purpose (keyword research) | sonnet | bg ∥ qa | 01b-search-demand.md | not run | owner asked for monthly search volumes; candidate for a permanent step in scout |
+| 2026-10-26 | scout-20261026 | gate-a report | orchestrator | — | fg | artifact + gate-a-report.html | — | |
+| 2026-10-26 | scout-20261026 | file-knowledge | librarian | haiku | bg | knowledge/* | n/a | validation + search demand |

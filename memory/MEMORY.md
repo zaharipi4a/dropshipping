@@ -26,7 +26,7 @@ Fill in once; agents tailor everything to it.
 
 | Slug | Product | Stage | Status | Last update |
 |---|---|---|---|---|
-| scout-20261026 | _TBD_ | 1 | active | 2026-10-26 |
+| scout-20261026 | Post-Shift Reset Kit (recommended) / Curl Kit (runner-up) | Gate A | waiting-on-human | 2026-10-26 |
 
 Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 `paused`, `killed`, `scaling`.
@@ -40,6 +40,8 @@ Format: `- YYYY-MM-DD [slug|global] [agent] DECISION — reason`
 - 2026-10-26 [global] [orchestrator] Target market US, organic-first, <$500 budget — owner answers at intake; no US residency needed to sell to US.
 - 2026-10-26 [scout-20261026] [product-scout] TOP PICK heatless curl kit → teen/adult competitive dancers & cheer ($29, landed ~$9, ~66%); runner-up ice-roller kit → night-shift nurses ($34) — strongest proof stack + lightest/cheapest to ship + unowned segment; see 01-scouting.md.
 - 2026-10-26 [scout-20261026] [product-validator] GO Post-Shift Reset Kit → night-shift nurses ($34 / $59 2-pack, landed ~$12.30, CM $17.87, BE ROAS 1.90). MAYBE curl kit (CM $15.35, BE ROAS 1.89): unproven that it gives comp-grade curls, CPSIA pull, Kitsch $16 price anchor. NO-GO paw, STR, TNR. Nurse kit wins on Christmas-gift timing (order cutoff ~Dec 3) and lower compliance risk; see 02-validation.md.
+- 2026-10-26 [scout-20261026] [product-validator] REVISED after Stage QA: nurse kit downgraded to CONDITIONAL GO (30/40), with the hero offer now the $59 2-pack (landed $19.30 = 32.7%, CM $33.49, BE ROAS 1.76). The single at $34 fails L-002 (36%); sell it only if CJ landed is ≤$11.33 (or ≤$12.00 at $36). Condition C2: all 3 product-level sales signals are Amazon-only and the nurse segment has 0, so a Meta ad running 30+ days is required, or the verdict becomes MAYBE. Curl kit stays MAYBE (29/40) and is set for January.
+- 2026-10-26 [scout-20261026] [orchestrator] CORRECTION to the earlier product-validator GO entry: verdict is CONDITIONAL GO (C1: CJ landed ≤ thresholds, 2-pack ≤ $19.67; C2: a 30+ day Meta Ad Library ad for ice roller / blackout mask / nurse-gift kit). The $34 single is not sold at landed $12.30 (36.2%). Hero offer = $59 2-pack.
 
 ---
 
@@ -57,6 +59,8 @@ are worth reusing. Format: `- YYYY-MM-DD [agent] INSIGHT — evidence`
 - 2026-10-26 [product-scout] Hair or other products marketed primarily to kids ≤12 trigger CPSIA (third-party testing, CPC, tracking labels). Position for teens and adults.
 - 2026-10-26 [product-validator] US duty stack for China parcels as of 2026-10-14 (zonos.com/us-tariff-updates): IEEPA tariffs ended 2026-02-24; the Section 122 10% surcharge expired 2026-07-24; a new Section 301 rate of 12.5% for China started 2026-07-24; MFN now applies to postal parcels; legacy 301 lists (7.5–25%) are assumed to still apply. Total is about 20–46% of value, so 35% stays a fair planning number. Postal parcels must be DDP and entered by a broker, so add about $1/parcel for clearance (assumed). Entry Type 13 starts 2027-01-20.
 - 2026-10-26 [product-validator] An owner outside the US pays international card and FX fees on US orders, so budget 4.5% + $0.30 per order, not 3%. At realistic duty and clearance, every scouted kit lands at 35–39% of price; only 2-pack bundles meet L-002.
+- 2026-10-26 [product-validator] CORRECTION to the scout's heatless-curls insight: TT123 attributes its 11.4k TikTok Shop orders (Aug 14–Sep 10) to an UNNAMED heatless-headband brand, not Kitsch. Kitsch's own figure is 29.5k sold, lifetime, on its TikTok Shop listing. The duty-stack lower bound is 17.5% (MFN 5% + new 301 12.5%), not 20%.
+- 2026-10-26 [product-validator] Amazon sales proof (asinsight, 2026): blackout sleep masks have MZOO ~50k units/mo, and premium masks hold at $38–39 (Nodpod ~8k, Manta ~7k). Top sellers for "gifts for nurses" (2.4k searches/week, April) are $8–14 self-care items, with no kits in the top 10. Gift buyers are anchored low.
 
 ---
 

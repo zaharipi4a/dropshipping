@@ -2,8 +2,8 @@
 
 - Slug: `scout-20261026`
 - Segment: _<who we sell to>_
-- Current stage: 1 — scout
-- Status: active
+- Current stage: Gate A — waiting on owner
+- Status: waiting-on-human
 - Blockers: _none_
 
 ## Brief
@@ -15,8 +15,8 @@
 - Product must be demonstrable on video in under 3 seconds and filmable by the owner at home (no UGC creator budget at first).
 
 ## Stages
-- [ ] 1 Scout — `01-scouting.md`
-- [ ] 2 Validate — `02-validation.md`
+- [x] 1 Scout — `01-scouting.md` (+ `01b-search-demand.md`)
+- [x] 2 Validate — `02-validation.md` (QA: FAIL → fixed → minor issues only; memory correction appended)
 - [ ] Gate A — product × segment approved
 - [ ] 3 Brand — `03-brand.md`
 - [ ] Gate B — brand approved
@@ -30,5 +30,9 @@
 - [ ] Gate C — budget + go-live approved
 - [ ] 8 Launch — `10-launch.md`
 - [ ] 9 Optimize loop — `11-performance.md`
+
+## Gate A report
+https://claude.ai/artifact/6bZ1fAUbiqHhcD7ENdJsnq (copy: `gate-a-report.html`)
+Recommendation: Post-Shift Reset Kit → night-shift nurses, CONDITIONAL GO (C1 CJ quote, C2 30+ day Meta ad). Runner-up: Stage-Ready Curl Kit (MAYBE, January).
 
 ## Owner notes from gates
