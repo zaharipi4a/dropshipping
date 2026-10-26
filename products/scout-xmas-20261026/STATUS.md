@@ -2,7 +2,7 @@
 
 - Slug: `scout-xmas-20261026`
 - Segment: US Christmas gift buyers + people buying for their own holiday season
-- Current stage: 1 — scout (3 lanes in parallel)
+- Current stage: Gate A — waiting on owner (aurora lamp via Doba US stock: conditional go; owner checks due Mon Nov 2)
 - Status: active
 - Blockers: _none_
 

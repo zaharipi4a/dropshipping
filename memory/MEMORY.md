@@ -27,7 +27,7 @@ Fill in once; agents tailor everything to it.
 | Slug | Product | Stage | Status | Last update |
 |---|---|---|---|---|
 | nurse-reset-kit | Off-Clock Club — Post-Shift Reset Kit → night-shift nurses | Gate B | killed (owner) | 2026-10-26 |
-| scout-xmas-20261026 | Christmas gift / holiday-feel product (TBD) | 1 scout ×3 lanes | active | 2026-10-26 |
+| scout-xmas-20261026 | Christmas: aurora / northern-lights projector lamp (US stock, conditional) | Gate A | active, waiting on owner | 2026-10-26 |
 
 Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 `paused`, `killed`, `scaling`.
