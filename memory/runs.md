@@ -44,3 +44,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas-20261026 | stage-qa r3 (personal-gifts) | haiku | background | FAIL r3 → orchestrator fixed | 2 trivial wording blockers ("real quotes" → listing prices; Kitsch $35.99–40 labelled assumed) fixed after escalation; 11 minors passed to validator |
 | 2026-10-26 | scout-xmas-20261026 | product-validator | opus | background | QA r1 pending | CONDITIONAL GO: aurora lamp via Doba US stock $34.99 (landed 29% est., BE ROAS 1.65, last order Dec 9); fallback Valentine (b); book nook hold 2027 |
 | 2026-10-26 | scout-xmas-20261026 | librarian | haiku | background | — | filed 3 lanes: 13 products, 12 search volumes, 22 suppliers, 9 competitors, 2 sources, 7 angles |
+| 2026-10-26 | scout-xmas-20261026 | stage-qa r1 (validation) | haiku | background | FAIL r1 | 4 blocking: L-004 only 2 sales signals, FB-005 CJ-US condition unmet (show 37/60 without waiver), L-003 shipping copy, Stripe fee label → sent back to validator |
