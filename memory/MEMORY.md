@@ -39,6 +39,7 @@ Format: `- YYYY-MM-DD [slug|global] [agent] DECISION — reason`
 
 - 2026-10-26 [global] [orchestrator] Target market US, organic-first, <$500 budget — owner answers at intake; no US residency needed to sell to US.
 - 2026-10-26 [scout-20261026] [product-scout] TOP PICK heatless curl kit → teen/adult competitive dancers & cheer ($29, landed ~$9, ~66%); runner-up ice-roller kit → night-shift nurses ($34) — strongest proof stack + lightest/cheapest to ship + unowned segment; see 01-scouting.md.
+- 2026-10-26 [scout-20261026] [product-validator] GO Post-Shift Reset Kit → night-shift nurses ($34 / $59 2-pack, landed ~$12.30, CM $17.87, BE ROAS 1.90). MAYBE curl kit (CM $15.35, BE ROAS 1.89): unproven that it gives comp-grade curls, CPSIA pull, Kitsch $16 price anchor. NO-GO paw, STR, TNR. Nurse kit wins on Christmas-gift timing (order cutoff ~Dec 3) and lower compliance risk; see 02-validation.md.
 
 ---
 
@@ -54,6 +55,8 @@ are worth reusing. Format: `- YYYY-MM-DD [agent] INSIGHT — evidence`
 - 2026-10-26 [product-scout] US TikTok Shop, 4 weeks to 2026-10-21: Beauty 18.2% of revenue (#1), Sports & Outdoor +12% over 4 weeks, Home Supplies −6.6% over 13 weeks, Pet only 1.4%. The $20–35 band holds the top revenue share (26.8%). Source: medialabs-co.com/blog/what-to-sell-on-tiktok-shop.
 - 2026-10-26 [product-scout] Heatless curls demand: #heatlesscurls/#overnightcurls 224M views in 30 days; Kitsch headband ~11.4k TikTok orders Aug 14–Sep 10 2026 (tt123.com/t/IhrZ34Oy). Satin rods cost $1.0–1.8 at MOQ 100 with custom logo (Made-in-China).
 - 2026-10-26 [product-scout] Hair or other products marketed primarily to kids ≤12 trigger CPSIA (third-party testing, CPC, tracking labels). Position for teens and adults.
+- 2026-10-26 [product-validator] US duty stack for China parcels as of 2026-10-14 (zonos.com/us-tariff-updates): IEEPA tariffs ended 2026-02-24; the Section 122 10% surcharge expired 2026-07-24; a new Section 301 rate of 12.5% for China started 2026-07-24; MFN now applies to postal parcels; legacy 301 lists (7.5–25%) are assumed to still apply. Total is about 20–46% of value, so 35% stays a fair planning number. Postal parcels must be DDP and entered by a broker, so add about $1/parcel for clearance (assumed). Entry Type 13 starts 2027-01-20.
+- 2026-10-26 [product-validator] An owner outside the US pays international card and FX fees on US orders, so budget 4.5% + $0.30 per order, not 3%. At realistic duty and clearance, every scouted kit lands at 35–39% of price; only 2-pack bundles meet L-002.
 
 ---
 
@@ -75,3 +78,6 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 Tear-off microfiber roll — strong TikTok week but launched Oct 7 (spike risk); cyclist segment owned by Muc-Off; Home Supplies declining.
 - 2026-10-26 Snuffle mat — proven, but ~300 g bulk kills margin vs $6–12 Amazon anchor; no clear unowned segment found.
 - 2026-10-26 Self-warming pad 3-pack for TNR caretakers — kept as backup only; ~650 g makes landed ~49% of price (fails L-002) unless a CJ US-warehouse quote is ≤$13.
+- 2026-10-26 Self-warming pad 3-pack → TNR caretakers — NO-GO (validator): landed $20.43 = 52% of $39 price; break-even ROAS 2.73 (>2.5); community is price-sensitive.
+- 2026-10-26 Salt-Season paw-washer kit → snow-belt city dog owners — NO-GO (validator): Dexas MudBuster ($10–15, ~62k ratings) already sells against road salt; landed 39%; S/M/L sizes.
+- 2026-10-26 Pet-hair turnover kit → Airbnb/STR hosts — NO-GO (validator): B2B hosts already buy these $7–15 tools on Amazon; little organic reach; design-patent takedown risk (ChomChom-style roller, Uproot-style rake).
