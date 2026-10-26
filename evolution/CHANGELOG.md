@@ -16,6 +16,18 @@ Revert: <how to undo, e.g. "remove rule L-007" or the old text>
 
 ---
 
+## CL-004 — 2026-10-26
+Trigger: FB-004 (orchestrator, evidence in memory/runs.md: nurse-reset-kit brand stage took 3 QA rounds + opus escalation; 1 QA false positive on a concurrently written MEMORY entry)
+Changed:
+- .claude/agents/stage-qa.md: new `## Rounds` section. Round 1 reports every issue with a severity. Re-checks verify the prior list plus new/changed text only (compliance blockers in unchanged text still allowed, labeled "missed in round 1"). Re-read/Grep shared files (MEMORY, runs, knowledge) right before reporting an entry missing. Output adds `Round:`, a "trivial" tag on blockers, and a `Prior issues` fixed/not-fixed list. Input now includes the prior issue list on re-checks.
+- .claude/skills/pipeline/SKILL.md: QA step passes the prior issue list on re-checks; after an opus escalation, the orchestrator may fix trivial blockers (formatting, a label, one sentence; no new facts/numbers; never compliance, pricing, segment or brand name) directly, logged in memory/runs.md and STATUS.md.
+- workflow/pipeline.yaml: `escalate` comment notes the post-escalation trivial-fix path (no stage/model changes).
+- .claude/agents/brand-strategist.md Learned rules: no delivery/dispatch-time words before a test parcel per L-003 (high); every packaging element priced or marked excluded upgrade (medium); uniqueness/availability claims match the name-check table (medium).
+- evolution/LEARNINGS.md: L-003 Applies-to widened to brand-strategist, growth-strategist, creative-producer; added L-007 (medium): re-check changed sections against the quality bar and rules before returning a fix.
+- Not changed: model tiers (brand-strategist failed twice on sonnet, but opus round 3 also failed on trivial blockers, so the problem was the QA loop and checklist, not tier; revisit if brand fails again on the next product). memory/MEMORY.md, knowledge/, products/ untouched (concurrent writers). Housekeeping: no Learned rules list over 12 bullets; MEMORY compaction skipped (not mine to edit this run).
+Reason: Fix rounds kept exposing new issues because QA re-audited incrementally and the brand agent had no explicit check for shipping words, packaging costs or claim hedging; a trivial-blocker fourth round wastes time.
+Revert: git revert this commit, or remove the `## Rounds` section and output additions from stage-qa.md, the "Re-checks"/"Trivial blockers" paragraphs from the pipeline SKILL, the 3 brand-strategist Learned rules (restore "_None yet._"), L-007, the pipeline.yaml comment lines, and restore L-003 Applies-to to "copywriter, store-builder, social-manager, ads-manager".
+
 ## CL-003 — 2026-10-26
 Trigger: FB-003
 Changed:

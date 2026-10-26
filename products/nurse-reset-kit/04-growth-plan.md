@@ -1,6 +1,6 @@
 # Growth Plan — Post-Shift Reset Kit — 2026-10-26
 
-Written in parallel with `03-brand.md`, so this file says "the brand" everywhere. Where a name appears in an example handle (`@brand`), the social-manager substitutes the approved one.
+Written in parallel with `03-brand.md`, so this file says "the brand" everywhere. Where a name appears in an example handle (`@brand`), the social-manager substitutes the approved one. (The memory log shows the pending Gate B proposal "Off-Clock Club" with the tagline "Sleep when the world's awake." Angle A7 already matches that line, so nothing here depends on the final name.)
 
 ## Handoff
 - **Two buyers, one product.** (1) **Night-shift nurses and 12-hour healthcare workers** who sleep 9 a.m.–3 p.m. in a bright, noisy house and buy for themselves. (2) **Gift buyers**: partners, parents and friends of a night-shift nurse who want "a gift they'll actually use", not another mug. Gift buyers drive Nov 1 – Dec 3. Self-purchase drives January onward and Nurses Week (May 6–12).

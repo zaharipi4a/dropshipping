@@ -53,4 +53,6 @@ like it came from a real company.
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
-_None yet._
+- Write no delivery or dispatch-time words or windows ("fast shipping", "ships in 48h", "arrives in a week") anywhere in `03-brand.md`, including voice samples and the offer, until a test parcel has measured them (L-003). (high, FB-004)
+- Give every packaging and insert element a per-unit cost labeled measured/estimated/assumed, or mark it "excluded upgrade (not in launch COGS)". (medium, FB-004)
+- Make every uniqueness or availability claim ("only", "no one else", "available") match the results in your own name-check table, worded with the same hedge ("looks available", "unclear"). (medium, FB-004)

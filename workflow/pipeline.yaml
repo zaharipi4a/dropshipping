@@ -9,7 +9,9 @@
 #   gate:       stop and wait for the owner after this stage
 #   always_after_stage: helpers run after every stage (librarian in the background)
 #   model:      haiku = mechanical/checking, sonnet = research/production, opus = judgment/strategy/money
-#   escalate:   if stage-qa FAILS twice or the owner rejects at a gate, rerun with this model
+#   escalate:   if stage-qa FAILS twice or the owner rejects at a gate, rerun with this model;
+#               if QA still fails after that and only trivial blockers remain, the orchestrator fixes them
+#               directly and logs it (see .claude/skills/pipeline/SKILL.md)
 
 models:
   haiku:  [librarian, stage-qa]

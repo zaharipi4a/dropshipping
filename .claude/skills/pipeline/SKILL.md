@@ -46,6 +46,13 @@ Read `STATUS.md` and the stage files, find the first incomplete stage in `pipeli
 3. **QA (blocking).** Run `stage-qa` on each output. On FAIL, send the agent back once with the fix list
    (SendMessage to the same agent if it's still available, otherwise a new run with the fixes in the brief).
    **Escalation:** if it fails QA a second time, rerun that stage with `model: "opus"`.
+   **Re-checks:** on every QA round after the first, pass `stage-qa` the previous round's issue list so it
+   verifies those fixes plus the changed text instead of re-auditing the whole file.
+   **Trivial blockers after escalation:** if QA still fails after the opus rerun and every remaining blocker is
+   trivial (formatting, a label, or a single sentence to add, cut or reword, with no new facts or numbers), fix
+   them yourself in the stage file instead of another agent round. Never use this for compliance, pricing,
+   segment or brand-name changes. Log each direct fix in `memory/runs.md` (Notes: "orchestrator fixed: …") and
+   in `STATUS.md`.
 4. **Librarian (non-blocking).** Launch `librarian` in the background on the new stage file(s) **in the same
    message** as the next stage's agents, so filing never slows the pipeline.
 5. **Log.** Append one row per agent run to `memory/runs.md` (date, slug, stage, agent, model, mode, output, QA verdict, notes).

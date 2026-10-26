@@ -30,8 +30,8 @@ Format:
 - Added: seed
 
 ### L-003: Never promise shipping times the supplier hasn't demonstrated.
-- Applies to: copywriter, store-builder, social-manager, ads-manager
-- Why: Seed rule. Late deliveries cause chargebacks and payment processor holds.
+- Applies to: brand-strategist, growth-strategist, copywriter, creative-producer, store-builder, social-manager, ads-manager
+- Why: Seed rule. Late deliveries cause chargebacks and payment processor holds. FB-004: the brand stage put a shipping-window claim in its file, so the rule now covers every agent that writes customer-facing words.
 - Confidence: high
 - Added: seed
 
@@ -52,3 +52,9 @@ Format:
 - Why: FB-003 — owner: "I will not use Shopify. I'll create my own custom website… We'll work with CJdropshipping."
 - Confidence: high
 - Added: 2026-10-26 (CL-003)
+
+### L-007: When fixing a QA issue list, re-check every section you changed against your quality bar and these rules before returning, so a fix never introduces a new blocker.
+- Applies to: all agents that produce stage files
+- Why: FB-004 / memory/runs.md — the brand stage's fix rounds introduced new blockers (shipping-window claim, unpriced packaging, overclaimed name uniqueness), costing 3 QA rounds plus an opus escalation; the validator also failed its first QA. Seen on 1 product, 2 agents.
+- Confidence: medium
+- Added: 2026-10-26 (CL-004)
