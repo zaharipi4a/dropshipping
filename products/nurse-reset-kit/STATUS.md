@@ -1,9 +1,9 @@
-# First product (scouting) — STATUS
+# Post-Shift Reset Kit — STATUS
 
-- Slug: `scout-20261026`
-- Segment: _<who we sell to>_
-- Current stage: Gate A — waiting on owner
-- Status: waiting-on-human
+- Slug: `nurse-reset-kit` (was `scout-20261026`)
+- Segment: night-shift nurses and 12-hour healthcare workers, plus people buying gifts for them
+- Current stage: 3 — brand ∥ growth plan
+- Status: active
 - Blockers: _none_
 
 ## Brief
@@ -17,7 +17,7 @@
 ## Stages
 - [x] 1 Scout — `01-scouting.md` (+ `01b-search-demand.md`)
 - [x] 2 Validate — `02-validation.md` (QA: FAIL → fixed → minor issues only; memory correction appended)
-- [ ] Gate A — product × segment approved
+- [x] Gate A — product × segment approved (2026-10-26, owner proceeded with nurse kit; C1 + C2 still open)
 - [ ] 3 Brand — `03-brand.md`
 - [ ] Gate B — brand approved
 - [ ] 4 Growth plan — `04-growth-plan.md`
@@ -36,3 +36,5 @@ https://claude.ai/artifact/6bZ1fAUbiqHhcD7ENdJsnq (copy: `gate-a-report.html`)
 Recommendation: Post-Shift Reset Kit → night-shift nurses, CONDITIONAL GO (C1 CJ quote, C2 30+ day Meta ad). Runner-up: Stage-Ready Curl Kit (MAYBE, January).
 
 ## Owner notes from gates
+- Gate A: platform is a **custom website** (owner builds it), Stripe payments, CJdropshipping for fulfillment (API). No Shopify.
+- Open conditions: C1 CJ bundled-SKU quote (2-pack landed ≤ $19.67), C2 Meta Ad Library 30+ day ad, samples ordered by ~Oct 30 incl. 1 to a US address.
