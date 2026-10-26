@@ -158,7 +158,17 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
 
 ### Shared packaging rules (budget under $500)
 - **Insert card (about $0.30 each, `assumed`):** front = thanks plus "The 3-step 7 a.m." (cool, dark, quiet); back = care notes (wipe the roller dry, keep it out of the freezer for over 2 hours to avoid cracking, `assumed`; confirm with the CJ spec sheet), 30-day guarantee, support email, QR to a care page. The gift variant has a "To / From" panel on the back.
-- **Pouch:** try CJ custom-print or woven-label (MOQ low per the brief). Fallback: stock pouch plus a branded sticker. **No rigid box yet.**
+- **Pouch options priced against L-002.** Baseline from 02-validation: pouch $0.30 + insert card $0.30 are already inside the 2-pack landed estimate of $19.30. The cap is $19.67, so headroom is **$0.37 per 2-pack**. All unit costs below are `assumed` (no CJ quote or public price list found; CJ says only "over 500 packaging types" and no prices); the per-pouch change is vs. the $0.30 baseline, one shared outer pouch per 2-pack.
+
+  | Option | Assumed unit cost | Change vs baseline | 2-pack landed | Within $19.67? |
+  |---|---|---|---|---|
+  | (a) Stock pouch + printed brand sticker | $0.30 pouch + ~$0.05 sticker | +$0.05 | ~$19.35 | Yes, $0.32 spare |
+  | (b) Stock-size pouch, one-colour custom print | ~$0.60 | +$0.30 | ~$19.60 | Barely, $0.07 spare |
+  | (c) Stock pouch + woven label sewn in | ~$0.45-0.65 | +$0.15 to +$0.35 | ~$19.45-19.65 | Borderline |
+  | (d) Satin pouch (custom) | ~$0.90-1.20 | +$0.60 to +$0.90 | ~$19.90-20.20 | **No** |
+
+  Recommendation: **launch with (a)**; move to (b) only if the CJ quote for the actual 2-pack is still ≤ $19.67 with the printed pouch included. Do not use (d) unless the price rises (owner approval needed). A printed card or a sticker costs about the same on both visual directions, so the choice of A vs. B does not change the cost.
+- **MOQ and how CJ packs it:** CJ's [custom packaging page](https://cjdropshipping.com/customPackaging) says MOQ can start "as low as ONE unit" and lists no prices or lead times (`measured` claim by CJ, unverified in practice). CJ's [packaging guide](https://blog.cjdropshipping.cn/detail/1285140646310354945) says custom items like cards go in the parcel's spare space (BZSP packaging SKUs) and a package linked to one product applies only to that product. So the kit must be created as **one bundled SKU** in CJ with the pouch, card and sticker attached to that SKU. Confirm pouch availability, price and lead time through CJ's "Start Customizing" form. **No rigid box yet.**
 - **Do not print** a specific delivery time, a medical claim, or an RN/credential symbol on any insert.
 
 ## Brand guardrails (claims we can/can't make)
