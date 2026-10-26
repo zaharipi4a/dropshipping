@@ -27,7 +27,11 @@
 - **Why this name:**
   - "Off-clock" is the exact moment of relief after a 12-hour shift. It is nurse-first in our positioning but not credential-bound, so it can stretch later to other night-shift healthcare workers without a rename, and it carries no medical signal.
   - "Club" gives gift buyers a belonging cue ("welcome them to the club") without needing a subscription.
-  - The name has no medical emblem, avoids the TransGo "Shift Kit" mark and Pinch's "Wind Down Kit", and is the only candidate found with a looks-available exact-match `.com` and no web hits.
+  - It is one of three shortlisted candidates (with Sunrise Sleeper and Day Sleep Club) that have a looks-available exact-match `.com` and no exact brand hits. Off-Clock Club is preferred over the other two because:
+    - **Fit:** it names the shift moment nurses live through, while the alternates describe only sleep.
+    - **Trademark-confusion risk:** it carries the lowest risk of the three. "Sunrise" is crowded in sleep (the Sunrise SA sleep-apnea device mark, Sunrise Pillow). "Day Sleep Club" sits close to the "SLEEP CLUB" bedding mark. The nearest mark to ours, MASK O'CLOCK, covers different goods.
+    - **Memorability:** it is short, has a rhythm, and works as a handle and an in-group phrase ("welcome to the club").
+  - It also has no medical emblem and avoids the TransGo "Shift Kit" mark and Pinch's "Wind Down Kit".
 - **Weaknesses (honest):**
   - Descriptive-leaning, so trademark protection is moderate.
   - "Club" can imply a membership we do not have; the site must say "the club is the people, not a subscription."
@@ -71,14 +75,14 @@ The growth-strategist owns the full avatar in `04-growth-plan.md`. This sketch o
 - **Competitor voice to avoid:** Manta and Drowsy Sleep Co write for night-shift workers in clinical "sleep guide" language ([Drowsy](https://us.drowsysleepco.com/blogs/drowsy-sleep-guide/night-shifts-sleep-masks-a-workers-guide-better-rest), [Manta](https://mantasleep.com/blogs/sleep/best-sleep-mask-for-night-shift-workers)). Nurse gift guides lean on mugs and "hero" language (Cherokee Uniforms).
 
 ## Positioning & differentiation
-- **Promise:** "The 7 a.m. wind-down for people who sleep while the world is awake." (seed from 02-validation.) The product is a **ritual in three steps**, not a bag of gadgets: *cool* (roller), *dark* (mask), *quiet* (earplugs).
+- **Promise:** "The 7 a.m. wind-down for night-shift nurses who sleep while the world is awake." (Adapted from the 02-validation seed to put nurses first, per Gate A.) The product is a **ritual in three steps**, not a bag of gadgets: *cool* (roller), *dark* (mask), *quiet* (earplugs).
 - **The enemy:** the idea that the people who keep the lights on at night should be thanked with a slogan mug. And the "just power through" culture around bad day-sleep. We are against **the thoughtless gift** and **the scrappy daytime sleep setup**, never against nurses' employers or the profession.
 - **Why us vs. competitors** (sources in 02-validation and `knowledge/competitors.md`):
 
 | Competitor type | What they do | Our difference |
 |---|---|---|
-| Amazon generics (rollers $6-8, masks $7-14) | Single gadget, no story | A complete day-sleep ritual in one pouch, framed against roughly $25 of loose items |
-| Premium masks (Nodpod $38, Manta $39) | Great mask, mask only, general audience | We are the full ritual for nights, and the Pair is $59 for two kits |
+| Amazon generics (rollers $6-8, masks $7-14; `estimated`, typical price ranges from 02-validation) | Single gadget, no story | A complete day-sleep ritual in one pouch, framed against roughly $25 of loose items (`estimated`) |
+| Premium masks (Nodpod $38, Manta $39; `measured` list prices on the asinsight tracker, via 02-validation) | Great mask, mask only, general audience | We are the full ritual for nights, and the Pair is $59 for two kits |
 | Nurse gift boxes / subscriptions (NurseLuxe, NurseSelf.Care, Nursa lists) | Lotion, socks, candles, tumblers | Functional night-shift use, nobody else leads with an ice roller |
 | Pinch Provisions "Wind Down Kit" ($32) | Generic wind-down box, stone roller, mist, not for shift workers | Ours is built around shift-work sleep, with a gift-ready two-unit format |
 | Gift guides | "Sleep mask" as one line item | We are the product the guide could point to |
@@ -92,11 +96,11 @@ All figures are `estimated` (02-validation) until the CJ quote.
 |---|---|
 | **Hero: The Off-Clock Pair** | **$59**, 2 full kits (each: stainless-head ice roller, contoured blackout mask, foam earplugs, pouch) in one parcel. Default on the product page. Copy: "Gift one. Keep one." Also lands the $59 vs. about $25 per-kit anchor |
 | **Single: The Off-Clock Reset** | **$34 (or $36) only if C1 passes** (landed ≤ $11.33 at $34, ≤ $12.00 at $36). Otherwise hide the single and sell the Pair only. If the single exists, it makes the Pair look like the better deal |
-| **Shipping** | Built into the price. "Free US shipping" with an honest window of **7-15 business days** (L-003) until the test parcel proves otherwise |
+| **Shipping** | Built into the price. **Before the US test parcel arrives:** copy says only "Free US shipping" plus "delivery time confirmed at launch", with **no day range** (L-003). **After it arrives within 7-15 business days:** copy may say "Free US shipping, 7-15 business days". If it takes longer, there is no launch (02-validation kill criteria) |
 | **Free-shipping threshold** | None needed if the Pair is the hero. If a single exists: free shipping on the Pair, singles add a shipping line. Do not invent a threshold the margin cannot carry |
 | **Guarantee** | **30-day guarantee.** Defect (rust, light-leak, broken strap) = replacement or refund, no return needed. Other returns = customer pays return shipping. Honest, not "100% satisfaction forever" |
 | **Gift options** | Gift-message field at Stripe checkout, plus a card with a blank "To / From" side. Ships in the same plain parcel (no price slip) |
-| **Cross-sell / upsell** | After purchase: spare mask ($9-12) or a 10-pair earplug refill (about $6, `assumed`), **only if it ships in the same parcel**. Later: a "Unit Gift" 3-pack at about $79 (`assumed` price, not yet costed) for charge nurses buying for a team (after the Pair sells, per 02-validation) |
+| **Cross-sell / upsell** | After purchase: spare mask ($9-12, `assumed` price from the 02-validation upsell note, not yet costed) or a 10-pair earplug refill (about $6, `assumed`), **only if it ships in the same parcel**. Later: a "Unit Gift" 3-pack at about $79 (`assumed` price, not yet costed) for charge nurses buying for a team (after the Pair sells, per 02-validation) |
 | **Seasonal** | December: "Order by Dec 3 for Christmas" only if the test parcel proves it (L-003). Nurses Week (May 6-12): reuse the Pair as "Nurses Week gift" |
 
 ## Voice & tone (with samples)
@@ -136,7 +140,7 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
 - **Logo direction:** lowercase serif wordmark "off-clock club" with a small brass half-moon sitting over the hyphen like a sunrise cut off by an eyelid. Icon alternative: a clock face whose hands both point at 7.
 - **Image-generation prompt (logo):** *"Minimal wordmark logo reading 'off-clock club' in a soft lowercase serif (Fraunces style), cream on deep navy #14172B, with a tiny brass #C79A4B half-moon above the hyphen, flat vector, generous spacing, no medical symbols, no cross, no stethoscope, square 1:1."*
 - **Photography/video:** low-key, side-lit, deep shadows, brass and cream props, slow ASMR (roller frosting, mask Velcro, curtains closing); bedroom-at-sunrise reveal shot with a lights-on blackout test.
-- **Packaging:** navy matte insert card (4x6) with cream type, a navy cotton or satin pouch with a one-colour cream print (or a woven label), brass-colour sticker seal on the outer bag.
+- **Packaging (launch = option (a)):** the stock pouch with one printed brand sticker in navy and cream with a brass half-moon, plus a 4x6 insert card printed navy with cream type. Only the printed colours and artwork are specific to this direction. A navy cotton or satin pouch, a woven label and an extra sticker seal on the outer bag are **unpriced upgrades**. They stay out until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves.
 
 ### Direction B: "Golden Hour" (warm, playful, giftable)
 - **Mood:** the golden light of 7 a.m. just before the curtains close; friendly, sticker-label energy, reads well in a gift guide and on a Reel thumbnail.
@@ -154,7 +158,7 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
 - **Logo direction:** chunky lowercase rounded wordmark "off-clock club" in cobalt on a peach pill/sticker shape with a small tangerine sun peeking over the "k"; secondary badge "gift one, keep one" as a round stamp.
 - **Image-generation prompt (logo):** *"Playful sticker-style logo reading 'off-clock club' in chunky rounded lowercase sans (Bricolage Grotesque style), cobalt #1F3FBF on a sunrise-peach #FFC9A8 pill shape, a small tangerine #FF7A3D half-sun peeking over the final letter, thick outline, flat vector, no medical symbols, square 1:1."*
 - **Photography/video:** bright morning window light, peach and cobalt props, hand-held phone POV, "unboxing as a gift" shots, text overlays in the brand fonts, quick cuts for TikTok.
-- **Packaging:** peach insert card with a cobalt "gift one, keep one" stamp and a handwritten-style gift note area; cobalt pouch with a cream print or woven label; tangerine sticker seal.
+- **Packaging (launch = option (a)):** the same stock pouch with one printed brand sticker in peach and cobalt with the tangerine sun, plus a 4x6 insert card printed peach. The "gift one, keep one" badge and the handwritten-style gift-note area are printed on the card, not added as a separate stamp. Only the printed colours and artwork are specific to this direction. A cobalt printed pouch, a woven label, a separate rubber or printed stamp and an extra tangerine sticker seal are **unpriced upgrades**. They stay out until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves.
 
 ### Shared packaging rules (budget under $500)
 - **Insert card (about $0.30 each, `assumed`):** front = thanks plus "The 3-step 7 a.m." (cool, dark, quiet); back = care notes (wipe the roller dry, keep it out of the freezer for over 2 hours to avoid cracking, `assumed`; confirm with the CJ spec sheet), 30-day guarantee, support email, QR to a care page. The gift variant has a "To / From" panel on the back.
@@ -167,7 +171,7 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
   | (c) Stock pouch + woven label sewn in | ~$0.45-0.65 | +$0.15 to +$0.35 | ~$19.45-19.65 | Borderline |
   | (d) Satin pouch (custom) | ~$0.90-1.20 | +$0.60 to +$0.90 | ~$19.90-20.20 | **No** |
 
-  Recommendation: **launch with (a)**; move to (b) only if the CJ quote for the actual 2-pack is still ≤ $19.67 with the printed pouch included. Do not use (d) unless the price rises (owner approval needed). A printed card or a sticker costs about the same on both visual directions, so the choice of A vs. B does not change the cost.
+  Recommendation: **launch with (a)**; move to (b) only if the CJ quote for the actual 2-pack is still ≤ $19.67 with the printed pouch included. Do not use (d) unless the price rises (owner approval needed). **Both directions launch on option (a): one stock pouch, one printed sticker, one insert card.** The direction changes only the colours and artwork printed on the sticker and the card, so A vs. B does not change the `assumed` +$0.05 cost. Anything beyond (a) is an unpriced upgrade, excluded until a CJ quote keeps the 2-pack ≤ $19.67 and the owner approves. That includes satin or cotton pouches, custom-colour pouches, woven labels, extra seals and stamps.
 - **MOQ and how CJ packs it:** CJ's [custom packaging page](https://cjdropshipping.com/customPackaging) says MOQ can start "as low as ONE unit" and lists no prices or lead times (`measured` claim by CJ, unverified in practice). CJ's [packaging guide](https://blog.cjdropshipping.cn/detail/1285140646310354945) says custom items like cards go in the parcel's spare space (BZSP packaging SKUs) and a package linked to one product applies only to that product. So the kit must be created as **one bundled SKU** in CJ with the pouch, card and sticker attached to that SKU. Confirm pouch availability, price and lead time through CJ's "Start Customizing" form. **No rigid box yet.**
 - **Do not print** a specific delivery time, a medical claim, or an RN/credential symbol on any insert.
 
@@ -179,7 +183,7 @@ Two distinct directions. The owner picks at Gate B; both fit the same name, voic
 | "Cooling stainless roller" for a refreshing feel after a long shift | Reduces swelling or puffiness, relieves migraines, sinus pressure, pain or inflammation; "medical-grade" |
 | "Foam earplugs to dull daytime noise" | Any dB or NRR rating, unless the supplier supplies a test report |
 | "Made for people who work nights", "a thoughtful gift for a night-shift nurse" | "Nurse-approved", "recommended by nurses", "RN-tested" (no real endorsement) |
-| "Free US shipping, 7-15 business days" (L-003, until the test parcel proves faster) | Faster delivery or a guaranteed-by-Christmas date before the test parcel arrives |
+| **Before the US test parcel arrives:** "Free US shipping" plus "delivery time confirmed at launch" (no day range). **Only after the test parcel arrives within 7-15 business days:** "Free US shipping, 7-15 business days" (L-003) | Any day range (including 7-15), faster delivery, or a guaranteed-by-Christmas date before the test parcel arrives; a range faster than the test parcel actually showed |
 | "30-day guarantee on defects" | "Lifetime", "100% satisfaction" |
 | Disclosed nurse creators who received the kit as a gift (#gifted) | Fake reviews, invented testimonials, fake scarcity timers |
 | Neutral "scrubs-friendly" or shift-life imagery (a mug, a lanyard, a bedroom) | Red cross, caduceus, RN/BSN letters, hospital logos |
