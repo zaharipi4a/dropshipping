@@ -47,3 +47,9 @@ Source: owner
 Scope: global (product-scout, product-validator, growth-strategist; LEARNINGS L-005)
 Feedback: "Leave this nurse care kit and the other bs. I want a product which actually makes sense, that people buy as a Christmas present or for themselves for the Christmas-time feel."
 Context: Gate B of nurse-reset-kit. Lesson: segment positioning must feel natural and obvious to a normal buyer. The owner rejects contrived micro-niches (a kit invented for one profession). Prefer products whose appeal is clear on sight, with seasonal/emotional demand (gifting, cozy, holiday feel). Positioning can sharpen an angle, but the product must make sense without explanation. Also weight seasonality/timing heavily, including delivery-by-date feasibility (US-warehouse stock).
+
+## FB-006 — 2026-10-26 — pending
+Source: owner
+Scope: global (product-scout, product-validator; LEARNINGS L-005 / new rule)
+Feedback: "Do a new check for something with the Christmas-vibe gift which is either funny or useful. This lamp: I don't know who will want that. I want something which can be marketed and the customers would actually want it and use it."
+Context: Gate A of scout-xmas-20261026 (aurora lamp, conditional go). The owner rejected a technically passing product because it is an undifferentiated commodity ($13 floor on TikTok) with no clear buyer or reason to want it. Lesson: passing the numbers is not enough. A product needs (1) a clear "who buys this and why" story a normal person gets instantly, (2) real use or real laughs after the gift is opened (useful or funny, not a decoration nobody asked for), (3) something to market: a hook, a reaction, a joke, a before/after. Commodity items with a $10-15 mass-market floor and no differentiation should be penalised. Prefer gifts that a buyer can name a recipient for ("this is perfect for my dad / coworker / mom"), white-elephant / Secret Santa / stocking-stuffer use cases, and products people actually use daily.

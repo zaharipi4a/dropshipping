@@ -27,7 +27,8 @@ Fill in once; agents tailor everything to it.
 | Slug | Product | Stage | Status | Last update |
 |---|---|---|---|---|
 | nurse-reset-kit | Off-Clock Club — Post-Shift Reset Kit → night-shift nurses | Gate B | killed (owner) | 2026-10-26 |
-| scout-xmas-20261026 | Christmas: aurora / northern-lights projector lamp (US stock, conditional) | Gate A | active, waiting on owner | 2026-10-26 |
+| scout-xmas-20261026 | Christmas: aurora / northern-lights projector lamp (US stock, conditional) | Gate A | paused: owner rejected the lamp as a commodity (FB-006); superseded by scout-xmas2 | 2026-10-26 |
+| scout-xmas2-20261026 | Christmas gift round 2: funny or useful, marketable | 1 scout x3 lanes | active | 2026-10-26 |
 
 Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 `paused`, `killed`, `scaling`.
@@ -143,3 +144,4 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 [validator] CJ pre-engraved bar necklace ($32) — NO-GO: not personalised (appeal 3), no engraved-specific sales proof (L-004), generic bar necklace −20% MoM; landed 33.0% only at ≥ $32.
 - 2026-10-26 [validator] Late-Dec/New Year "winter cozy" launch as a standalone plan — rejected: aurora searches fall from 18,100 (Dec) to 5,400 (Jan) (RankHero); usable only as a tail after the Christmas cutoff.
 - 2026-10-26 [validator] Fuzzy-sock gift box (6 pairs, $34, China) — NO-GO: landed $11.88 = 34.9% (passes only at ≥ $35.63) against a $9.99 Amazon gift-sock anchor; not sourced; China-only timing.
+- 2026-10-26 [scout-xmas-20261026] [owner] Aurora lamp rejected at Gate A: "who will want that?" Commodity with a $13 floor and no clear buyer or reason to use it. Round 2 (scout-xmas2-20261026) searches for funny or useful gifts that can be marketed. Round-1 files stay as reference (Doba route, timing math, rejected list).
