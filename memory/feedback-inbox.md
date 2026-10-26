@@ -30,7 +30,7 @@ Scope: global
 Feedback: Run things in parallel wherever possible; use different models (Haiku/Sonnet/Opus) by difficulty; make the whole thing a workflow where everything any agent finds is saved somewhere; make the architecture the best it can be.
 Context: After the first scout run.
 
-## FB-003 — 2026-10-26 — pending
+## FB-003 — 2026-10-26 — applied → CL-003
 Source: owner
 Scope: global (store-builder, ads-manager, copywriter, growth-strategist, compliance-officer, pipeline skill, README)
 Feedback: "I will not use Shopify. I'll create my own custom website because I can. We'll work with CJdropshipping."

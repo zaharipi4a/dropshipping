@@ -71,8 +71,10 @@ Tell the owner what to post (from `08-social.md`) for the test window in `04-gro
 come back with numbers via `/review <slug>`. They can skip straight to ads.
 
 ## Launch checklist (`10-launch.md`)
-Assemble it from the stage files: store live and test order passed, policies published, pixels firing, accounts
-created, first posts scheduled, creators contacted, ads uploaded **paused**, budget caps set, supplier order flow
+Assemble it from the stage files: site deployed on the domain with env secrets set (none in the repo), Stripe in
+live mode with webhooks registered, `DRY_RUN` off, one real test order passed end to end (Stripe payment → CJ order
+created → tracking synced → confirmation and shipped emails received), policies published, pixels and server-side
+events firing (deduplicated), accounts created, first posts scheduled, creators contacted, ads uploaded **paused**, budget caps set, supplier order flow
 tested, support inbox ready. The owner executes; you track the ticks.
 
 ## Optimize loop

@@ -1,4 +1,4 @@
-# Validation — 2026-10-26 (rev. 2, after Stage QA)
+# Validation — 2026-10-26 (rev. 3: Shopify costs removed after owner chose a custom site, CL-003)
 
 ## Handoff
 - **Recommended:** **Post-Shift Reset Kit → night-shift nurses and 12-hour-shift healthcare workers**, verdict **CONDITIONAL GO** (30/40). The kit is a stainless-head ice roller, a contoured blackout sleep mask, foam earplugs and a pouch. It is sold to nurses and to people buying gifts for nurses.
@@ -88,15 +88,15 @@ Current stack per the [Zonos US tariff tracker, updated 2026-10-14](https://zono
 ### Budget reality (<$500 total)
 | Item | Cost | Note |
 |---|---|---|
-| Shopify months 1–3 | ~$3 (3-day trial, then $1/mo × 3) | [eseospace](https://eseospace.com/blog/shopify-free-trial/) (`measured`) |
+| Hosting (custom site, free tier e.g. Vercel/Netlify/Cloudflare) | ~$0 | `assumed`. Owner builds the site (no Shopify, CL-003) |
 | Domain | ~$15/yr | `assumed` |
 | Samples: 2× nurse kit + 2× curl kit to owner (EU) | ~$45–60 incl. shipping/VAT | `estimated` |
 | 1 test order to a US address | ~$13 | Required before any shipping claim (L-003) |
 | Apps, email, CapCut, Canva | $0 (free tiers) | |
-| **Pre-launch total** | **≈ $76–91** | |
-| Shopify month 4 (Basic) | $39 | [NerdWallet](https://www.nerdwallet.com/article/small-business/shopify-pricing) (`measured`) |
+| **Pre-launch total** | **≈ $73–88** | |
+| Transactional email (free tier) | ~$0 | `assumed`. Upgrade only with volume |
 | Gate C ad test | ~$300 (≈ 20–30 days at $10–15/day) | Buys only about 10–20 purchases at realistic CPA. **Paid ads confirm a winner; organic must find it** |
-| **Named reserve (leftover)** | **≈ $70–85** | Refund/reship buffer for lost or late parcels and chargebacks (≈ $40), one re-sample if the supplier changes (≈ $25), remainder held as cash. Not for ads |
+| **Named reserve (leftover)** | **≈ $112–127** | Refund/reship buffer for lost or late parcels and chargebacks (≈ $40), one re-sample if the supplier changes (≈ $25), remainder held as cash. Not for ads |
 | **Total** | **$500** | |
 
 ---
@@ -343,7 +343,6 @@ Current stack per the [Zonos US tariff tracker, updated 2026-10-14](https://zono
 
 ## Sources
 - Tariffs: [Zonos (2026-10-14)](https://zonos.com/us-tariff-updates), [Stran & Co 10-Q](https://www.sec.gov/Archives/edgar/data/0001872525/000121390026087791/ea0301159-10q_stran.htm), [Helen of Troy 10-Q](https://www.sec.gov/Archives/edgar/data/0000916789/000091678926000138/hele-20260831.htm), [Tax Policy Center](https://taxpolicycenter.org/taxvox/how-supreme-courts-ieepa-ruling-and-new-section-122-tariffs-reshape-costs-across-industries), [wove HTS 9615.90.20](https://tariffs.wove.com/us/tariff/9615.90.20), [CRS](https://www.congress.gov/crs-product/IF12891)
-- Shopify: [NerdWallet](https://www.nerdwallet.com/article/small-business/shopify-pricing), [eseospace](https://eseospace.com/blog/shopify-free-trial/)
 - Sales signals: [asinsight ice-roller](https://www.asinsight.com/report/US/ice-roller), [asinsight facial-ice-roller](https://www.asinsight.com/report/US/facial-ice-roller), [asinsight blackout-eye-mask](https://www.asinsight.com/report/US/blackout-eye-mask-for-sleeping), [asinsight gifts-for-nurses](https://www.asinsight.com/report/US/gifts-for-nurses), [asinsight heatless-curlers](https://www.asinsight.com/report/US/heatless-curlers), [TT123](https://www.tt123.com/t/IhrZ34Oy), [Kitsch TikTok Shop](https://www.tiktokshop.com/pdp/heatless-curling-set-by-kitsch-satin-overnight-curler-for-all-hair-types/1729388618950217778)
 - Nurse segment and gap: [Cherokee Uniforms](https://www.cherokeeuniforms.com/blog/holiday-christmas-gifts-for-nurses.html), [Healing Hands Scrubs](https://www.healinghandsscrubs.com/blog/nurses-week-gift-ideas.html), [BFA](https://bfa-collective.beehiiv.com/p/christmas-gifts-for-night-shift-nurses), [Benable](https://benable.com/Nursemel/top-self-care-products-for-night-shift-workers-nurses), [Nursa subscription boxes](https://nursa.com/blog/10-nursing-subscription-boxes-to-try), [UBC News NurseSelf.Care](https://ubcnews.transistor.fm/episodes/this-gifting-site-curates-unique-skincare-wellness-beauty-products-for-nurses)
 - Names: [TransGo "Shift Kit"](https://transgo.com/category/shift-kit)

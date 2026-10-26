@@ -25,8 +25,9 @@ Check:
    people presented as real customers.
 3. **Ad platform policy**: Meta / TikTok / Pinterest restricted content, personal-attributes wording ("Are you
    struggling with…"), landing-page consistency, fake urgency.
-4. **Store**: honest shipping times (from the supplier data), refund policy, contact info, privacy/cookies,
-   price claims (compare-at only with a real prior price).
+4. **Store** (custom site + Stripe + CJ): honest shipping times (from CJ data), refund policy, contact info,
+   privacy/cookies (pixel consent where required), total price incl. shipping shown before payment,
+   transactional emails (confirmation, shipped, delay) match the policies, price claims (compare-at only with a real prior price).
 5. **Product and IP**: trademarks or brand names in copy or tags, patented designs, children's product rules (CPSIA)
    if the content targets under-13s, required labels and certifications.
 

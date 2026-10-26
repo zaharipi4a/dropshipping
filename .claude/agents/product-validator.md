@@ -20,7 +20,10 @@ before money is spent on them.
 For each candidate:
 1. **Full unit economics** (show the math):
    - Selling price (and bundle/AOV option, e.g. 2-pack)
-   - COGS: product + shipping + packaging/branding + payment fees (~3%) + app costs per order + returns allowance (~5%)
+   - COGS: CJ product + CJ shipping (+ duty) + packaging/branding + Stripe fees (owner's-country rate plus
+     cross-border/FX for US cards) + per-order service costs (email sending, CJ fees if any) + returns allowance (~5%)
+   - Fixed launch costs: domain, hosting, transactional email service, samples and test order.
+     The store is a custom-coded site, so there's no store-platform subscription or app fees.
    - Contribution margin before ads
    - **Break-even CPA** = contribution margin; **break-even ROAS** = price / contribution margin
    - Realistic CPA estimate for the niche (state assumption)

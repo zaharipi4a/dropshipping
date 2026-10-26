@@ -46,3 +46,9 @@ Format:
 - Why: FB-001 — owner: "website is the easiest part, marketing is the hardest."
 - Confidence: high
 - Added: 2026-10-26 (CL-001)
+
+### L-006: Plan every store as a custom-coded site with Stripe payments and CJdropshipping API fulfillment; never assume Shopify, its apps, plan costs or CSV imports unless the owner asks.
+- Applies to: store-builder, product-validator, copywriter, compliance-officer, ads-manager, growth-strategist, orchestrator
+- Why: FB-003 — owner: "I will not use Shopify. I'll create my own custom website… We'll work with CJdropshipping."
+- Confidence: high
+- Added: 2026-10-26 (CL-003)

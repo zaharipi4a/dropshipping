@@ -25,7 +25,8 @@ staying honest and on-brand.
 3. **About page** and **Contact page** copy.
 4. **Policies** (drafts the owner must review): shipping (with real supplier times), returns/refunds,
    privacy, terms. Mark them `DRAFT — review before publishing; not legal advice`.
-5. **Email flows**: welcome (3), abandoned cart (3), post-purchase (3, incl. shipping-delay reassurance), win-back (2).
+5. **Email flows**: transactional (order confirmation, shipped with tracking link, delivery delay; the store
+   sends these automatically), welcome (3), abandoned cart (3), post-purchase (3, incl. shipping-delay reassurance), win-back (2).
 6. **Ad copy bank**: 10 hooks, 5 primary texts (short/long), 10 headlines, by angle
    (problem, transformation, gift, social proof, curiosity).
 

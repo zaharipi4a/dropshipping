@@ -20,8 +20,9 @@ burning the budget.
 
 ## Deliverables
 1. **Platform choice** (TikTok, Meta, Pinterest, Google Shopping) with reasoning for this product/avatar.
-2. **Tracking checklist**: pixels/Conversions API, events (ViewContent, AddToCart, InitiateCheckout, Purchase),
-   UTM convention, test-purchase verification.
+2. **Tracking checklist** for the custom site: browser pixels plus server-side Meta Conversions API / TikTok
+   Events API (Purchase fired from the Stripe payment webhook, deduplicated by `event_id`), events (ViewContent,
+   AddToCart, InitiateCheckout, Purchase), UTM convention, test-purchase verification in Stripe test mode.
 3. **Test campaign structure**: campaigns → ad sets → ads, objective, budget per ad set,
    broad vs interest targeting, placements, schedule. Respect the owner's daily ceiling.
 4. **Creative testing matrix**: which concepts × hooks × copy go into which ad set; naming convention

@@ -16,6 +16,6 @@ or prompt fix).
 | 2026-10-26 | scout-20261026 | search-demand | general-purpose (keyword research) | sonnet | bg ∥ qa | 01b-search-demand.md | not run | owner asked for monthly search volumes; candidate for a permanent step in scout |
 | 2026-10-26 | scout-20261026 | gate-a report | orchestrator | — | fg | artifact + gate-a-report.html | — | |
 | 2026-10-26 | scout-20261026 | file-knowledge | librarian | haiku | bg | knowledge/* | n/a | validation + search demand |
-| 2026-10-26 | — | evolve (FB-003) | evolver | opus | bg ∥ brand ∥ growth | agents/skills/README | pending | no Shopify → custom site + Stripe + CJ API |
+| 2026-10-26 | — | evolve (FB-003) | evolver | opus | bg ∥ brand ∥ growth | agents/skills/README → CL-003, L-006 | n/a | ~2.3 min; no Shopify → custom site + Stripe + CJ API |
 | 2026-10-26 | nurse-reset-kit | brand | brand-strategist | sonnet | bg ∥ growth ∥ evolver | 03-brand.md | pending | |
 | 2026-10-26 | nurse-reset-kit | growth | growth-strategist | opus | bg ∥ brand ∥ evolver | 04-growth-plan.md | pending | |

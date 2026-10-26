@@ -16,6 +16,22 @@ Revert: <how to undo, e.g. "remove rule L-007" or the old text>
 
 ---
 
+## CL-003 — 2026-10-26
+Trigger: FB-003
+Changed:
+- .claude/agents/store-builder.md: rewritten. Removed Mode A (Shopify: theme, apps, products.csv, Liquid) and the Shopify Buy Button option; the custom-coded site is now the only mode: mobile-first product page, Stripe Checkout/Payment Element, signed + idempotent Stripe webhook that creates CJ orders via the CJ API (offer → CJ SKU/variant mapping, address, logistics), tracking sync (CJ webhook or scheduled poll), transactional emails (confirmation, shipped, delay), Meta Pixel + CAPI and TikTok pixel + Events API with event_id dedup, legal pages, minimal admin view of orders/failures, env-var secrets with `.env.example`, `DRY_RUN` default, `store/SETUP.md`. Must check official CJ/Stripe/Meta/TikTok docs before coding and cite them. Description frontmatter updated (name unchanged).
+- .claude/agents/ads-manager.md: tracking checklist now server-side events from the Stripe webhook, dedup, Stripe test mode.
+- .claude/agents/product-validator.md: COGS uses CJ costs + Stripe fees (cross-border/FX) instead of "payment ~3% + app costs"; fixed launch costs are domain/hosting/email/samples, no platform subscription.
+- .claude/agents/copywriter.md: email deliverable adds transactional emails (confirmation, shipped with tracking, delay).
+- .claude/agents/compliance-officer.md: store check covers the custom site + Stripe + CJ (pixel consent, total before payment, transactional emails vs policies).
+- .claude/skills/pipeline/SKILL.md: launch checklist verifies env secrets, Stripe live + webhooks, DRY_RUN off, and a real end-to-end order (Stripe → CJ → tracking → emails).
+- README.md: roadmap item 1 drops the Shopify connector notes; Stripe + CJ APIs are the data sources.
+- evolution/LEARNINGS.md: added L-006 (high).
+- Not changed: CLAUDE.md (no Shopify references), social-manager and growth-strategist (no Shopify assumptions; TikTok Shop is a sales channel, kept), workflow/pipeline.yaml (outputs unchanged), memory/MEMORY.md and products/ (concurrent writers; MEMORY already records the platform decision). Housekeeping skipped this run (MEMORY compaction) per orchestrator.
+Reason: Owner won't use Shopify; builds a custom site with Stripe and fulfills via the CJdropshipping API.
+Revert: git revert this commit, or restore Mode A/Mode B in store-builder.md from git history and remove L-006.
+Follow-up: products/nurse-reset-kit/02-validation.md and gate-a-report.html still list Shopify trial/plan costs; the owner or validator should replace them with domain/hosting/email costs on the next pass.
+
 ## CL-002 — 2026-10-26
 Trigger: FB-002
 Changed:
