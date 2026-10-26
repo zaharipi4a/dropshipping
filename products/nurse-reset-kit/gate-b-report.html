@@ -1,0 +1,337 @@
+<title>Off-Clock Club Launch Plan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Caveat:wght@500&family=DM+Sans:wght@400;500&display=swap">
+<style>
+/* Layout: an 880px decision brief. Brand first (with both visual directions rendered live), then buyers, marketing, budget, calendar, decisions. */
+:root{
+  --bg:#f5f6f9; --surface:#ffffff; --fg:#151a26; --muted:#5b6377; --line:#dde1ea;
+  --accent:#2f47c9; --accent-soft:#e7ebfb;
+  --go:#17794a; --go-soft:#e2f3ea; --warn:#9a6200; --warn-soft:#fbf0d9; --no:#b3322b; --no-soft:#f9e3e1;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+  /* brand direction swatches: fixed brand colors, identical in both themes on purpose */
+  --a-navy:#14172B; --a-plum:#3B2A4D; --a-cream:#F4ECDD; --a-brass:#C79A4B; --a-frost:#BFD7E6;
+  --b-peach:#FFC9A8; --b-cobalt:#1F3FBF; --b-cream:#FFF6E6; --b-tang:#FF7A3D; --b-ink:#1B1B24;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f121a; --surface:#171b26; --fg:#e7eaf2; --muted:#9aa3b8; --line:#2a3040;
+  --accent:#8fa2ff; --accent-soft:#1f2645;
+  --go:#5fd39a; --go-soft:#14301f; --warn:#f0b44c; --warn-soft:#33270f; --no:#ff8a80; --no-soft:#3a1916; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f121a; --surface:#171b26; --fg:#e7eaf2; --muted:#9aa3b8; --line:#2a3040;
+  --accent:#8fa2ff; --accent-soft:#1f2645;
+  --go:#5fd39a; --go-soft:#14301f; --warn:#f0b44c; --warn-soft:#33270f; --no:#ff8a80; --no-soft:#3a1916; color-scheme:dark}
+
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding-block:40px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:48px}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,5vw,44px);font-weight:700;letter-spacing:-.01em}
+h2{font-size:26px;font-weight:700}
+h3{font-size:17px;font-weight:600;font-family:var(--body)}
+p{margin:0;max-width:68ch}
+a{color:var(--accent);text-underline-offset:2px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.stack{display:grid;gap:14px}
+.stack-lg{display:grid;gap:24px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+ul{margin:0;padding-left:20px;display:grid;gap:6px}
+.lede{font-size:17px;max-width:62ch}
+.label{font-family:var(--mono);font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px;white-space:nowrap}
+.pill{display:inline-block;font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.pill.go{background:var(--go-soft);color:var(--go)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.pill.no{background:var(--no-soft);color:var(--no)}
+
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td.r,th.r{text-align:right}
+tr.key td{background:var(--accent-soft)}
+
+.section-head{display:grid;gap:6px;border-top:1px solid var(--line);padding-top:28px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+@media (max-width:700px){.two{grid-template-columns:minmax(0,1fr)}}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:grid;gap:10px;min-width:0;align-content:start}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font-size:13.5px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:4px 10px;text-decoration:none}
+.links a:hover{border-color:var(--accent)}
+
+/* brand hero */
+.brandcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;display:grid;gap:14px}
+.wordmark{font-family:"Fraunces", Georgia, serif;font-size:clamp(34px,6vw,52px);font-weight:600;letter-spacing:-.01em;line-height:1}
+.tagline{font-size:18px}
+.names{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.names{grid-template-columns:minmax(0,1fr)}}
+.names div{border-top:1px solid var(--line);padding-top:10px;display:grid;gap:2px}
+.names b{font-size:15px}
+.names span{font-size:13px;color:var(--muted)}
+
+/* direction mockups */
+.dir{border-radius:12px;overflow:hidden;border:1px solid var(--line);display:grid;min-width:0}
+.dir .stage{padding:26px 22px;display:grid;gap:16px;justify-items:start}
+.dir .meta{background:var(--surface);padding:16px 18px;display:grid;gap:8px}
+.swatches{display:flex;gap:6px;flex-wrap:wrap}
+.sw{width:30px;height:30px;border-radius:6px;border:1px solid rgba(0,0,0,.12)}
+.dirA .stage{background:var(--a-navy);color:var(--a-cream)}
+.dirA .wm{font-family:"Fraunces", Georgia, serif;font-size:30px;font-weight:600;position:relative;line-height:1}
+.dirA .moon{display:inline-block;width:12px;height:6px;background:var(--a-brass);border-radius:12px 12px 0 0;margin:0 1px;vertical-align:.55em}
+.dirA .card{background:var(--a-plum);border:1px solid var(--a-brass);border-radius:6px;padding:12px 14px;font-family:"DM Sans",sans-serif;font-size:13px;color:var(--a-cream);display:grid;gap:4px;max-width:260px}
+.dirA .card b{font-family:"Fraunces", Georgia, serif;font-weight:600;font-size:16px;color:var(--a-brass)}
+.dirB .stage{background:var(--b-cream);color:var(--b-ink)}
+.dirB .wm{font-family:var(--display);font-weight:800;font-size:28px;color:var(--b-cobalt);background:var(--b-peach);border:3px solid var(--b-cobalt);border-radius:999px;padding:6px 18px;position:relative;line-height:1.1}
+.dirB .sun{position:absolute;right:10px;top:-9px;width:16px;height:8px;background:var(--b-tang);border-radius:16px 16px 0 0}
+.dirB .card{background:#ffffff;border:2px dashed var(--b-cobalt);border-radius:10px;padding:12px 14px;font-family:"DM Sans",sans-serif;font-size:13px;color:var(--b-ink);display:grid;gap:4px;max-width:260px}
+.dirB .card .hand{font-family:"Caveat",cursive;font-size:20px;color:var(--b-tang)}
+.dirB .badge{font-family:var(--display);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#ffffff;background:var(--b-tang);border-radius:999px;padding:4px 10px}
+
+/* calendar */
+.timeline{display:grid;gap:0;border-left:2px solid var(--line);margin-left:6px}
+.tl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px;padding:8px 0 8px 16px;position:relative}
+.tl::before{content:"";position:absolute;left:-7px;top:15px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--muted)}
+.tl.hot::before{background:var(--accent);border-color:var(--accent)}
+.tl .d{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:1px}
+.tl.hot .d{color:var(--accent);font-weight:500}
+@media (max-width:520px){.tl{grid-template-columns:minmax(0,1fr);gap:2px}}
+
+.decide{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:20px 22px;display:grid;gap:12px}
+.decide ol{margin:0;padding-left:22px;display:grid;gap:10px}
+.foot{font-size:13px;color:var(--muted)}
+</style>
+
+<main class="wrap">
+
+<header class="stack">
+  <div class="eyebrow">Gate B · nurse-reset-kit · 26 Oct 2026 · launch window: Christmas</div>
+  <h1>Brand and marketing plan</h1>
+  <p class="lede">Two agents built this at the same time: one designed the brand, the other the marketing plan. Approve the brand, pick a visual direction, and confirm the plan's two money decisions. Then copy, videos, the store and social setup start.</p>
+</header>
+
+<!-- ============ BRAND ============ -->
+<section class="stack-lg" aria-labelledby="brand-h">
+  <div class="brandcard">
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="pill go">Recommended</span><span class="eyebrow">Brand</span></div>
+    <h2 id="brand-h" class="wordmark">off-clock club</h2>
+    <p class="tagline">"Sleep when the world's awake."</p>
+    <div class="names">
+      <div><b>The Off-Clock Pair · $59</b><span>Hero offer: 2 kits, gift one, keep one. Default on the product page.</span></div>
+      <div><b>The Off-Clock Reset · $34–36</b><span>Single kit, only if the CJ quote lands it at $11.33–12.00 or less.</span></div>
+      <div><b>Voice: quiet, wry, considerate</b><span>"7:12 a.m. Lights on. Phone down. Roller on. Mask on. See you at 3."</span></div>
+    </div>
+  </div>
+
+  <div class="two">
+    <div class="box">
+      <h3>Why this name</h3>
+      <ul>
+        <li>It names the moment the kit is for: the minute a nurse clocks off and has to sleep.</li>
+        <li>"Club" makes it an identity night-shift people want to be part of, which helps organic content.</li>
+        <li>It can stretch to other night-shift healthcare workers later. Launch stays nurses-first.</li>
+        <li>Of three names with a free-looking .com, it has the lowest trademark-confusion risk.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Name checks</h3>
+      <ul>
+        <li><strong>offclockclub.com looks available</strong> (registry lookup returned "not found"; not a guarantee).</li>
+        <li>No brand or trademark hits in web search.</li>
+        <li>Instagram and TikTok handles <strong>couldn't be checked</strong>: both sites blocked the agent. Check by hand.</li>
+        <li>A <a href="https://tmsearch.uspto.gov/">USPTO trademark search</a> is required before anything is printed.</li>
+      </ul>
+      <p class="muted small">Alternates: Sunrise Sleeper (crowded "Sunrise" sleep marks), Day Sleep Club (a SLEEP CLUB bedding mark exists). Avoid "Wind Down Kit": Pinch Provisions already sells one.</p>
+    </div>
+  </div>
+
+  <div class="stack">
+    <h3>Pick a visual direction</h3>
+    <div class="two">
+      <div class="dir dirA">
+        <div class="stage">
+          <div class="wm">off<span class="moon" aria-hidden="true"></span>clock club</div>
+          <div class="card"><b>The 3-step 7 a.m.</b><span>Cool. Dark. Quiet. Roll, mask, plugs, sleep.</span></div>
+        </div>
+        <div class="meta">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap"><h3>A · After Dark</h3><span class="muted small">Fraunces + Inter</span></div>
+          <div class="swatches" aria-label="Navy, plum, cream, brass, frost blue"><span class="sw" style="background:var(--a-navy)"></span><span class="sw" style="background:var(--a-plum)"></span><span class="sw" style="background:var(--a-cream)"></span><span class="sw" style="background:var(--a-brass)"></span><span class="sw" style="background:var(--a-frost)"></span></div>
+          <p class="small">Calm and premium. A dim bedroom at 8 a.m. Side-lit, slow ASMR video. Reads "worth more than an $8 roller".</p>
+        </div>
+      </div>
+      <div class="dir dirB">
+        <div class="stage">
+          <div class="wm">off-clock club<span class="sun" aria-hidden="true"></span></div>
+          <div class="card"><span class="badge">Gift one, keep one</span><span class="hand">for my 7p–7a person</span><span>Cool. Dark. Quiet.</span></div>
+        </div>
+        <div class="meta">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap"><h3>B · Golden Hour</h3><span class="muted small">Bricolage + DM Sans</span></div>
+          <div class="swatches" aria-label="Peach, cobalt, cream, tangerine, ink"><span class="sw" style="background:var(--b-peach)"></span><span class="sw" style="background:var(--b-cobalt)"></span><span class="sw" style="background:var(--b-cream)"></span><span class="sw" style="background:var(--b-tang)"></span><span class="sw" style="background:var(--b-ink)"></span></div>
+          <p class="small">Warm and giftable. 7 a.m. light before the curtains close. Sticker-label look that pops in gift guides and thumbnails.</p>
+        </div>
+      </div>
+    </div>
+    <p class="muted small">Both launch with the same cheap packaging: a stock pouch with a printed brand sticker and a 4×6 insert card. That keeps the 2-pack at about $19.35 against its $19.67 limit. The direction only changes colours and artwork. Satin pouches and extra seals stay out until a real CJ quote fits. All pouch costs are <span class="label">assumed</span>.</p>
+  </div>
+</section>
+
+<!-- ============ BUYERS ============ -->
+<section class="stack" aria-labelledby="buy-h">
+  <div class="section-head">
+    <div class="eyebrow">Who buys</div>
+    <h2 id="buy-h">Two buyers, one product</h2>
+  </div>
+  <div class="two">
+    <div class="box">
+      <h3>The Day Sleeper</h3>
+      <p class="small muted">Buys for herself · January onward, Nurses Week</p>
+      <ul>
+        <li>US RN, LPN, CNA or tech, 23–40, works 3×12s from 7 p.m. to 7 a.m.</li>
+        <li>Drives home into full sun and tries to sleep 9 a.m.–3 p.m. in a bright, noisy house.</li>
+        <li>Already owns a flat mask that leaks at the nose or presses on her eyes.</li>
+        <li>Objections: "Ice rollers are a $7 Amazon thing." "$59 is a lot." "Another nurse gimmick?"</li>
+        <li>Online right after shift (~9 a.m. ET) and before shift (~5–6 p.m.).</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>The Gift Giver</h3>
+      <p class="small muted">Buys for a nurse · Nov 1 – Dec 3, graduations, Nurses Week</p>
+      <ul>
+        <li>Partner, parent or friend of a night-shift nurse.</li>
+        <li>Wants "a gift they'll actually use", not another mug, pen or badge reel.</li>
+        <li>Worries: will it arrive in time, and is $59 too much?</li>
+        <li>Searches "gifts for nurses", which jumps about 6× in December.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted small">Real customer phrases are still thin because Reddit and nursing forums blocked the agents. The social manager collects 30+ real TikTok comments during warm-up.</p>
+</section>
+
+<!-- ============ MARKETING ============ -->
+<section class="stack-lg" aria-labelledby="mkt-h">
+  <div class="section-head">
+    <div class="eyebrow">How we promote it</div>
+    <h2 id="mkt-h">Organic video first, paid only on proven winners</h2>
+  </div>
+  <div class="box" style="border-left:4px solid var(--warn)"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="pill warn">Being corrected</span><span class="small">QA found 14 issues in the marketing plan. The strategy below holds; dates, budget lines and some wording are being fixed. Biggest changes: the Christmas cutoff moves earlier to about <strong>Nov 30 – Dec 1</strong> once supplier processing time is counted, creators must use <strong>#ad</strong> (they earn commission), and nothing public happens before you approve this gate.</span></div></div>
+
+  <div class="stack">
+    <h3>Top angles</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>ID</th><th>Angle</th><th>Example hook</th><th>Who films</th></tr></thead>
+      <tbody>
+        <tr class="key"><td class="num">A1</td><td><strong>Lights-on blackout test</strong>. Contoured mask vs. flat mask, every lamp on.</td><td>"9 a.m. Every light on. Watch."</td><td>You</td></tr>
+        <tr class="key"><td class="num">A4</td><td><strong>The gift they'll actually use</strong>. Push the mugs and pens aside.</td><td>"Stop buying nurses mugs."</td><td>You</td></tr>
+        <tr class="key"><td class="num">A2</td><td><strong>7:15 a.m. reset ritual</strong>. Real nurse POV: car, freezer, roller, mask, lights off.</td><td>"7:15 a.m. after a 12, my reset."</td><td>Gifted nurse creators</td></tr>
+        <tr><td class="num">A5</td><td><strong>Gift one, keep one</strong>. Sells the 2-pack.</td><td>"Buy one for the coworker who carried you through nights."</td><td>You + creators</td></tr>
+        <tr><td class="num">A3</td><td><strong>Frosty roller ASMR</strong>, hands only.</td><td>"The sound a freezer-cold roller makes."</td><td>You</td></tr>
+        <tr><td class="num">A11</td><td><strong>Honest Christmas deadline</strong>, with real date math.</td><td>"Last day to order for Christmas: Dec 3, here's why."</td><td>You</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted small">12 angles in total, including new-grad gifts, daytime-noise humor and Nurses Week team kits. Banned everywhere: de-puffing, swelling, migraine, insomnia or "fixes sleep" claims; fake "was $X" prices; countdown timers; and you speaking as a nurse.</p>
+  </div>
+
+  <div class="two">
+    <div class="box">
+      <h3>Channels</h3>
+      <ul>
+        <li><strong>TikTok organic, two accounts</strong>: the main brand and a gift-guide account. Cross-posted to Reels and Shorts.</li>
+        <li><strong>Pinterest</strong> for "gifts for nurses" searches: 3 boards and day-sleep checklist pins.</li>
+        <li><strong>Meta ads only</strong>, $12/day from Nov 21 to Dec 3, after Gate C, on proven winners.</li>
+        <li>No TikTok ads: the daily minimum (~$20, <span class="label">estimated</span>) is above your ceiling.</li>
+        <li>No selling in r/nursing; it bans promotion.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Organic test · Nov 9–22 · $0</h3>
+      <ul>
+        <li>2–3 videos a day across both accounts: angles A1, A3 and A4 × 3 hooks each.</li>
+        <li><strong>A video wins</strong> if ≥ 50% of viewers are still watching at 3 seconds, plus two of: average watch ≥ 50%, saves + shares ≥ 1%, ≥ 3 buying-intent comments, link click rate ≥ 0.5%.</li>
+        <li>Winners get re-cut and become the paid ads.</li>
+        <li>Warm-up posts (no product) start Oct 29 to grow the accounts first.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stack">
+    <h3>Nurse creators to seed</h3>
+    <p class="muted small">Plan: send a free 2-pack to 5 US night-shift nurse micro-creators. Each keeps one and gifts the other to a coworker on camera, with a clear #ad and the platform's paid-partnership label (they earn commission, so "gifted" alone isn't enough). They get 15% commission and a 10%-off code. Ask in writing for permission to run their video as an ad. Follower counts are self-reported on creator marketplaces; verify before contacting.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Creator</th><th>Focus</th><th class="r">Followers</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://joinbrands.com/@laurae1peraza">Laura P.</a></td><td>Night-shift nurse, self-care after long shifts</td><td class="r num">28K</td></tr>
+        <tr><td><a href="https://collabstr.com/nightnurse305">@nightnurse305</a></td><td>NP, "NightNurse" on TikTok</td><td class="r num">88K</td></tr>
+        <tr><td><a href="https://collabstr.com/littleblackscrubs">@littleblackscrubs</a></td><td>Night-shift nurse mom</td><td class="r num">—</td></tr>
+        <tr><td><a href="https://joinbrands.com/@laurynd">Lauryn D.</a></td><td>Night-shift nurse, new mom</td><td class="r num">3K</td></tr>
+        <tr><td><a href="https://advantismed.com/blog/top-nurse-creators-to-follow">@that.nightshift.nurse</a></td><td>NICU RN, night-shift sleep and energy</td><td class="r num">—</td></tr>
+        <tr><td><a href="https://collabstr.com/igcalimanorn">@igcalimano_rn</a></td><td>Wellness for night-shift workers</td><td class="r num">—</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ============ BUDGET ============ -->
+<section class="stack" aria-labelledby="bud-h">
+  <div class="section-head">
+    <div class="eyebrow">Money</div>
+    <h2 id="bud-h">Where the $500 goes</h2>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>Phase</th><th>When</th><th class="r">Spend</th><th>What</th></tr></thead>
+    <tbody>
+      <tr><td>Pre-launch</td><td>Oct 28 – Nov 8</td><td class="r num">$75–95</td><td>2 samples (one express so filming starts ~Nov 5) and the domain. No platform fee on your own site.</td></tr>
+      <tr class="key"><td><strong>Creator seeding</strong></td><td>Oct 30 – Nov 3</td><td class="r num">~$97</td><td>5 × 2-pack shipped by CJ straight to creators. Kit #1 doubles as the US delivery-time test.</td></tr>
+      <tr><td>Organic test</td><td>Nov 9 – 22</td><td class="r num">$0</td><td>CapCut, Canva, free email tier.</td></tr>
+      <tr class="key"><td><strong>Paid test 1</strong></td><td>Nov 21 – Dec 3</td><td class="r num">~$156</td><td>Meta at $12/day on 2–3 winning videos. Only after Gate C, C2 passed and at least one organic winner.</td></tr>
+      <tr><td>Paid test 2</td><td>Jan 5 – ~15</td><td class="r num">~$74</td><td>$10/day, New Year self-purchase. Only if test 1 broke even.</td></tr>
+      <tr><td>Reserve</td><td>held</td><td class="r num">~$80</td><td>Refunds, reships, chargebacks, one re-sample. Never for ads.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted small"><strong>Being corrected:</strong> the high end currently adds up to about $502, and the reserve shrank from ~$112–127 to ~$80. The fixed plan will stay under $500 and show where every dollar moved. Paid ads drop from $300 to about $230 to fund creator seeding. Stop rules: kill an ad set at $50 with no sales; stop all paid ads if cost per sale is above margin after $150 (break-even $33.49 per 2-pack). All figures <span class="label">estimated</span>.</p>
+</section>
+
+<!-- ============ CALENDAR ============ -->
+<section class="stack" aria-labelledby="cal-h">
+  <div class="section-head">
+    <div class="eyebrow">Key dates</div>
+    <h2 id="cal-h">From today to the last Christmas order</h2>
+  </div>
+  <div class="timeline">
+    <div class="tl hot"><span class="d">Mon Oct 26</span><span><strong>You:</strong> start the CJ quote (C1) and the Meta Ad Library check (C2).</span></div>
+    <div class="tl hot"><span class="d">After Gate B</span><span>You reserve handles on TikTok (×2), Instagram, YouTube and Pinterest. First 15 creators contacted. Nothing public goes out before you approve.</span></div>
+    <div class="tl"><span class="d">Wed Oct 28</span><span>You order samples: one express, one standard.</span></div>
+    <div class="tl"><span class="d">Thu Oct 29</span><span>One-page waitlist site live. Warm-up posts start (no product).</span></div>
+    <div class="tl"><span class="d">Mon Nov 2</span><span>C1 decision: does a single kit exist, and at what price?</span></div>
+    <div class="tl hot"><span class="d">Tue Nov 3</span><span><strong>Last day to order creator kits</strong> for Christmas content.</span></div>
+    <div class="tl"><span class="d">Thu Nov 5</span><span>Express sample arrives. Quality check: rust, light leaks, does it look worth $59?</span></div>
+    <div class="tl"><span class="d">Fri Nov 6</span><span>Film batch 1: 9 hooks plus store photos.</span></div>
+    <div class="tl hot"><span class="d">Mon Nov 9</span><span><strong>Organic test starts.</strong></span></div>
+    <div class="tl hot"><span class="d">Sun Nov 15</span><span><strong>Store live</strong> (target).</span></div>
+    <div class="tl hot"><span class="d">Fri Nov 20</span><span>Hard cutoff for the store. <strong>Gate C</strong>: approve paid ads?</span></div>
+    <div class="tl"><span class="d">Sat Nov 21</span><span>Meta ads live if approved.</span></div>
+    <div class="tl"><span class="d">Nov 26–30</span><span>Thanksgiving, Black Friday, Cyber Monday. Honest emails, no fake discounts.</span></div>
+    <div class="tl hot"><span class="d">~Nov 30 – Dec 3</span><span><strong>Last safe Christmas order date</strong>, set from the US test parcel's real delivery time plus supplier processing. After it, the store says Christmas delivery isn't guaranteed and includes a printable gift card.</span></div>
+  </div>
+  <p class="muted small">The plan has a row for every day; this is the short version. Delivery wording stays "free US shipping, delivery time confirmed at launch" until the US test parcel arrives. The Christmas cutoff is Dec 24 minus processing and real transit time.</p>
+</section>
+
+<!-- ============ DECISIONS ============ -->
+<section class="decide" aria-labelledby="dec-h">
+  <div class="eyebrow">Your decisions</div>
+  <h2 id="dec-h">What I need from you</h2>
+  <ol>
+    <li><strong>Brand:</strong> approve Off-Clock Club, or pick Sunrise Sleeper / Day Sleep Club / your own.</li>
+    <li><strong>Visual direction:</strong> A · After Dark or B · Golden Hour.</li>
+    <li><strong>Creator seeding:</strong> yes to ~$97 for 5 creator kits (paid ads drop to $230), or no (keeps $300 for ads, but no real nurse videos).</li>
+    <li><strong>By Nov 3:</strong> the CJ quote (C1), the Meta Ad Library check (C2), samples ordered, handles reserved.</li>
+    <li><strong>Store stack:</strong> what you'll build the site with, and whether the store builder writes the code or just the spec.</li>
+  </ol>
+</section>
+
+<footer class="foot stack">
+  <p>Full files in the repo: <span class="num">products/nurse-reset-kit/03-brand.md</span> and <span class="num">04-growth-plan.md</span> (avatars, all 12 angles, messaging matrix, day-by-day plan, sources).</p>
+</footer>
+</main>

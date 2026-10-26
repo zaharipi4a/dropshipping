@@ -18,3 +18,4 @@ communities, creators, hooks) so no agent researches the same thing twice.
 | `creators.md` | Creators/influencers to seed or hire |
 | `hooks-angles.md` | Hooks and angles, with measured performance when available |
 | `sources.md` | Data sources and tools: what works, what needs a login |
+| `names.md` | Brand and product name candidates: `.com` status, trademark signals, verdict |

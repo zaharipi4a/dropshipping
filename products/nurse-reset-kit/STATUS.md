@@ -2,7 +2,7 @@
 
 - Slug: `nurse-reset-kit` (was `scout-20261026`)
 - Segment: night-shift nurses and 12-hour healthcare workers, plus people buying gifts for them
-- Current stage: 3 — brand ∥ growth plan
+- Current stage: Gate B — waiting on owner (growth plan fix round 1 running)
 - Status: active
 - Blockers: _none_
 
@@ -18,9 +18,9 @@
 - [x] 1 Scout — `01-scouting.md` (+ `01b-search-demand.md`)
 - [x] 2 Validate — `02-validation.md` (QA: FAIL → fixed → minor issues only; memory correction appended)
 - [x] Gate A — product × segment approved (2026-10-26, owner proceeded with nurse kit; C1 + C2 still open)
-- [ ] 3 Brand — `03-brand.md`
+- [x] 3 Brand — `03-brand.md` (QA: 3 rounds + opus escalation; orchestrator fixed final trivial blockers)
 - [ ] Gate B — brand approved
-- [ ] 4 Growth plan — `04-growth-plan.md`
+- [~] 4 Growth plan — `04-growth-plan.md` (QA round 1 FAIL, 14 blockers; fix round running)
 - [ ] 5 Copy — `05-copy.md`
 - [ ] 5 Creatives — `06-creatives.md`
 - [ ] 6 Store — `07-store.md`
@@ -34,6 +34,9 @@
 ## Gate A report
 https://claude.ai/artifact/6bZ1fAUbiqHhcD7ENdJsnq (copy: `gate-a-report.html`)
 Recommendation: Post-Shift Reset Kit → night-shift nurses, CONDITIONAL GO (C1 CJ quote, C2 30+ day Meta ad). Runner-up: Stage-Ready Curl Kit (MAYBE, January).
+
+## Gate B report
+https://claude.ai/artifact/WM7dKCgkVBZf43AZvo9Bgd (copy: `gate-b-report.html`)
 
 ## Owner notes from gates
 - Gate A: platform is a **custom website** (owner builds it), Stripe payments, CJdropshipping for fulfillment (API). No Shopify.

@@ -23,3 +23,7 @@ or prompt fix).
 | 2026-10-26 | nurse-reset-kit | brand (fix round 1) | brand-strategist | sonnet | bg | 03-brand.md | FAIL (2nd) | ~36 s; new issues: L-003 shipping-window claim, unpriced packaging extras, overclaimed name uniqueness |
 | 2026-10-26 | nurse-reset-kit | brand (fix round 2, ESCALATED) | brand-strategist | opus | bg | 03-brand.md | QA round 3 pending | ~43 s; escalation rule fired: 2 QA fails → opus |
 | 2026-10-26 | nurse-reset-kit | qa brand round 3 | stage-qa | haiku | bg | verdict | FAIL (2 trivial blockers) | ~77 s; orchestrator fixed both blockers + 5 minors directly instead of a 4th agent round. Open minors: source links (MASK O'CLOCK, Cherokee, BFA URL), verbatim avatar quotes (growth plan to supply) |
+| 2026-10-26 | nurse-reset-kit | growth | growth-strategist | opus | bg | 04-growth-plan.md | FAIL (round 1, 14 blockers) | ~10 min; budget $502 > $500, cutoff ignores CJ processing, L-003 day-range, FTC #ad, public actions before Gate B, personal-attribute wording |
+| 2026-10-26 | nurse-reset-kit | qa growth | stage-qa | haiku | bg | verdict | FAIL | ~3.7 min; thorough round-1 report under new CL-004 rules |
+| 2026-10-26 | nurse-reset-kit | file-knowledge | librarian | haiku | bg | knowledge/* incl. new names.md | n/a | ~4.3 min |
+| 2026-10-26 | nurse-reset-kit | gate-b report | orchestrator | — | fg | artifact + gate-b-report.html | — | published with growth section flagged "being corrected" |
