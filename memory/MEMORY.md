@@ -10,15 +10,15 @@ entries into `evolution/LEARNINGS.md`.
 
 Fill in once; agents tailor everything to it.
 
-- Target markets / ship-to countries: _TBD (e.g. US, UK, EU)_
-- Store language(s): _TBD_
-- Starting budget (product samples + store + ads): _TBD_
-- Daily ad budget ceiling for tests: _TBD_
-- Preferred platform: _Shopify (default) / custom landing page_
-- Suppliers / apps already in use: _TBD (e.g. AutoDS, DSers, CJdropshipping, Zendrop)_
-- Channels to market on: _TBD (TikTok, Instagram, Facebook, Pinterest, YouTube Shorts)_
-- Hard no's (niches, product types): _TBD_
-- Brand taste (likes / dislikes): _TBD_
+- Target markets / ship-to countries: **US** (owner is based outside the US, likely Europe — no US residency needed to sell; payments via owner's home-country Shopify Payments/Stripe)
+- Store language(s): English (US)
+- Starting budget (product samples + store + ads): **under $500 total**
+- Daily ad budget ceiling for tests: **$0 during organic test**; max ~$10–15/day once an organic winner exists, only after Gate C
+- Preferred platform: Shopify (default) — cheapest plan / trial
+- Suppliers / apps already in use: none yet — prefer suppliers with US warehouses (CJdropshipping US, Zendrop, AutoDS) for ≤10-day delivery
+- Channels to market on: TikTok (organic; TikTok Shop US likely needs a US entity — treat as affiliate/later option), Instagram Reels, Facebook ads, Pinterest, YouTube Shorts
+- Hard no's (niches, product types): defaults from CLAUDE.md (no supplements, medical devices, trademarked goods, weapons, heavy regulation)
+- Brand taste (likes / dislikes): TBD — ask at Gate B
 
 ---
 
@@ -26,7 +26,7 @@ Fill in once; agents tailor everything to it.
 
 | Slug | Product | Stage | Status | Last update |
 |---|---|---|---|---|
-| _none yet_ | | | | |
+| scout-20261026 | _TBD_ | 1 | active | 2026-10-26 |
 
 Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 `paused`, `killed`, `scaling`.
@@ -36,6 +36,8 @@ Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 ## Decision log
 
 Format: `- YYYY-MM-DD [slug|global] [agent] DECISION — reason`
+
+- 2026-10-26 [global] [orchestrator] Target market US, organic-first, <$500 budget — owner answers at intake; no US residency needed to sell to US.
 
 ---
 
