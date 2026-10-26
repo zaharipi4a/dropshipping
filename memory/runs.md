@@ -58,3 +58,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r1 (useful-daily) | haiku | background | FAIL r1 | 8 blocking: knife fails L-009+L-002 but ranked; wallet cheapest-identical wrong (tracker wallets $29.99-32.99, 34.5K sold), hook shows excluded tracker; costs not reproducible; timing assumed → sent back |
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r2 (funny-gifts) | haiku | background | PASS | 8 trivial minors left for validator (timing one-liner, labels); lane pick: none |
 | 2026-10-26 | scout-xmas2-20261026 | product-scout rework (useful-daily) | inherit | resumed via SendMessage | QA r2 pending | wallet + knife both near misses; lane has no ranked picks |
+| 2026-10-26 | scout-xmas2-20261026 | stage-qa r2 (useful-daily) | haiku | background | FAIL r2 → orchestrator fixed | 3 blocking (wallet viability wording, timing rule, missing combos note) + minors 1-3, 5 fixed directly; lane has no pick, so no further QA round |

@@ -2,9 +2,9 @@
 
 ## Handoff
 - **Honest result: 0 clean passes. No ranked picks.** The wallet and the knife sharpener are unranked NEAR MISSES, conditional on a CJ quote that could not be obtained (CJ search is behind a captcha, so every unit cost is `estimated`). About 25 products were checked; almost all sit at an $8-15 floor (L-009) or are too heavy or battery-based for L-002.
-- **Near miss A: men's slim RFID wallet, $29.99-34.99.** Demand and price tolerance are real (TikTok unbranded wallets $25.80-39.95 at 39.7K-177.8K sold), but tracker-pocket wallets with a money clip already sell at $29.99 (Amazon B0F8QJFWK5, B0DZHBM8KR) and $32.99 (TacticalTide, 34.5K sold). I found no honest visible differentiator, so it is not a pick. It becomes viable only as a price-parity commodity at <= $29.99 with a CJ SKU (landed <= $10), which no one has quoted.
+- **Near miss A: men's slim RFID wallet, $29.99-34.99.** Demand and price tolerance are real (TikTok unbranded wallets $25.80-39.95 at 39.7K-177.8K sold), but tracker-pocket wallets with a money clip already sell at $29.99 (Amazon B0F8QJFWK5, B0DZHBM8KR) and $32.99 (TacticalTide, 34.5K sold). I found no honest visible differentiator, so it is not a pick. It becomes viable only with a CJ SKU landed <= $10 and a visible difference in the photo, and no one has quoted either.
 - **Near miss B: magnetic rolling knife sharpener kit, $44.99.** Best 3-second demo in the lane, but it fails L-002 on the only evidenced route (China landed $20.65 = 45.9%) and is not visibly different from the $18.98-19.99 TikTok kit (L-009). Open IP gate: Tumbler copy/patent risk (no patent search possible).
-- Timing: China route last order Nov 27-30 (brief). With 2 days processing + 7-15 days transit (MEMORY: honest CJ shipping 7-15 days), a Nov 30 order lands Dec 9-17, a 6-14 day buffer to Dec 23. A US-warehouse route (2-7 days, `assumed` from a third-party CJ review blog) needs a SKU already in CJ US stock; MEMORY says self stock-in needs >= 100 pcs, too much for the <$500 start, so it is `assumed` only.
+- Timing: China route last order Nov 27-30 (brief; rule: Dec 23 target minus 17 business days = 2 processing (`assumed`) + 15 business days transit, which is Nov 30). With 2 days processing + 7-15 days transit (MEMORY: honest CJ shipping 7-15 days), a Nov 30 order lands Dec 9-17, a 6-14 day buffer to Dec 23. A US-warehouse route (2-7 days, `assumed` from a third-party CJ review blog) needs a SKU already in CJ US stock; MEMORY says self stock-in needs >= 100 pcs, too much for the <$500 start, so it is `assumed` only.
 - Dropped with data: retractable car charger, packing cubes, laptop stand, desk mat, magnetic LED pickup tool (coin cells), universal socket, chicken shredder, manual coffee grinder, wireless charging stations, key organizers, safety razors, hand warmers, winter sets, microwave heat pads, self-care gift boxes.
 - Data gotchas: several asinsight pages 404; RankHero tables look modelled (`estimated`); "wallet for men" is flat while "mens wallet" has a Dec peak.
 - Recommend the orchestrator weight the funny and cozy lanes higher; useful-daily is structurally low margin.
@@ -58,12 +58,14 @@ Appeal = Obvious appeal (1-5). Shipping is `assumed`. Sold counts are TikTok Sho
 | Others | Footrest, ice scraper, car armrest, trash bin, mouse jiggler, sling bags | L-002/L-004/L-009 |
 
 ## Near misses (unranked)
-| Combo | Supplier leads (estimated, bulk MOQ, not dropship; CJ SKU not found) | Price | Landed | Why not a pick |
+Fewer than 5 combos exist because none passes L-009 + L-002; both near misses are shown with price, unit, landed, margin and the L-002 result. CM = price - landed - Stripe (4.5% + $0.30, assumed).
+
+| Combo | Supplier leads (estimated, bulk MOQ, not dropship; CJ SKU not found) | Price | Landed (L-002) | Why not a pick |
 |---|---|---|---|---|
 | Wallet, any segment | Shenzhen Golden Quartet carbon-fibre money-clip wallet $2.09-2.49 MOQ 500; Guangzhou Wangjia magnetic RFID money-clip wallet $2.40-2.80 MOQ 100; Fuzhou Whole Line $4.67-5.75 MOQ 100 (https://www.made-in-china.com/products-search/hot-china-products/Mens_Wallet_RFID.html) | $29.99-34.99 | See table above. China passes only at unit <= $4.30 at $34.99 (landed $11.62, 33.2%; CM $21.5, 61.5%). US stock at $34.99: CM $24.3, 69.5% | No differentiator vs $29.99-32.99 tracker wallets, which sell. Kill: drop if the photo cannot beat them. Timing: China order by Nov 30 (buffer 6-14 days); US SKU unverified |
 | Rolling knife sharpener kit | Chongqing Deng's Yaohe Ds-9971 $8.99-9.99 MOQ 1000; Changsha Chengtong $7.78-8.68 MOQ 500; Ningbo Haishu Forcar $10.80-11.50 MOQ 10 (https://www.made-in-china.com/products-search/hot-china-products/Rolling_Knife_Sharpener.html) | $44.99 | China $20.65 (45.9%, FAILS). US passes only at unit <= $9.69 (14.99 - 5.30 shipping incl. fee), no duty assumed | Fails L-002 on the evidenced route; US SKU unfound and stock-in needs >= 100 pcs; open IP gate (Tumbler); not visibly different from the $19 kit. Extra strop/discs add weight and cost |
 
-## Scout's view
+## Scout's top pick and why (no pick)
 Nothing in this lane passes. The wallet has the best demand evidence but no honest differentiator versus tracker wallets already at $29.99-32.99; I would not ship it as a pick. The knife sharpener has the best demo but fails the math.
 
 ## Sources
