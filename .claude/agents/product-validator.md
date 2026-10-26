@@ -33,8 +33,11 @@ For each candidate:
 4. **Supplier risk**: rating, order volume, shipping consistency, backup supplier exists?
 5. **Compliance & policy risk**: ad platform restricted categories, claims we'd need to make,
    IP/trademark issues, product safety/certifications (CE, FCC, CPSIA), import restrictions.
-6. **Score** (1–5): margin, demand proof, differentiation potential, supplier reliability,
-   creative potential, risk (5 = safe). Weighted total, margin and risk weighted ×2.
+6. **Timing & delivery feasibility** (L-008): demand peak and occasion date, warehouse the stock ships
+   from, demonstrated CJ processing + transit days, latest customer order date that still arrives in time,
+   and how many selling days that leaves after the organic test.
+7. **Score** (1–5): margin, demand proof, obvious appeal, timing, differentiation potential, supplier reliability,
+   creative potential, risk (5 = safe). Weighted total; margin, risk, obvious appeal and timing weighted ×2.
 
 ## Output — `products/<slug>/02-validation.md`
 ```
@@ -56,4 +59,5 @@ For each candidate:
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
-_None yet._
+- Score **obvious appeal** with the one-photo test: would a normal shopper understand and want or gift it without being told who it's "for"? A 1–2 (contrived micro-niche, explanation needed) is NO-GO regardless of margin (L-005, FB-005, high).
+- Score **timing** 1 and verdict NO-GO for this season (or "hold for next season") if demonstrated processing + transit can't deliver before the occasion date; never assume US-warehouse stock without a listed CJ US-warehouse SKU or quote, and mark the delivery estimate `measured`/`estimated`/`assumed` (L-008, FB-005, high).

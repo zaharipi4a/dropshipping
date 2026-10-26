@@ -42,7 +42,7 @@ Scope: pipeline skill, stage-qa, brand-strategist
 Feedback: The brand stage took 3 QA rounds plus an opus escalation, and each fix round introduced or exposed new issues (shipping-time claims, unpriced packaging, overclaimed certainty, bullet counts). Proposed: (1) stage-qa reports ALL issues in round 1 with a severity, and on re-checks verifies only the earlier list plus genuinely new text; (2) after an escalation, the orchestrator may fix trivial blockers (formatting, single sentences) directly instead of another agent round; (3) add to brand-strategist's quality bar: no delivery or dispatch-time words anywhere (L-003), and every packaging element must be priced or marked as an excluded upgrade. Also: stage-qa gave a false positive on a memory entry written concurrently. It should re-read shared files right before reporting them missing.
 Context: Brand stage, first run.
 
-## FB-005 — 2026-10-26 — pending
+## FB-005 — 2026-10-26 — applied → CL-005
 Source: owner
 Scope: global (product-scout, product-validator, growth-strategist; LEARNINGS L-005)
 Feedback: "Leave this nurse care kit and the other bs. I want a product which actually makes sense, that people buy as a Christmas present or for themselves for the Christmas-time feel."

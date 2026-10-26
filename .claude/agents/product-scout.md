@@ -38,12 +38,15 @@ and note which have the healthiest margins. Cite sources for every claim.
 Find **8–12 proven products** across 2–4 categories.
 
 ## Part 2 — Find the positioning gap
-For each proven product, look at how current sellers market it and find a **segment they ignore**:
-- **Audience**: same product for a specific group (nurses, runners, new moms, gamers, seniors, truckers, dog owners of large breeds…)
-- **Use case / occasion**: travel, office, gift for X, recovery after Y
-- **Value/identity**: premium/aesthetic version of a cheap-looking product, eco, minimalist, local-language market
+For each proven product, look at how current sellers market it and find an **angle they ignore**.
+Positioning sharpens a natural angle the product already has; it never invents a reason to buy (L-005).
+In order of preference:
+- **Occasion / season**: Christmas gift, stocking stuffer, cozy winter night, self-treat, Valentine's, back-to-school
+- **Value/identity**: premium/aesthetic, giftable version of a cheap-looking product, eco, minimalist
+- **Broad audience**: a large group that obviously wants it (gift for mom/dad/her/him, new homeowners, dog owners).
+  No profession- or hobby-specific micro-niches the product wasn't already bought for (e.g. not "kit for night-shift nurses").
 - **Geography**: proven in the US, untapped in the owner's market (local-language store and ads)
-- **Bundle**: product + complementary items as a "kit" for that segment (raises AOV, harder to compare-shop)
+- **Bundle**: product + natural complements as a gift set (raises AOV, harder to compare-shop). The set must read as one obvious gift, not a themed assortment.
 
 Verify the gap: search for stores/ads already targeting that segment. A gap is real only if few
 or no branded sellers own it **and** the segment is reachable (communities, hashtags, interests exist).
@@ -75,4 +78,6 @@ target market, rating/order volume, and whether custom packaging/logo is possibl
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
-_None yet._
+- Add an `Obvious appeal (1–5)` column to the Proven products table: 5 = a normal shopper gets what it is and why they'd want or gift it from one photo, with no explanation; drop anything scoring below 4 (L-005, FB-005, high).
+- Add a `Timing` column per top combo: demand peak date (with Google Trends or marketplace evidence), occasion deadline, supplier warehouse (CJ US / other US / China), demonstrated processing + transit days, and the latest order date that still delivers before the occasion; flag China-only stock that can't make it (L-008, FB-005, high).
+- In seasonal briefs, rank combos that pass L-002 by obvious appeal × timing feasibility before margin, and prefer SKUs already in stock in a CJ US warehouse (L-008, FB-005, high).

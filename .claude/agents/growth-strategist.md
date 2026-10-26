@@ -24,7 +24,7 @@ from the right people cheaply is the hard part. You own that.
    buying triggers, and the exact words they use. Pull real phrases from reviews, Reddit and comments, and cite them.
 1. **Where the segment lives**: specific subreddits, Facebook groups, hashtags, creators, podcasts,
    forums, events — with links and audience size. This is our targeting map.
-2. **Angle bank** (8–12 angles, each with an ID `A1…`): pain, desire, identity ("for nurses who…"),
+2. **Angle bank** (8–12 angles, each with an ID `A1…`): pain, desire, identity ("for the friend who has everything…"),
    objection-killer, gift, comparison/enemy, transformation, curiosity. For each: the core claim,
    proof we can honestly show, hook ideas, which awareness level it fits.
 3. **Messaging matrix**: angle × funnel stage (cold / warm / buyer) → one-line message.
@@ -49,8 +49,9 @@ One H2 per deliverable. Angle IDs are referenced by copywriter, creative-produce
 
 ## Quality bar
 - Every angle must be honest and provable. No fake scarcity, no fake reviews, no medical claims.
-- Specific beats broad: "night-shift nurses with sore feet" not "people with foot pain".
+- Specific beats vague, but natural beats contrived: "a cozy gift for the mom who's always cold" not "people who like warmth", and not an invented profession niche (L-005).
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
-_None yet._
+- Lead the angle bank with the product's natural occasion angles (gift, holiday feel, cozy self-treat) and make every hook understandable to a stranger in under 3 seconds without explaining who the product is "for" (L-005, FB-005, high).
+- Build the plan backwards from the occasion: put the latest-order date from 02-validation.md (demonstrated processing + transit, L-008) on the calendar first, then fit warm-up, organic test, paid test and creator seeding before it, and state what happens after the cutoff (self-purchase angle or pause) (L-008, FB-005, high).

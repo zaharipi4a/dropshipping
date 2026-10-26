@@ -16,6 +16,17 @@ Revert: <how to undo, e.g. "remove rule L-007" or the old text>
 
 ---
 
+## CL-005 — 2026-10-26
+Trigger: FB-005 (owner killed nurse-reset-kit at Gate B as contrived; wants products with obvious Christmas gift / holiday-feel appeal, timing weighted heavily incl. delivery-by-date via US-warehouse stock)
+Changed:
+- evolution/LEARNINGS.md: L-005 refined (supersedes the old "positioning for a specific segment" wording): sharpen a natural, obvious angle for a broad buyer, never invent a micro-niche; product must make sense on sight without explanation. Added L-008 (high): score timing; demand peak must be ahead and demonstrated processing + transit (prefer CJ US-warehouse stock) must deliver before the occasion, else reject or hold for next season; customer-facing promises still follow L-003. Housekeeping: L-001/L-002 Applies-to updated from retired trend-researcher/product-hunter to product-scout.
+- .claude/agents/product-scout.md: Part 2 rewritten to rank angles by preference (occasion/season, value/identity, broad audience, geography, gift-set bundle) and explicitly exclude profession/hobby micro-niches; Learned rules: `Obvious appeal (1–5)` column with drop below 4; `Timing` column (peak, deadline, warehouse, processing + transit, latest order date); seasonal briefs rank L-002-passing combos by appeal × timing and prefer CJ US-warehouse SKUs.
+- .claude/agents/product-validator.md: new process step 6 "Timing & delivery feasibility"; score adds obvious appeal and timing, both weighted ×2 alongside margin and risk; Learned rules: appeal 1–2 = NO-GO; timing infeasible = NO-GO/hold, no assumed US-warehouse stock without a listed SKU or quote.
+- .claude/agents/growth-strategist.md: nurse examples replaced (identity angle, quality-bar "specific beats broad" line now "natural beats contrived"); Learned rules: lead with natural occasion angles and hooks clear in <3 s; plan backwards from the latest-order date.
+- Not changed: memory/MEMORY.md, knowledge/, products/ (3 concurrent scouts writing; MEMORY already records the kill and the rejected idea). workflow/pipeline.yaml and model tiers (no QA-failure evidence for scout/validator this run). brand-strategist (L-005 applies via "all"). Housekeeping: no Learned rules list over 12 bullets; MEMORY compaction skipped (concurrent writers).
+Reason: The owner rejected a contrived single-profession kit; positioning must refine an angle the product naturally has, and seasonal products only work if they can arrive before the occasion.
+Revert: git revert this commit, or restore L-005 to "Differentiate through positioning for a specific segment, not through the product itself; the store is secondary to marketing." (Applies to: all), remove L-008, restore L-001/L-002 Applies-to, restore product-scout Part 2 bullets (Audience/Use case/Value/Geography/Bundle) and step 6 Score text in product-validator from git history, restore the two growth-strategist example lines, and reset the three Learned rules sections to "_None yet._".
+
 ## CL-004 — 2026-10-26
 Trigger: FB-004 (orchestrator, evidence in memory/runs.md: nurse-reset-kit brand stage took 3 QA rounds + opus escalation; 1 QA false positive on a concurrently written MEMORY entry)
 Changed:
