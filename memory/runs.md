@@ -27,3 +27,6 @@ or prompt fix).
 | 2026-10-26 | nurse-reset-kit | qa growth | stage-qa | haiku | bg | verdict | FAIL | ~3.7 min; thorough round-1 report under new CL-004 rules |
 | 2026-10-26 | nurse-reset-kit | file-knowledge | librarian | haiku | bg | knowledge/* incl. new names.md | n/a | ~4.3 min |
 | 2026-10-26 | nurse-reset-kit | gate-b report | orchestrator | — | fg | artifact + gate-b-report.html | — | published with growth section flagged "being corrected" |
+| 2026-10-26 | nurse-reset-kit | growth (fix round 1) | growth-strategist | opus | bg | — | stopped | owner killed the product at Gate B |
+| 2026-10-26 | scout-xmas-20261026 | scout ×3 lanes | product-scout | sonnet | parallel bg | 01-scouting-{cozy-home,personal-gifts,gadgets-fun}.md | pending | first real fan-out |
+| 2026-10-26 | — | evolve (FB-005) | evolver | opus | bg ∥ scouts | agents/LEARNINGS | pending | natural positioning, seasonality |

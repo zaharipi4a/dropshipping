@@ -26,7 +26,8 @@ Fill in once; agents tailor everything to it.
 
 | Slug | Product | Stage | Status | Last update |
 |---|---|---|---|---|
-| nurse-reset-kit | Off-Clock Club (pending Gate B) — Post-Shift Reset Kit → night-shift nurses | 3 brand ∥ growth | active | 2026-10-26 |
+| nurse-reset-kit | Off-Clock Club — Post-Shift Reset Kit → night-shift nurses | Gate B | killed (owner) | 2026-10-26 |
+| scout-xmas-20261026 | Christmas gift / holiday-feel product (TBD) | 1 scout ×3 lanes | active | 2026-10-26 |
 
 Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 `paused`, `killed`, `scaling`.
@@ -46,6 +47,8 @@ Format: `- YYYY-MM-DD [slug|global] [agent] DECISION — reason`
 - 2026-10-26 [global] [orchestrator] Platform: custom website + Stripe + CJdropshipping API instead of Shopify (owner preference).
 - 2026-10-26 [nurse-reset-kit] [brand-strategist] DECISION (pending Gate B) brand = Off-Clock Club, tagline "Sleep when the world's awake.", hero = The Off-Clock Pair ($59, gift one keep one). Alternates: Sunrise Sleeper, Day Sleep Club. Offclockclub.com looks available (Verisign RDAP 404); no web trademark hits; IG/TikTok handles unverifiable (unclear); USPTO search still required before printing. Rejected: Quiet Hours (existing self-care label), "Wind Down Kit" (Pinch Provisions $32 kit), plus ~10 names with taken .com. Two visual directions offered: A After Dark (navy/plum/brass, serif) vs B Golden Hour (peach/cobalt, rounded sans). See 03-brand.md.
 - 2026-10-26 [nurse-reset-kit] [growth-strategist] GO-TO-MARKET: TikTok organic is primary (2 accounts: main + gift-guide), cross-posted to Reels/Shorts; Pinterest for gift search. Meta is the only paid channel ($12/day Nov 21–Dec 3 after Gate C + C2; TikTok ad-group minimum ~$20/day is above the ceiling). Top angles: A1 lights-on blackout test, A4 "gift they'll actually use" (not mugs/pens), A2 7:15 a.m. reset (creators only). Organic test Nov 9–22 (warm-up from Oct 29), 3 angles × 3 hooks, 2–3 posts/day. Seed 5 US night-shift nurse micro-creators with a 2-pack (~$97); kits ordered by Nov 3 or no Christmas content; 15% commission + 10% audience code; 60-day partnership/Spark rights. Paid budget cut $300→$230 to fund seeding (owner decides at Gate C). Last Christmas order date Dec 3, then late-gift printable card, then January self-purchase and Nurses Week. See 04-growth-plan.md.
+- 2026-10-26 [nurse-reset-kit] [orchestrator] KILLED by owner at Gate B ("leave this nurse kit"). Files kept for reference; brand Off-Clock Club unused.
+- 2026-10-26 [scout-xmas-20261026] [orchestrator] New run: Christmas gift / self-purchase holiday-feel product. Delivery before Dec 25 is the hard constraint.
 
 ---
 
@@ -89,3 +92,4 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 Self-warming pad 3-pack → TNR caretakers — NO-GO (validator): landed $20.43 = 52% of $39 price; break-even ROAS 2.73 (>2.5); community is price-sensitive.
 - 2026-10-26 Salt-Season paw-washer kit → snow-belt city dog owners — NO-GO (validator): Dexas MudBuster ($10–15, ~62k ratings) already sells against road salt; landed 39%; S/M/L sizes.
 - 2026-10-26 Pet-hair turnover kit → Airbnb/STR hosts — NO-GO (validator): B2B hosts already buy these $7–15 tools on Amazon; little organic reach; design-patent takedown risk (ChomChom-style roller, Uproot-style rake).
+- 2026-10-26 Post-Shift Reset Kit for night-shift nurses — owner rejected at Gate B: positioning felt contrived; wants a product with obvious, broad Christmas gift appeal.

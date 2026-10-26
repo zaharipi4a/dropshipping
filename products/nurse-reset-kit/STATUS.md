@@ -2,8 +2,8 @@
 
 - Slug: `nurse-reset-kit` (was `scout-20261026`)
 - Segment: night-shift nurses and 12-hour healthcare workers, plus people buying gifts for them
-- Current stage: Gate B — waiting on owner (growth plan fix round 1 running)
-- Status: active
+- Current stage: killed at Gate B
+- Status: killed (owner, at Gate B, 2026-10-26)
 - Blockers: _none_
 
 ## Brief
