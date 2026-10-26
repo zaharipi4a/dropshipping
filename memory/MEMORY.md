@@ -26,7 +26,7 @@ Fill in once; agents tailor everything to it.
 
 | Slug | Product | Stage | Status | Last update |
 |---|---|---|---|---|
-| nurse-reset-kit | Post-Shift Reset Kit → night-shift nurses (brand TBD) | 3 brand ∥ growth | active | 2026-10-26 |
+| nurse-reset-kit | Off-Clock Club (pending Gate B) — Post-Shift Reset Kit → night-shift nurses | 3 brand ∥ growth | active | 2026-10-26 |
 
 Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 `paused`, `killed`, `scaling`.
