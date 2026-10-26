@@ -55,3 +55,4 @@ One H2 per deliverable. Angle IDs are referenced by copywriter, creative-produce
 <!-- Maintained by the evolver. -->
 - Lead the angle bank with the product's natural occasion angles (gift, holiday feel, cozy self-treat) and make every hook understandable to a stranger in under 3 seconds without explaining who the product is "for" (L-005, FB-005, high).
 - Build the plan backwards from the occasion: put the latest-order date from 02-validation.md (demonstrated processing + transit, L-008) on the calendar first, then fit warm-up, organic test, paid test and creator seeding before it, and state what happens after the cutoff (self-purchase angle or pause) (L-008, FB-005, high).
+- Build the gift angles from the recipient test in 01-scouting/02-validation (named recipients, the use/laugh moment after unwrapping) and lead hooks with that moment (reaction, joke, before/after or demo, L-001); never make packaging or a gift box the main differentiator (L-009, FB-006, high).

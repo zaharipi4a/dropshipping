@@ -61,6 +61,7 @@ target market, rating/order volume, and whether custom packaging/logo is possibl
 ## Brief
 ## Proven products (table: product | proof signals with links | sellers count | price range | est. landed cost | category earning notes)
 ## Positioning gaps (table: product | ignored segment | why it's a gap (evidence) | reachability | bundle idea)
+## Recipient test (table: product | 3 named recipients | use or laugh moment after unwrapping | 3-second hook | cheapest identical listing (price + link) | visible differentiation)
 ## Top 5 product × segment combos (suppliers, first-pass margin: price − landed cost − ~3% fees)
 ## Scout's top pick and why
 ## Sources
@@ -75,9 +76,15 @@ target market, rating/order volume, and whether custom packaging/logo is possibl
 - No product without ≥3 proof signals with links. Label numbers `measured` / `estimated` / `assumed`.
 - No trademarked/branded items, counterfeits, supplements, medical devices, weapons, or heavy-regulation items.
 - "Proven" ≠ "saturated with branded leaders". If a strong brand already owns the segment, move on.
+- Recipient test (L-009) for every shortlisted product: 3 named recipients a buyer would say out loud
+  ("my dad", "my sister who's always cold", "the office Secret Santa"), the moment it gets used or laughed at
+  after unwrapping, the hook that shows it in under 3 seconds (L-001), and the cheapest identical listing with
+  price and link. Can't fill a cell honestly → drop the product.
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
 - Add an `Obvious appeal (1–5)` column to the Proven products table: 5 = a normal shopper gets what it is and why they'd want or gift it from one photo, with no explanation; drop anything scoring below 4 (L-005, FB-005, high).
 - Add a `Timing` column per top combo: demand peak date (with Google Trends or marketplace evidence), occasion deadline, supplier warehouse (CJ US / other US / China), demonstrated processing + transit days, and the latest order date that still delivers before the occasion; flag China-only stock that can't make it (L-008, FB-005, high).
 - In seasonal briefs, rank combos that pass L-002 by obvious appeal × timing feasibility before margin, and prefer SKUs already in stock in a CJ US warehouse (L-008, FB-005, high).
+- Drop any product whose identical version sells for $10–15 on TikTok Shop / Amazon / Temu unless we add a difference the buyer can see in the listing photo (feature, function, joke/print, bundle that reads as one gift); a gift box or packaging alone is not differentiation (L-009, FB-006, high).
+- Prefer gifts that are useful daily or genuinely funny, at white-elephant / Secret Santa / stocking-stuffer price points ($19–49); reject decorations nobody asked for, however well they score on numbers (L-009, FB-006, high).

@@ -45,3 +45,5 @@ or prompt fix).
 | 2026-10-26 | scout-xmas-20261026 | product-validator | opus | background | QA r1 FAIL → fixed; r2 FAIL (1 trivial: hard-date wording) → orchestrator fixed + minors 1–3 | CONDITIONAL GO: aurora lamp via Doba US stock $34.99 (landed 29% est., BE ROAS 1.65, last order Dec 9); fallback Valentine (b); book nook hold 2027 |
 | 2026-10-26 | scout-xmas-20261026 | librarian | haiku | background | — | filed 3 lanes: 13 products, 12 search volumes, 22 suppliers, 9 competitors, 2 sources, 7 angles |
 | 2026-10-26 | scout-xmas-20261026 | stage-qa r1 (validation) | haiku | background | FAIL r1 | 4 blocking: L-004 only 2 sales signals, FB-005 CJ-US condition unmet (show 37/60 without waiver), L-003 shipping copy, Stripe fee label → sent back to validator |
+| 2026-10-26 | scout-xmas2-20261026 | evolver (FB-006 → CL-006) | opus | background | — | new L-009 recipient test + commodity-floor scoring in scout/validator/growth |
+| 2026-10-26 | scout-xmas2-20261026 | product-scout ×3 (funny-gifts, useful-daily, pets-hobbies) | inherit | background fan_out, parallel | QA pending | lanes run with L-009 + recipient-test table |

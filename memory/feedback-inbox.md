@@ -48,7 +48,7 @@ Scope: global (product-scout, product-validator, growth-strategist; LEARNINGS L-
 Feedback: "Leave this nurse care kit and the other bs. I want a product which actually makes sense, that people buy as a Christmas present or for themselves for the Christmas-time feel."
 Context: Gate B of nurse-reset-kit. Lesson: segment positioning must feel natural and obvious to a normal buyer. The owner rejects contrived micro-niches (a kit invented for one profession). Prefer products whose appeal is clear on sight, with seasonal/emotional demand (gifting, cozy, holiday feel). Positioning can sharpen an angle, but the product must make sense without explanation. Also weight seasonality/timing heavily, including delivery-by-date feasibility (US-warehouse stock).
 
-## FB-006 — 2026-10-26 — pending
+## FB-006 — 2026-10-26 — applied → CL-006
 Source: owner
 Scope: global (product-scout, product-validator; LEARNINGS L-005 / new rule)
 Feedback: "Do a new check for something with the Christmas-vibe gift which is either funny or useful. This lamp: I don't know who will want that. I want something which can be marketed and the customers would actually want it and use it."
