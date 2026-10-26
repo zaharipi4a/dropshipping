@@ -49,3 +49,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas2-20261026 | product-scout ×3 (funny-gifts, useful-daily, pets-hobbies) | inherit | background fan_out, parallel | QA pending | lanes run with L-009 + recipient-test table |
 | 2026-10-26 | scout-xmas2-20261026 | product-scout (pets-hobbies) | inherit | background fan_out | QA r1 pending | NO product passes; near misses: sourdough kit $34-39 (identical $20 on Amazon), book sleeve $24.99 (thin demand) |
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r1 (pets-hobbies) | haiku | background | FAIL r1 | 4 blocking: failing-L-009 items still shortlisted/ranked, unsourced claims, unsupported Jan figure → sent back |
+| 2026-10-26 | scout-xmas2-20261026 | product-scout rework (pets-hobbies) | inherit | resumed via SendMessage | QA r2 pending | lane concludes: no pick; near misses documented |
