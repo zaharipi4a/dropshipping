@@ -64,9 +64,62 @@ CJ check (L-006): I found one comparable CJ SKU (3D engraved bar necklace, listi
 Engraved bar/name necklace (fails L-002 and L-004, Printify exception); claw clip gift set (Kitsch-owned, landed 33% at $29); blanket scarf (search ~247/wk, sales down 14–50% MoM, [asinsight](https://www.asinsight.com/report/US/blanket-scarf)); valet tray (top-10 avg 670 units/mo, [asinsight](https://www.asinsight.com/report/US/valet-tray)); gua sha (skin claims, branded, [asinsight](https://www.asinsight.com/report/US/gua-sha)); passport holder (not gift-obvious); large jewelry organizer box (bulky); jewelry advent calendar (must arrive by Dec 1); ShineOn message jewelry (Shopify-only, [review](https://ecommerce-platforms.com/articles/shineon-print-on-demand-review)); "Christmas gift box" positioning for satin sleep sets as a gap (already sold by Kitsch, Brushworks and W7, see the gaps table); Daranfang $3.33 satin set route (30-day lead time fails L-008 for 2026).
 
 ## Sources
-- asinsight (https://www.asinsight.com/report/US/<keyword>): silk-pillowcase, satin-pillowcase, silk-scrunchies, silk-sleep-mask, travel-jewelry-case, bar-necklace, personalized-name-necklace, claw-clips, blanket-scarf, valet-tray, gua-sha.
-- https://mykitsch.com/products/satin-sleep-set ; https://hip2save.com/deals/fenrici-satin-pillowcase/ ; https://www.beautybay.com/p/slip/holiday-edition-gift-set/ ; https://www.lookfantastic.com/p/brushworks-luxury-satin-sleep-set/13183963/
-- https://www.medialabs-co.com/blog/what-to-sell-on-tiktok-shop ; https://business.pinterest.com/en-ca/blog/announcing-2025-holiday-marketing-guide/
-- https://printify.com/custom-necklace/ ; https://www.cjdropshipping.com/product/3d-engraved-bar-necklace-p-627F36AE-579C-4D2D-A4C8-940C390414D6.html ; https://cjdropshipping.com/list/wholesale-bedding-sets-l-496E6FFC-4BC4-4CA6-8225-5BC0D56E8E11.html
-- https://www.salehoo.com/trends/travel-jewelry-case ; https://www.listifyai.net/keyword/personalized-jewelry ; https://findniche.com/etsy-product/tiny-birth-flower-necklace-wildflower-me-1292224302
-- McKinsey Jul–Aug 2026 jewelry spending-intent claim: removed from this file because I could not retrieve the source (it came from a search summary; treat as unverified).
+Every inline link in this file, grouped by section.
+- **Amazon proof (asinsight):**
+  - https://www.asinsight.com/report/US/silk-pillowcase
+  - https://www.asinsight.com/report/US/satin-pillowcase
+  - https://www.asinsight.com/report/US/silk-scrunchies
+  - https://www.asinsight.com/report/US/silk-sleep-mask
+  - https://www.asinsight.com/report/US/travel-jewelry-case
+  - https://www.asinsight.com/report/US/bar-necklace
+  - https://www.asinsight.com/report/US/personalized-name-necklace
+  - https://www.asinsight.com/report/US/claw-clips
+  - https://www.asinsight.com/report/US/blanket-scarf
+  - https://www.asinsight.com/report/US/valet-tray
+  - https://www.asinsight.com/report/US/gua-sha
+- **Satin set sellers and competitors:**
+  - https://mykitsch.com/products/satin-sleep-set
+  - https://www.mykitsch.com/products/nighttime-renewal-3pc-sleep-set (site page with Grinch x Kitsch and the HOLIDAY20 promo)
+  - https://www.mykitsch.com/de/products/kitsch-x-elf-satin-kissenbezug-in-periwinkle-christmas-king
+  - https://www.lookfantastic.it/p/kitsch-satin-pillowcase-and-scrunchie-gift-set/14797630
+  - https://hip2save.com/deals/fenrici-satin-pillowcase/
+  - https://www.lookfantastic.com/p/brushworks-luxury-satin-sleep-set/13183963/
+  - https://www.medino.com/product/w7-sleep-talk-christmas-gift-set
+  - https://www.walmart.com/ip/2445823734 (captcha-blocked)
+  - https://www.beautybay.com/p/slip/holiday-edition-gift-set/
+  - https://learning.miniorange.com/products/new-blissy-queen-silk-pillowcase-eye-mask-scrunchie-dream-gift-set-champagne/53237819 (weak)
+- **Market data:**
+  - https://www.medialabs-co.com/blog/what-to-sell-on-tiktok-shop (4 weeks to 2026-10-21)
+  - https://business.pinterest.com/en-ca/blog/announcing-2025-holiday-marketing-guide/ (2025 data)
+- **Satin set suppliers:**
+  - https://qzbrightpath.en.made-in-china.com/product/BfZpmcLxOjUR/China-Satin-Eye-Mask-Scrunchie-Pillowcase-Promotional-Gift-Set-with-Logo.html
+  - https://daranfangsilk.en.made-in-china.com/product/mODtXnudhZUa/China-Popular-Set-3-Pieces-Included-Satin-Silk-Pillowcase-Eye-Mask-Scrunchies.html
+  - https://moleetextile.en.made-in-china.com/product/jawRrYpEIUVT/China-American-Style-Silk-Like-Satin-Pillow-Cover-Hot-Selling-Home-Hotel-Bedding-Microfiber-Pillowcase-on-Amazon.html
+  - https://mupersonalcare.en.made-in-china.com/product/NGFYWaUraflb/China-New-Design-Double-Sided-Satin-Silk-Sleeping-Eye-Mask.html
+  - https://ae42f2efe3d08679.en.made-in-china.com/product/daQYovnPIGUL/China-Women-Satin-Hair-Scrunchies-Girls-Simple-Fashion-Maillard-Color-Hair-Ties-Scrunchie.html
+  - https://dgmsbox.en.made-in-china.com/product/oaFYtKgGslpr/China-Custom-Rigid-Flip-Magnetic-Luxury-Gift-Box.html
+  - https://jialan.en.made-in-china.com/product/kfzrtYSdODhn/China-Spot-Solid-Color-European-Straw-Green-Specialty-Western-Envelope-Invitation-Greeting-Card.html
+  - https://sense2.com/product/5383/promotional-satin-sleeping-masks
+  - https://syncee.com/product/691856_82851_8237403078829/mulberry-silk-pillowcase-gift-set-eye-mask-pillowcase-and-scrunchie
+- **CJ:**
+  - https://cjdropshipping.com/list/wholesale-bedding-sets-l-496E6FFC-4BC4-4CA6-8225-5BC0D56E8E11.html
+  - https://cjdropshipping.com/search/satin+pillowcase+eye+mask+set.html (redirects to the captcha)
+  - https://www.cjdropshipping.com/product/3d-engraved-bar-necklace-p-627F36AE-579C-4D2D-A4C8-940C390414D6.html
+- **Travel jewelry case, proof and suppliers:**
+  - https://www.salehoo.com/trends/travel-jewelry-case
+  - https://www.walmart.com/ip/7219358148
+  - https://www.kohls.com/product/prd-7101982/travel-jewelry-boxs-small-portable-jewelry-organizer-case-storage.jsp
+  - https://sourcing.ship4wd.com/product/pu-leather-round-jewelry-box-portable-earrings-earrings-necklace-ring-compartment-storage-box-travel-jewelry-box-1
+  - https://kingdeful1.en.made-in-china.com/product/ORFpqUerbYVG/China-Wholesal-Jewelry-Travel-Box-PU-Leather-Travel-Jewelry-Box-Small-Portable-Portable-Jewellery-Storage-Box-for-Womens-Rings-Earrings-Necklaces-Blue.html
+  - https://kccraft.en.made-in-china.com/product/FpOrvUZXlIVJ/China-New-Hot-Selling-Portable-Double-Layer-Small-Jewelry-Storage-Gift-Box-PU-Leather-Velvet-Travel-Case-Storage-with-Button.html
+  - https://cankim.en.made-in-china.com/product/RarYpzIVODhF/China-Customized-Leather-Jewelry-Box-Pink-Jewelry-Gift-Box-Velvet-PU-Leather-Travel-Jewelry-Box-with-Logo.html
+  - https://uchangepromo.com/products/small-jewelry-case-with-mirror
+  - https://www.globalsources.com/knowledge/pu-leather-jewelry-box-has-velvet-lining/
+  - https://chd-paperpacking.en.made-in-china.com/product/SQXpoqKVEMUD/China-Unique-Pink-Anti-Tarnish-Canvas-Custom-Logo-Printed-Envelop-Buton-Fabric-Flap-Linen-Velvet-Jewelry-Packaging-Pouch.html
+  - https://haitoppackaging.en.made-in-china.com/product/sOutaxdEHFTz/China-Custom-Design-Recycled-Stamped-Wholesale-Paper-Packaging-Embossed-Paper-Parfum-Boxes-Handmade-Flip-Magnetic-100ml-Empty-Gift-Perfume-Kraft-Rigid-Box-Packaging.html
+- **Necklace and rejected items:**
+  - https://printify.com/custom-necklace/
+  - https://www.listifyai.net/keyword/personalized-jewelry
+  - https://findniche.com/etsy-product/tiny-birth-flower-necklace-wildflower-me-1292224302
+  - https://ecommerce-platforms.com/articles/shineon-print-on-demand-review
+- McKinsey Jul–Aug 2026 jewelry spending-intent claim: removed because I could not retrieve the source (it came from a search summary; treat as unverified).
