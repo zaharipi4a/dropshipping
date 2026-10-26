@@ -98,6 +98,9 @@ are worth reusing. Format: `- YYYY-MM-DD [agent] INSIGHT — evidence`
 - 2026-10-26 [product-scout:funny-gifts] Bluetooth scroll rings ("TikTok scrolling remote"): TikTok Shop Xring 182.8K sold at $24.69, 48.3K at $24.98, $39.99 listings 41.6K and 7.9K; Amazon page-turner rings 5,000/mo at $15.99 but falling 17-33% MoM; Walmart with charging case $5.69; Global Sources factory $4.82-5.80 (MOQ 50, lead 15-20 days). TikTok Shop tolerates $25-40 for the identical item, Amazon/Walmart do not.
 - 2026-10-26 [product-scout:funny-gifts] TikTok Shop gift boxes are where price tolerance is: Mayicivo Christmas self-care box with blanket 129.5K sold at $49.99, spa basket 68.4K at $38.99 (shop.tiktok.com/us/k/gender-neutral-gifts-white-elephant). Bundles that read as one gift beat single novelties in this market.
 
+- 2026-10-26 [useful-daily] INSIGHT: TikTok Shop unbranded men's wallets hold $26-40 at huge volume (GSOIAX $25.80 177.8K sold, TacticalTide $33.59 121.7K, umoven $39.95 39.7K) while Amazon plain slim wallets sit at $8.49-15.99; RankHero "mens wallet" Dec 550K vs Jul 201K. Best price-tolerance category found for light daily-use gifts. Source: shop.tiktok.com/us/k/mens-wallet, asinsight mens-wallet.
+- 2026-10-26 [useful-daily] INSIGHT: Made-in-China search pages give factory prices: carbon-fibre money-clip wallets $2.09-2.80 (MOQ 100-500), rolling knife sharpener kits $7.78-11.50 (MOQ 10-1000) at ~500-600 g, so the sharpener fails L-002 on the China route. Tumbler (rolling sharpener original) runs 110 Meta ads (BrandSearch, estimated).
+
 ---
 
 ## Rejected ideas
@@ -168,4 +171,6 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 [funny-gifts] Prank boxes, fake poop, middle-finger boxes, door knockers, hidden-reveal aprons, ugly sweaters/pajama pants, funny beanies/socks/mugs/blankets/tees — $2-20 floors, crude, size variants or fragile ceramic.
 - 2026-10-26 [funny-gifts] Desktop punching bag — near miss: Amazon top ASIN ~900/mo at $23.98, 548 searches/wk, $9 floor; only PU-leather MifLog holds $28.59 (6.1K sold TikTok).
 - 2026-10-26 [funny-gifts] Silicone ice molds, taco holders, meat claws, pizza scissors, back scratchers, travel bidet, wine stoppers, koozies — $5-15 anchors, no joke or gap.
+- 2026-10-26 [useful-daily] Rejected (data in products/scout-xmas2-20261026/01-scouting-useful-daily.md): retractable car charger ($10.98 TikTok floor, 25 listings), packing cubes, laptop stand, desk mats, magnetic LED pickup tool (4-8 LR44 coin cells, $3-10), universal grip socket ($5-11), chicken shredder ($3-10), manual coffee grinder, 3-in-1 wireless chargers (MagSafe trademark), key organizers, safety razor kits, HotHands-owned hand warmers, winter hat/scarf/glove sets ($9), microwave heat pads, self-care gift boxes (blanket+glass cup heavy/fragile; spa baskets cosmetics, $17-19 identical).
+- 2026-10-26 [useful-daily] Conditional only: slim RFID wallet with tracker pocket ($34.99; needs CJ unit <= $4.30) and magnetic rolling knife sharpener ($44.99; needs CJ US-stock unit <= $9.70, Tumbler copy risk).
 - 2026-10-26 [funny-gifts] Santa-swap dice and Bluetooth scroll ring — conditional leads only (fail L-009 floors $3-9 and $5.69; China-only); see products/scout-xmas2-20261026/01-scouting-funny-gifts.md.

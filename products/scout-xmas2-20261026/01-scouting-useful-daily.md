@@ -59,6 +59,7 @@ Other examined products are in the Dropped table below.
 | Microwave heat pads | Few sales (top 241 sold, $20.99); RankHero "not enough data" | L-004 |
 | Knife sharpener 4-stage handheld | Amazon $17.99 9K/mo, TikTok $7.69-12.99 | L-009 |
 | Under-desk footrest, ice scraper, car armrest cushion, car trash bin | Footrest 500+ g, scraper ~980 searches/wk, armrest/bin $14.18-15.93 | L-002/L-009 |
+| Self-care gift box (cross-lane lead: Mayicivo blanket + tumbler box $49.99 129.5K sold; spa basket $38.99 68.4K) | Box on TikTok "gifts-for-mom" page: "Christmas self-care gift box with flannel blanket and tumbler" $49.99, 129.5K, 4.7. Spa basket pages list the same style at $16.95-18.99 (241-283 sold) and a $39.99 listing with 1 sold; contents are not listed in titles (https://shop.tiktok.com/us/k/spa-gift-basket). Bundle price tolerance is real, but near miss: blanket ~600 g+ and a glass/ceramic cup (fragile, excluded) fail L-002 on any route; spa baskets are cosmetics (lotions, bath bombs, liquids: ingredient/labelling burden, not "useful daily"); cheapest identical $16.95-18.99; no CJ ready-made SKU or US stock checked (captcha). The useful part (blanket) is a $9-18 commodity (memory). | L-002, fragile, cosmetics, L-009; near miss, cozy lane's call |
 | Mouse jiggler, sling bags | asinsight data mismatched (non-jiggler ASINs); sling bags $9-28 with few sales over 2K | L-004 |
 
 ## Top 5 product x segment combos
