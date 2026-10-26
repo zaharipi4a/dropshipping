@@ -21,4 +21,4 @@ or prompt fix).
 | 2026-10-26 | nurse-reset-kit | growth | growth-strategist | opus | bg ∥ brand ∥ evolver | 04-growth-plan.md | pending | |
 | 2026-10-26 | nurse-reset-kit | qa brand | stage-qa | haiku | bg | verdict | FAIL | ~47 s; 2 real blockers + 1 false positive |
 | 2026-10-26 | nurse-reset-kit | brand (fix round 1) | brand-strategist | sonnet | bg | 03-brand.md | FAIL (2nd) | ~36 s; new issues: L-003 shipping-window claim, unpriced packaging extras, overclaimed name uniqueness |
-| 2026-10-26 | nurse-reset-kit | brand (fix round 2, ESCALATED) | brand-strategist | opus | bg | 03-brand.md | pending | escalation rule fired: 2 QA fails → opus |
+| 2026-10-26 | nurse-reset-kit | brand (fix round 2, ESCALATED) | brand-strategist | opus | bg | 03-brand.md | QA round 3 pending | ~43 s; escalation rule fired: 2 QA fails → opus |

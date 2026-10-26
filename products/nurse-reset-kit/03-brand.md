@@ -82,7 +82,7 @@ The growth-strategist owns the full avatar in `04-growth-plan.md`. This sketch o
 | Competitor type | What they do | Our difference |
 |---|---|---|
 | Amazon generics (rollers $6-8, masks $7-14; `estimated`, typical price ranges from 02-validation) | Single gadget, no story | A complete day-sleep ritual in one pouch, framed against roughly $25 of loose items (`estimated`) |
-| Premium masks (Nodpod $38, Manta $39; `measured` list prices on the asinsight tracker, via 02-validation) | Great mask, mask only, general audience | We are the full ritual for nights, and the Pair is $59 for two kits |
+| Premium masks (Nodpod $38, Manta $39; `measured` prices shown on the asinsight tracker in May 2026, via 02-validation; not re-checked) | Great mask, mask only, general audience | We are the full ritual for nights, and the Pair is $59 for two kits |
 | Nurse gift boxes / subscriptions (NurseLuxe, NurseSelf.Care, Nursa lists) | Lotion, socks, candles, tumblers | Functional night-shift use, nobody else leads with an ice roller |
 | Pinch Provisions "Wind Down Kit" ($32) | Generic wind-down box, stone roller, mist, not for shift workers | Ours is built around shift-work sleep, with a gift-ready two-unit format |
 | Gift guides | "Sleep mask" as one line item | We are the product the guide could point to |
