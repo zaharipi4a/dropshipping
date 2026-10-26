@@ -121,3 +121,4 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 [cozy-home] Moon lamps, Christmas projector lights, LED curtain lights, tabletop trees — lithium/battery cells, 3.0–4.0 star Christmas-only projectors, thin sales (<400), or fragile ceramic $78 set.
 - 2026-10-26 [cozy-home] Fireplace flame diffuser — proven (TikTok 11.2K sold at $37) but landed ~44% of $45 and leak risk; backup only.
 - 2026-10-26 Christmas book nook kit — HOLD for Oct 2027 unless a CJ US-warehouse SKU and landed ≤ $19.67 are found; China-only route leaves ~2 weeks and no organic test (L-008).
+- 2026-10-26 [orchestrator] Mini Christmas trees (tabletop) — not proven: top ASINs sell only 100–200/mo (asinsight, estimated). Correction to the line-72 insight: book nook landed is $20.45–29.20 (35–50% of $59, estimated), not $20–26 (QA r2 arithmetic fix).
