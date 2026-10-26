@@ -28,7 +28,7 @@ Appeal = Obvious appeal (1-5). Shipping is `assumed`. Sold counts are TikTok Sho
 ## Positioning gaps
 | Product | Ignored segment | Why it is (not) a gap | Reachability |
 |---|---|---|---|
-| Wallet | "Gift for the husband/dad who keeps losing his wallet" | Not a gap. Tracker-pocket wallets are already sold: TacticalTide AirTag-style $32.99 34.5K (mens-wallet TikTok page), Amazon B0F8QJFWK5 / B0DZHBM8KR $29.99 (3-6K/mo), and the TikTok "airtag-wallet" page lists ~15 more (https://shop.tiktok.com/us/k/airtag-wallet; its 15.9K top listing is a $14.99 sohochic PU wallet, not tracker-specific; 34.5K is on the mens-wallet page). | TikTok, Reels, Pinterest |
+| Wallet | "Gift for the husband/dad who keeps losing his wallet" | Not a gap. Tracker-pocket wallets are already sold: TacticalTide AirTag-style $32.99 34.5K (mens-wallet TikTok page), Amazon B0F8QJFWK5 / B0DZHBM8KR $29.99 (3-6K/mo), and the TikTok "airtag-wallet" page lists ~15 more (https://shop.tiktok.com/us/k/airtag-wallet; its 15.9K top listing is a $14.99 sohochic PU wallet, not tracker-specific [SUPERSEDED: 02-validation.md re-fetched the listing; its title says "AirTag Holder", so it IS a tracker-pocket wallet]; 34.5K is on the mens-wallet page). | TikTok, Reels, Pinterest |
 | Knife sharpener | Home-cook gift at $39-45 vs Tumbler $129-176 | Mid-price kits are sold bare, but AccuSharp/Work Sharp occupy $39.99 | Cooking TikTok |
 
 ## Recipient test
