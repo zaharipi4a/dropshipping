@@ -68,6 +68,12 @@ are worth reusing. Format: `- YYYY-MM-DD [agent] INSIGHT — evidence`
 - 2026-10-26 [product-validator] An owner outside the US pays international card and FX fees on US orders, so budget 4.5% + $0.30 per order, not 3%. At realistic duty and clearance, every scouted kit lands at 35–39% of price; only 2-pack bundles meet L-002.
 - 2026-10-26 [product-validator] CORRECTION to the scout's heatless-curls insight: TT123 attributes its 11.4k TikTok Shop orders (Aug 14–Sep 10) to an UNNAMED heatless-headband brand, not Kitsch. Kitsch's own figure is 29.5k sold, lifetime, on its TikTok Shop listing. The duty-stack lower bound is 17.5% (MFN 5% + new 301 12.5%), not 20%.
 - 2026-10-26 [product-validator] Amazon sales proof (asinsight, 2026): blackout sleep masks have MZOO ~50k units/mo, and premium masks hold at $38–39 (Nodpod ~8k, Manta ~7k). Top sellers for "gifts for nurses" (2.4k searches/week, April) are $8–14 self-care items, with no kits in the top 10. Gift buyers are anchored low.
+- 2026-10-26 [product-scout:gadgets-fun] RankHero (rankhero.com/keywords/<kw-with-dashes>) gives 12-month global monthly volume per keyword: free, readable, good for Q4 seasonality. "book nook kit" Dec 135k vs 33k Apr–Jul; "christmas book nook" 63% of searches in Oct–Dec; "3d wooden puzzle" Dec 40.5k vs ~12k; "crochet kit" Dec 246k vs ~135k. Many asinsight keyword pages 404 (only popular keywords exist: wine-opener, crochet-kit, book-nook-kit, christmas-book-nook, 3d-wooden-puzzle work).
+- 2026-10-26 [product-scout:gadgets-fun] Adult wooden miniature kits (book nooks, 3D puzzle houses) sell at $26–55 on Amazon with premium DTC at $90–190 (Anavrin: 724 active Meta ads, est. $0.55–1.0M/mo, BrandSearch). Factory cost $6.72–11.40 at MOQ 60–100 (Made-in-China), but 450–600 g means landed ~$20–26 under the duty assumptions, i.e. 34–44% of a $59 price. LED versions use AAA/AA (not coin cells), batteries not included; age label 14+.
+- 2026-10-26 [product-scout:gadgets-fun] brandsearch.co/brands/<store-domain> shows Meta active-ad counts and traffic/revenue estimates for competitor stores without login (ad age usually not shown).
+- 2026-10-26 [product-scout/personal-gifts] Printify (developers.printify.com, public API, so it fits a custom site) has US-fulfilled engraved jewelry: bar necklaces by Fulfill Engine, production 1–9 business days, US shipping 2–5; base ~$18.50 free plan, ~$12.76 Premium. ShineOn (message-card jewelry) is Shopify-only and does not fit L-006. Official 2026 holiday cutoffs not published in sources read; verify in the Printify dashboard.
+- 2026-10-26 [product-scout/personal-gifts] Satin/silk sleep sets are proven (Amazon silk pillowcase top ASIN ~10k units/mo, satin pillowcase ~37k searches/wk, Kitsch set 2,238 reviews at 4.9 stars, Slip/Blissy sell holiday gift sets), but generic sets sit at $10–16. Only a gift-box version at $35–45 clears L-002 (light ~220 g, landed ~$12.70 estimated). Jewelry travel cases: ASINs 10k and 8k units/mo, December search peak (SaleHoo), but $10–16 anchor.
+- 2026-10-26 [product-scout/personal-gifts] Personalized jewelry is crowded: 676k Etsy listings, median $24.39 (ListifyAI), Etsy birth-flower necklace $19.99 with ~27k lifetime sales (FindNiche, third-party). Amazon "personalized name necklace" top ASIN only ~1,000 units/mo. McKinsey Jul–Aug 2026 flagged jewelry among categories with reduced holiday spend intent.
 
 ---
 
@@ -93,3 +99,14 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 Salt-Season paw-washer kit → snow-belt city dog owners — NO-GO (validator): Dexas MudBuster ($10–15, ~62k ratings) already sells against road salt; landed 39%; S/M/L sizes.
 - 2026-10-26 Pet-hair turnover kit → Airbnb/STR hosts — NO-GO (validator): B2B hosts already buy these $7–15 tools on Amazon; little organic reach; design-patent takedown risk (ChomChom-style roller, Uproot-style rake).
 - 2026-10-26 Post-Shift Reset Kit for night-shift nurses — owner rejected at Gate B: positioning felt contrived; wants a product with obvious, broad Christmas gift appeal.
+- 2026-10-26 Rechargeable milk frother coffee/cocoa set — Amazon anchor $9 (40k units/mo), sales falling in June; $25+ needs a filler bundle; Li-ion.
+- 2026-10-26 Electric wine opener gift set — Oster/Secura/Rabbit own it ($21–50), landed 44–52% of $39, Li-ion shipping, Rabbit design-patent risk, no Q4 proof found.
+- 2026-10-26 Fidget/desk toys for adults — NeeDoh (Schylling) branded top seller, rest $5–10 squishies, 837 weekly searches.
+- 2026-10-26 Diamond painting / embroidery kits — big volume but $7–17 anchor, cannot reach $25+ without contrived bundle.
+- 2026-10-26 Mini tabletop Christmas trees — top ASINs sell 100–200/mo, string lights at $10; no proof of volume.
+- 2026-10-26 Crochet Christmas ornament kit — kept as weak backup: Woobles owns the $30 design tier, unbranded anchor $8–15, landed ~40%.
+- 2026-10-26 Blanket scarf — search ~247/wk, top ASINs down 14–50% MoM (asinsight, Aug 2026).
+- 2026-10-26 Valet tray — top-10 average only ~670 units/mo.
+- 2026-10-26 Gua sha sets — skin claims plus Kitsch/ANUA/medicube brands dominate.
+- 2026-10-26 Passport holder / large jewelry organizer box / jewelry advent calendar — not a gift-obvious item / bulky / must arrive by Dec 1.
+- 2026-10-26 ShineOn message-card jewelry — Shopify-only, breaks L-006 (custom site).
