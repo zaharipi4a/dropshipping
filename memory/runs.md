@@ -34,3 +34,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas-20261026 | product-scout (lane gadgets-fun) | inherit | background fan_out | QA FAIL r1 (6 blocking: no appeal/timing cols, CM math, weak proof, rejected items in top 5) → sent back | top: Christmas book nook kit $59; music box kit $42 (fails L-002) |
 | 2026-10-26 | scout-xmas-20261026 | stage-qa ×2 (personal-gifts, gadgets-fun) | haiku | background parallel | — | both FAIL round 1; main cause: scouts loaded pre-CL-005 instructions |
 | 2026-10-26 | scout-xmas-20261026 | product-scout ×2 rework (personal-gifts, gadgets-fun) | inherit | resumed via SendMessage | QA r2 pending | personal-gifts: necklace dropped, satin set $42 stays; gadgets-fun: book nook held for 2027 unless CJ US SKU |
+| 2026-10-26 | scout-xmas-20261026 | product-scout (lane cozy-home) | inherit | background fan_out | QA r1 pending | top: aurora projector "Night In" gift box $39 (landed ~33%); 3-in-1 sunset lamp $37–39 |
