@@ -51,3 +51,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r1 (pets-hobbies) | haiku | background | FAIL r1 | 4 blocking: failing-L-009 items still shortlisted/ranked, unsourced claims, unsupported Jan figure → sent back |
 | 2026-10-26 | scout-xmas2-20261026 | product-scout rework (pets-hobbies) | inherit | resumed via SendMessage | QA r2 pending | lane concludes: no pick; near misses documented |
 | 2026-10-26 | scout-xmas2-20261026 | product-scout (funny-gifts) | inherit | background fan_out | QA r1 pending | 0 pass; conditional leads: white-elephant dice (add-on), scroll-ring remote (46% landed); cross-lane lead: TikTok gift boxes $39-50 high volume |
+| 2026-10-26 | scout-xmas2-20261026 | stage-qa r2 (pets-hobbies) | haiku | background | FAIL r2 → orchestrator fixed | 2 trivial blockers (rows still numbered 1/2, empty heading) + cat-bed 57% fixed directly; other minors left (no pick from lane) |
