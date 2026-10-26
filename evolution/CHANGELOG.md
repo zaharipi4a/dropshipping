@@ -16,6 +16,20 @@ Revert: <how to undo, e.g. "remove rule L-007" or the old text>
 
 ---
 
+## CL-002 — 2026-10-26
+Trigger: FB-002
+Changed:
+- workflow/pipeline.yaml: new; the pipeline as data (stages, parallel/fan-out, models, gates, escalation)
+- .claude/agents/*: `model:` tiers (haiku: librarian, stage-qa; opus: validator, growth, analyst, evolver; sonnet: rest)
+- Parallelism: scout fans out over 3 lanes; brand ∥ growth (growth now owns the avatar); creatives fan out per angle group; store ∥ social ∥ compliance; librarian always in the background
+- New agents: librarian (knowledge filing), stage-qa (blocking quality gate), compliance-officer
+- knowledge/: new cross-product library; memory/runs.md: new run log
+- All stage outputs start with a `## Handoff` section; agents check knowledge/ before researching
+- .claude/skills/pipeline: rewritten to execute pipeline.yaml, run QA + librarian, log, escalate to opus on repeated QA failure
+- evolver: may edit pipeline.yaml and model tiers based on memory/runs.md
+Reason: Owner wants maximum parallelism, cost/difficulty-based model routing, and every finding saved.
+Revert: git revert the commit that added workflow/pipeline.yaml.
+
 ## CL-001 — 2026-10-26
 Trigger: FB-001
 Changed:

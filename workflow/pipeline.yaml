@@ -1,0 +1,113 @@
+# The pipeline as data. This file is the single source of truth for stage order,
+# parallelism, models, inputs, outputs and gates. The /pipeline orchestrator
+# executes it; the evolver may edit it (logging every change in evolution/CHANGELOG.md).
+#
+# Semantics
+#   parallel:   every agent in the list launches in the SAME message (true parallel)
+#   fan_out:    the same agent launched N times at once, each with its own lane, each writing its own file
+#   needs:      stage ids that must be complete first
+#   gate:       stop and wait for the owner after this stage
+#   always_after_stage: helpers run after every stage (librarian in the background)
+#   model:      haiku = mechanical/checking, sonnet = research/production, opus = judgment/strategy/money
+#   escalate:   if stage-qa FAILS twice or the owner rejects at a gate, rerun with this model
+
+models:
+  haiku:  [librarian, stage-qa]
+  sonnet: [product-scout, brand-strategist, copywriter, creative-producer, store-builder,
+           social-manager, ads-manager, compliance-officer]
+  opus:   [product-validator, growth-strategist, performance-analyst, evolver]
+  escalate_to: opus
+
+always_after_stage:
+  - agent: stage-qa          # blocking: must PASS before the next stage or gate
+    blocking: true
+  - agent: librarian         # non-blocking: runs in background alongside the next stage
+    blocking: false
+  - log: memory/runs.md
+
+stages:
+  - id: intake
+    owner: orchestrator
+    outputs: [STATUS.md]
+
+  - id: scout
+    needs: [intake]
+    fan_out:
+      agent: product-scout
+      # When there's no seed, split the market into lanes researched at the same time.
+      # With a seed product/niche, run a single scout instead.
+      lanes:
+        beauty-personal: "beauty tools, hair, skincare devices (no medical), fashion accessories, jewelry"
+        home-pets:       "pets, home organization, cleaning, kitchen gadgets, bedding/sleep"
+        active-hobby:    "fitness/recovery gear, outdoor, sports-specific gear, car, travel, office, hobbies"
+      output: 01-scouting-<lane>.md
+
+  - id: validate
+    needs: [scout]
+    agent: product-validator
+    inputs: [01-scouting*.md]
+    output: 02-validation.md
+    gate: A            # owner picks product × segment
+
+  - id: brand-and-growth
+    needs: [validate]
+    parallel:
+      - agent: brand-strategist
+        output: 03-brand.md
+      - agent: growth-strategist     # owns avatar, angles, channels, organic test
+        output: 04-growth-plan.md
+    gate: B            # owner approves brand + marketing plan together
+
+  - id: content
+    needs: [brand-and-growth]
+    parallel:
+      - agent: copywriter
+        output: 05-copy.md
+      - fan_out:
+          agent: creative-producer
+          lanes_from: 04-growth-plan.md   # split angles into 2–3 groups, one producer per group
+          output: 06-creatives-<group>.md
+
+  - id: build
+    needs: [content]
+    parallel:
+      - agent: store-builder
+        output: [07-store.md, store/]
+      - agent: social-manager
+        output: 08-social.md
+      - agent: compliance-officer      # reviews 05/06 while store and social are built
+        output: compliance.md
+
+  - id: organic-test
+    needs: [build]
+    owner: human        # owner posts per 08-social.md, then runs /review <slug>
+    optional: true
+
+  - id: ads
+    needs: [build]      # and organic-test results if it ran
+    parallel:
+      - agent: ads-manager
+        output: 09-ads.md
+    then:
+      - agent: compliance-officer      # final policy pass on the ads
+        output: compliance.md
+    gate: C            # owner approves budget + go-live; nothing spends before this
+
+  - id: launch
+    needs: [ads]
+    owner: orchestrator
+    output: 10-launch.md
+
+  - id: optimize
+    needs: [launch]
+    loop: weekly        # triggered by /review (or a scheduled weekly task)
+    sequence:
+      - agent: performance-analyst
+        output: 11-performance.md
+      - parallel:
+          - fan_out: { agent: creative-producer, lanes_from: 11-performance.md }   # new creatives for winning angles
+          - agent: ads-manager                                                      # update test plan
+          - agent: evolver                                                          # only if learnings were queued
+
+on_feedback:
+  - agent: evolver      # /feedback and pending inbox entries; runs before any stage that would use stale rules

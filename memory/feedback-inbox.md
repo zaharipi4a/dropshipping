@@ -23,3 +23,9 @@ Source: owner
 Scope: global
 Feedback: Sell products that are proven to sell, then position ourselves in a specific market and dropship it. Building the website is the easy part; marketing is the hardest and needs the most attention.
 Context: Initial design of the pipeline.
+
+## FB-002 — 2026-10-26 — applied → CL-002
+Source: owner
+Scope: global
+Feedback: Run things in parallel wherever possible; use different models (Haiku/Sonnet/Opus) by difficulty; make the whole thing a workflow where everything any agent finds is saved somewhere; make the architecture the best it can be.
+Context: After the first scout run.

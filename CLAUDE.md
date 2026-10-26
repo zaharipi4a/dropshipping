@@ -22,26 +22,23 @@ build the store → produce creatives → set up socials → plan ads → launch
 positioning them for a specific segment the current sellers ignore. The store is
 the easy part; most of the effort goes to marketing (stages 4–9).
 
+The full workflow (stages, parallelism, models, inputs/outputs, gates) is data in
+**`workflow/pipeline.yaml`**. That file is the source of truth; this is the picture:
+
 ```
- 0 INTAKE      orchestrator             → products/<slug>/STATUS.md
- 1 SCOUT       product-scout            → 01-scouting.md     proven sellers + segment gap
- 2 VALIDATE    product-validator        → 02-validation.md   economics, risk, go/no-go
-   ── GATE A: human picks product × segment ──
- 3 BRAND       brand-strategist         → 03-brand.md
-   ── GATE B: human approves the brand ──
- 4 GROWTH      growth-strategist        → 04-growth-plan.md  angles, channels, organic test
- 5 CONTENT     copywriter        ┐ parallel → 05-copy.md
-               creative-producer ┘          → 06-creatives.md (+ creatives/)
- 6 BUILD       store-builder     ┐ parallel → 07-store.md (+ store/)
-               social-manager    ┘          → 08-social.md
-   ── organic test runs here (no ad spend) ──
- 7 ADS         ads-manager              → 09-ads.md          scale organic winners
-   ── GATE C: human approves budget + go-live ──
- 8 LAUNCH      orchestrator checklist   → 10-launch.md
- 9 OPTIMIZE    performance-analyst      → 11-performance.md  weekly loop:
-               → creative-producer refreshes creatives → ads-manager → analyst …
- ∞ EVOLVE      evolver                  → evolution/*, agent "Learned rules"
+ intake ─▶ SCOUT ×3 lanes (parallel, sonnet) ─▶ VALIDATE (opus) ─▶ GATE A
+        ─▶ BRAND (sonnet) ∥ GROWTH PLAN (opus) ─▶ GATE B
+        ─▶ COPY (sonnet) ∥ CREATIVES ×2–3 angle groups (sonnet)
+        ─▶ STORE ∥ SOCIAL ∥ COMPLIANCE (sonnet) ─▶ organic test (owner, $0)
+        ─▶ ADS (sonnet) → COMPLIANCE ─▶ GATE C ─▶ LAUNCH
+        ─▶ weekly loop: ANALYST (opus) ─▶ CREATIVES ×N ∥ ADS ∥ EVOLVER (opus)
+
+ after every stage:  stage-qa (haiku, blocking) · librarian (haiku, background) · log to memory/runs.md
+ on feedback:        evolver (opus)
 ```
+
+Model tiers: **haiku** = checking/filing, **sonnet** = research/production,
+**opus** = judgment, strategy and money decisions. If an agent fails QA twice, it reruns on opus.
 
 ## Ground rules for every agent
 
@@ -49,7 +46,12 @@ the easy part; most of the effort goes to marketing (stages 4–9).
    product's existing stage files. Never contradict an approved earlier stage
    (e.g. don't rename the brand in the copy stage).
 2. **Write to files, not to chat.** Every stage produces its markdown file in
-   `products/<slug>/`. Return only a short summary to the orchestrator.
+   `products/<slug>/`, starting with a `## Handoff` section (5–10 key facts for
+   downstream agents). Return only a short summary to the orchestrator.
+2b. **Knowledge first.** Before researching, check `knowledge/` (suppliers,
+   competitors, communities, creators, hooks, sources). The librarian files new
+   findings there after each stage. Parallel agents write to different files, and
+   shared files are append-only (re-read right before editing).
 3. **Log to memory.** Append decisions and notable findings to `memory/MEMORY.md`
    (decision log) using the format defined there. Append, don't rewrite history.
 4. **Cite evidence.** Market claims need a source URL or a stated assumption.
@@ -67,7 +69,10 @@ the easy part; most of the effort goes to marketing (stages 4–9).
 
 - `.claude/agents/` — the specialist subagents (each ends with a `## Learned rules` section the evolver maintains)
 - `.claude/skills/` — the slash commands above
-- `memory/MEMORY.md` — the shared long-term memory: portfolio, decisions, insights
+- `workflow/pipeline.yaml` — the pipeline as data (stages, parallelism, models, gates)
+- `memory/MEMORY.md` — the shared long-term memory: owner profile, portfolio, decisions, insights
+- `memory/runs.md` — one row per agent run (model, mode, QA verdict)
+- `knowledge/` — cross-product library: products, suppliers, competitors, communities, creators, hooks, sources
 - `memory/feedback-inbox.md` — raw refinements waiting for the evolver
 - `evolution/LEARNINGS.md` — global rules every agent must follow
 - `evolution/CHANGELOG.md` — every change the evolver made, and why
