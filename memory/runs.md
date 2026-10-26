@@ -60,3 +60,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas2-20261026 | product-scout rework (useful-daily) | inherit | resumed via SendMessage | QA r2 pending | wallet + knife both near misses; lane has no ranked picks |
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r2 (useful-daily) | haiku | background | FAIL r2 → orchestrator fixed | 3 blocking (wallet viability wording, timing rule, missing combos note) + minors 1-3, 5 fixed directly; lane has no pick, so no further QA round |
 | 2026-10-26 | scout-xmas2-20261026 | product-validator | opus | background | QA pending | merge round 1 + round 2 near misses; honest path (a)/(b)/(c) |
+| 2026-10-26 | scout-xmas2-20261026 | product-validator | opus | background | QA r1 pending | all 7 near misses NO-GO (rubric /70, GO ≥ 49); recommends path (b): build store now, CJ quote check by Oct 30, Nov 2 kill date; Fathers/Mothers Day better first targets than Valentines (CNY) |

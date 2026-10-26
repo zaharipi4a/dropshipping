@@ -2,7 +2,7 @@
 
 - Slug: `scout-xmas2-20261026`
 - Segment: US Christmas gift buyers (gifts for others) + stocking stuffers / white-elephant / Secret Santa
-- Current stage: 1 — scout (3 lanes in parallel)
+- Current stage: Gate A — validator: no product passes for Christmas 2026; owner decision needed (see 02-validation.md)
 - Status: active
 - Blockers: _none_
 
