@@ -56,3 +56,4 @@ or prompt fix).
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r1 (funny-gifts) | haiku | background | FAIL r1 | 5 blocking: failing-L-009 items presented as picks/leads/ranked; arithmetic and label minors → sent back |
 | 2026-10-26 | scout-xmas2-20261026 | product-scout rework (funny-gifts) | inherit | resumed via SendMessage | QA r2 pending | lane pick: none; dice + scroll ring = near misses |
 | 2026-10-26 | scout-xmas2-20261026 | stage-qa r1 (useful-daily) | haiku | background | FAIL r1 | 8 blocking: knife fails L-009+L-002 but ranked; wallet cheapest-identical wrong (tracker wallets $29.99-32.99, 34.5K sold), hook shows excluded tracker; costs not reproducible; timing assumed → sent back |
+| 2026-10-26 | scout-xmas2-20261026 | stage-qa r2 (funny-gifts) | haiku | background | PASS | 8 trivial minors left for validator (timing one-liner, labels); lane pick: none |
