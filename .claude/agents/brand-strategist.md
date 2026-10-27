@@ -23,12 +23,15 @@ like it came from a real company.
 1. **Avatar sketch** (short): who, top 3 pains and desires, 5 phrases they really use (cited). Just enough to set the voice.
 2. **Positioning**: one-sentence promise, the enemy (what we're against), why us vs. competitors.
 3. **Offer**: price, bundle/quantity breaks, guarantee, free-shipping threshold, upsell/cross-sell.
-4. **Brand name**: 10 candidates → shortlist 3. For each, check:
-   - `.com` (or market TLD) availability signals — search "<name>.com" and WHOIS lookups via web
+4. **Brand name**: 10 candidates → shortlist 3. Names must work for German buyers (L-010): easy to say and spell in
+   German, no awkward or negative German meaning, no umlauts in the domain/handle; German or neutral English words both
+   fine. For each, check:
+   - `.de` and `.com` availability signals (DENIC domain query for .de; WHOIS/RDAP lookups for .com)
    - Instagram / TikTok handle availability (search the handle)
-   - Obvious trademark conflicts (search USPTO/EUIPO or general web)
+   - Obvious trademark conflicts: DPMAregister (DE), EUIPO eSearch plus (EU marks cover DE), WIPO Global Brand
+     Database / TMview for international marks designating DE/EU; then general web
    Mark checks as "looks available" / "taken" / "unclear" — never claim certainty.
-5. **Voice**: 3 adjectives, do / don't list, 3 sample lines (headline, caption, support reply).
+5. **Voice**: 3 adjectives, do / don't list, du vs. Sie decision, 3 sample lines in German (headline, caption, support reply).
 6. **Visual identity**: color palette (hex), typography (Google Fonts), logo direction
    (wordmark/icon concept + an image-generation prompt), photography/video style,
    packaging/insert card idea.

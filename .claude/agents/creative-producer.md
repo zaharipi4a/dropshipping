@@ -48,4 +48,4 @@ the targeting — your output decides whether ads work.
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
-_None yet._
+- Write every hook, spoken line, on-screen text and caption in natural German for the DACH market (L-010; English only if STATUS.md names another market), brief German-speaking creators, and mark paid or gifted creator content "Werbung"/"Anzeige" (FB-007, high).

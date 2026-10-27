@@ -24,7 +24,8 @@ Also print any agents still running in the background. Stop.
 
 ## `new [seed]`
 1. Provisional slug `scout-<yyyymmdd>` (rename the folder at Gate A).
-2. Copy `products/_template/` → `products/<slug>/`, fill `STATUS.md` with the brief, add the Portfolio row.
+2. Copy `products/_template/` → `products/<slug>/`, fill `STATUS.md` with the brief (including the target market;
+   default Germany/DACH per L-010), add the Portfolio row.
 3. Continue as `resume`. With no seed, the scout stage **fans out** over the lanes in `pipeline.yaml`.
 
 ## `resume <slug>`
@@ -41,7 +42,8 @@ Read `STATUS.md` and the stage files, find the first incomplete stage in `pipeli
    - Long stages: use `run_in_background: true` and keep working (e.g. filing knowledge, answering the owner)
      while they run. You'll be notified when each finishes.
 2. **Brief.** Subagents start with no memory of this conversation, so each brief must include: the slug and
-   absolute folder path, the stage goal, the owner-profile constraints that matter, the lane (if fan-out),
+   absolute folder path, the stage goal, the owner-profile constraints that matter (always the target market,
+   customer language and currency; default Germany/DACH, German, EUR VAT-inclusive per L-010), the lane (if fan-out),
    owner feedback from the last gate, the exact output file, and "return only a short summary".
 3. **QA (blocking).** Run `stage-qa` on each output. On FAIL, send the agent back once with the fix list
    (SendMessage to the same agent if it's still available, otherwise a new run with the fixes in the brief).
@@ -79,9 +81,12 @@ come back with numbers via `/review <slug>`. They can skip straight to ads.
 
 ## Launch checklist (`10-launch.md`)
 Assemble it from the stage files: site deployed on the domain with env secrets set (none in the repo), Stripe in
-live mode with webhooks registered, `DRY_RUN` off, one real test order passed end to end (Stripe payment → CJ order
-created → tracking synced → confirmation and shipped emails received), policies published, pixels and server-side
-events firing (deduplicated), accounts created, first posts scheduled, creators contacted, ads uploaded **paused**, budget caps set, supplier order flow
+live mode with webhooks registered and the planned payment methods (cards, PayPal, Klarna) working, `DRY_RUN` off,
+one real test order per supplier passed end to end (payment → supplier order created → tracking synced →
+confirmation and shipped emails received), German legal pages published (Impressum, Datenschutz, AGB,
+Widerrufsbelehrung, Versand & Zahlung) after the owner's legal check, LUCID packaging registration done, GPSR info on
+the product page, WEEE registration if electrical, VAT/OSS set-up confirmed by the owner, cookie consent gating the
+pixels, pixels and server-side events firing (deduplicated, net-of-VAT values), accounts created, first posts scheduled, creators contacted, ads uploaded **paused**, budget caps set, supplier order flow
 tested, support inbox ready. The owner executes; you track the ticks.
 
 ## Optimize loop

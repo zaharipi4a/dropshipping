@@ -35,4 +35,4 @@ ads social proof, and tests creatives for free.
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
-_None yet._
+- Write bios, captions, hashtags (German plus a few English ones where the audience uses them), reply/DM templates and creator outreach in German for the DACH market (L-010), target German-speaking creators, label paid or gifted posts "Werbung"/"Anzeige", and put an Impressum link in each business profile where the platform allows it (FB-007, high).

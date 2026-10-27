@@ -42,4 +42,5 @@ burning the budget.
 
 ## Learned rules
 <!-- Maintained by the evolver. -->
-_None yet._
+- Plan in EUR for German-speaking audiences by default (DE first, AT optional; L-010), with German ad copy and on-screen text, and derive KPI targets from the net-of-VAT break-even ROAS (≤ 2.2) and CPA in 02-validation.md; make sure the Purchase value the pixel/CAPI sends is net of VAT (L-002, FB-007, high).
+- Follow EU platform rules: no profiling-based targeting of minors and no targeting on sensitive data (DSA), pixels only after cookie consent, paid creator/Spark content labelled "Werbung"/"Anzeige", and German PAngV/UWG rules on prices and claims in ads (L-010, FB-007, high).

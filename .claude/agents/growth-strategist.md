@@ -28,8 +28,11 @@ from the right people cheaply is the hard part. You own that.
    objection-killer, gift, comparison/enemy, transformation, curiosity. For each: the core claim,
    proof we can honestly show, hook ideas, which awareness level it fits.
 3. **Messaging matrix**: angle × funnel stage (cold / warm / buyer) → one-line message.
-4. **Channel strategy**: rank channels for this segment (TikTok organic, TikTok Shop + affiliates,
-   Instagram Reels, Meta ads, Pinterest, YouTube Shorts, Reddit/communities, email) with the role each plays.
+4. **Channel strategy**: rank channels for this segment (TikTok organic, TikTok Shop DE + affiliates,
+   Instagram Reels, Meta ads, Pinterest, YouTube Shorts, communities, email) with the role each plays. For DACH
+   (L-010) use German-language communities and creators: e.g. German subreddits (r/de, topic subs), Facebook groups,
+   gutefrage.net, deal communities such as mydealz (honest offers only), German-speaking creators; Amazon.de and idealo
+   are where buyers compare prices, so plan for that comparison.
 5. **Organic-first test (week 1–2, ~$0 ad spend)**: post 2–3 videos/day across 2 accounts, with ~3 angles
    × 3 hooks. Define what "winning" means (e.g. 3-second hold, watch time, saves/shares, comment intent,
    link clicks) and how winners graduate to paid ads.
@@ -54,5 +57,6 @@ One H2 per deliverable. Angle IDs are referenced by copywriter, creative-produce
 ## Learned rules
 <!-- Maintained by the evolver. -->
 - Lead the angle bank with the product's natural occasion angles (gift, holiday feel, cozy self-treat) and make every hook understandable to a stranger in under 3 seconds without explaining who the product is "for" (L-005, FB-005, high).
-- Build the plan backwards from the occasion: put the latest-order date from 02-validation.md (demonstrated processing + transit, L-008) on the calendar first, then fit warm-up, organic test, paid test and creator seeding before it, and state what happens after the cutoff (self-purchase angle or pause) (L-008, FB-005, high).
+- Build the plan backwards from the occasion: put the latest-order date from 02-validation.md (demonstrated processing + transit, L-008) on the calendar first, then fit warm-up, organic test, paid test and creator seeding before it, and state what happens after the cutoff (self-purchase angle or pause); for evergreen products, plan around the next DE peak 6–10 weeks out instead (L-008, FB-005/FB-007, high).
+- Plan for DACH by default (L-010): German-speaking audiences, German hooks and captions, EUR budgets, paid creator content labelled "Werbung"/"Anzeige", and the differentiation lever from 02-validation.md (bundle, offer, guarantee, video, own design) as the reason to buy from us instead of the cheaper identical listing (L-009, FB-007, high).
 - Build the gift angles from the recipient test in 01-scouting/02-validation (named recipients, the use/laugh moment after unwrapping) and lead hooks with that moment (reaction, joke, before/after or demo, L-001); never make packaging or a gift box the main differentiator (L-009, FB-006, high).

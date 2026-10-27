@@ -38,6 +38,11 @@ stages:
       agent: product-scout
       # When there's no seed, split the market into lanes researched at the same time.
       # With a seed product/niche, run a single scout instead.
+      # Lanes are categories only, never tied to one market or season (FB-007, CL-007). The target market,
+      # language and currency come from STATUS.md, else the Owner profile (default DE/DACH, German, EUR; L-010).
+      # Every lane covers target-market proof AND market-arbitrage proof (proven elsewhere, not served in the
+      # target market; L-004), evergreen items and peaks 6-10 weeks out (L-008), and the L-006 supplier tiers.
+      market_from: [STATUS.md, memory/MEMORY.md#owner-profile]
       lanes:
         beauty-personal: "beauty tools, hair, skincare devices (no medical), fashion accessories, jewelry"
         home-pets:       "pets, home organization, cleaning, kitchen gadgets, bedding/sleep"

@@ -120,9 +120,9 @@ What's realistic now, in order of impact:
    ([docs](https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-mcp-server/ads-mcp-server-overview),
    [announcement](https://developers.facebook.com/blog/post/2026/07/16/meta-ads-mcp-server/)) for insights,
    creating ads (paused) and A/B tests. Connected, `/review` pulls numbers itself, and ads-manager can draft
-   campaigns as **paused** for you to approve. The store is a custom-coded site with Stripe payments and
-   CJdropshipping API fulfillment, so `/review` can also read revenue from Stripe and fulfillment/tracking
-   status from CJ (or the store's admin view) with read-only keys.
+   campaigns as **paused** for you to approve. The store is a custom-coded, supplier-agnostic site with Stripe payments and
+   supplier API fulfillment (CJdropshipping, EU-stock suppliers, print-on-demand), so `/review` can also read revenue
+   from Stripe and fulfillment/tracking status from the suppliers (or the store's admin view) with read-only keys.
 2. **AI-generated UGC at volume.** Filmed creator UGC runs ~$150–300 per video, while AI variants cost about $1
    ([DropCommerce](https://blog.dropcommerce.com/posts/best-ai-video-tools-for-dropshipping)). Video models like
    Veo, Kling and Seedance can turn creative-producer's scripts into test videos
