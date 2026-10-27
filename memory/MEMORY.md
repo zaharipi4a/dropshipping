@@ -10,12 +10,12 @@ entries into `evolution/LEARNINGS.md`.
 
 Fill in once; agents tailor everything to it.
 
-- Target markets / ship-to countries: **US** (owner is based outside the US, likely Europe — no US residency needed to sell; payments via owner's home-country Shopify Payments/Stripe)
-- Store language(s): English (US)
+- Target markets / ship-to countries: **Germany first (DACH: DE + AT, later CH)**. Changed 2026-10-27 (FB-007) from US: US/China shipping times, duty and de minimis made nothing pass. Owner is in Europe (said "Bulgaria"; 2026-10-27 reply was "I am Germany", residence/company base to confirm, matters for VAT/OSS and company setup). Currency EUR. Payments the market expects: PayPal, Klarna, cards (+SEPA). Prefer EU-stock suppliers (2-5 day delivery).
+- Store language(s): **German (owner is a fluent German speaker, writes/proofreads copy)**; English as fallback
 - Starting budget (product samples + store + ads): **under $500 total**
 - Daily ad budget ceiling for tests: **$0 during organic test**; max ~$10–15/day once an organic winner exists, only after Gate C
-- Preferred platform: **custom-coded website built by the owner (NOT Shopify)**. Payments via Stripe (owner's home country). Fulfillment via **CJdropshipping API** (order creation, tracking via webhook or polling).
-- Suppliers / apps already in use: none yet — prefer suppliers with US warehouses (CJdropshipping US, Zendrop, AutoDS) for ≤10-day delivery
+- Preferred platform: **custom-coded website built by the owner (NOT Shopify)**. Payments via Stripe (+ PayPal/Klarna for DE). Fulfillment: **supplier-agnostic**. CJdropshipping stays an option (API), but EU-stock suppliers (e.g. BigBuy, EU print-on-demand) are allowed from FB-007; every extra supplier costs integration work, so flag it per supplier (L-006 revised).
+- Suppliers / apps already in use: none yet — prefer suppliers with EU warehouses (Germany/EU stock) for ≤5-day delivery to DE
 - Channels to market on: TikTok (organic; TikTok Shop US likely needs a US entity — treat as affiliate/later option), Instagram Reels, Facebook ads, Pinterest, YouTube Shorts
 - Hard no's (niches, product types): defaults from CLAUDE.md (no supplements, medical devices, trademarked goods, weapons, heavy regulation)
 - Brand taste (likes / dislikes): TBD — ask at Gate B
@@ -29,6 +29,7 @@ Fill in once; agents tailor everything to it.
 | nurse-reset-kit | Off-Clock Club — Post-Shift Reset Kit → night-shift nurses | Gate B | killed (owner) | 2026-10-26 |
 | scout-xmas-20261026 | Christmas: aurora / northern-lights projector lamp (US stock, conditional) | Gate A | paused: owner rejected the lamp as a commodity (FB-006); superseded by scout-xmas2 | 2026-10-26 |
 | scout-xmas2-20261026 | Christmas round 2: funny or useful gifts — nothing passes for Xmas 2026 (validator: path b) | 2 validated (QA pending) | active, waiting on owner decision | 2026-10-26 |
+| scout-de-20261027 | Germany product search (new criteria, EU suppliers) | 1 scout | active | 2026-10-27 |
 
 Stage = 0–9 as defined in `CLAUDE.md`. Status = `active`, `waiting-on-human`,
 `paused`, `killed`, `scaling`.
@@ -189,3 +190,4 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-26 [validator] [scout-xmas2] $39-50 one-gift box format (light, non-glass, non-cosmetic, non-battery): not found. Volume at that price on TikTok christmas-gifts-for-men and Amazon gifts-for-men is all electronics, fragrance/cosmetics, glass, sized or branded items. An assembled generic kit would repeat the nurse-kit pattern.
 - 2026-10-26 [orchestrator] [scout-xmas2 useful-daily] Rejected (checked, failed a gate, detail in 01-scouting-useful-daily.md "Dropped"): retractable car charger, packing cubes, laptop stand, desk mats, magnetic LED pickup tool, universal socket, chicken shredder, manual coffee grinder, wireless charging stations, key organizers, safety razor kits, hand warmers, winter hat/scarf/glove sets, microwave heat pads: $8-15 floor (L-009), weight, or batteries (L-002).
 - 2026-10-26 [orchestrator] [scout-xmas2 validation] CORRECTION to the validator's wallet entry above (append-only): the cheapest identical tracker-pocket wallets are $10.98 (15 sold) and $14.99 (15.9K sold, sohochic) on TikTok Shop. The earlier "$12.39 (3.3K sold)" is WITHDRAWN (title shows no tracker) and the $13.99 Walmart wallet is context only. The HORL patent (US 12,157,204, granted 2024-12-03) is UNVERIFIED: search snippet, record not opened. The round-1 satin set is NO-GO under the floor-1 cap, MAYBE only at price >= $42 with a CJ SKU <= $5.18.
+- 2026-10-27 [orchestrator] [owner] Market changed US -> Germany (DACH), German language, EUR, EU-stock suppliers allowed, criteria loosened (FB-007). US Christmas rounds closed: nothing passed. New run scout-de-20261027. Prior rejections stay in Rejected ideas but may be revisited if the new market or criteria change the verdict (e.g. wallet, sharpener).
