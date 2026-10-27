@@ -2,9 +2,9 @@
 
 - Slug: `scout-de-20261027`
 - Segment: German-speaking consumers (DE first, AT later). Any gift, home, or lifestyle product with a clear buyer.
-- Current stage: 1 — scout (lanes TBD after FB-007 is applied)
+- Current stage: 1 — scout (4 lanes running: home-kitchen, gifts-seasonal, outdoor-pets-auto, us-de-arbitrage)
 - Status: active
-- Blockers: evolver must apply FB-007 first
+- Blockers: _none_ (FB-007 applied as CL-007)
 
 ## Brief
 - Owner: Bulgaria-based Europe, "I can manage everything in Europe", fluent German speaker. Wants a product "which actually makes sense and customers would actually want and use". Christmas is welcome but NOT required (L-008 revised).
