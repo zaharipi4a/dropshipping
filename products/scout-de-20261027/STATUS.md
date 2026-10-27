@@ -2,7 +2,7 @@
 
 - Slug: `scout-de-20261027`
 - Segment: German-speaking consumers (DE first, AT later). Any gift, home, or lifestyle product with a clear buyer.
-- Current stage: 1 — scout (4 lanes running: home-kitchen, gifts-seasonal, outdoor-pets-auto, us-de-arbitrage)
+- Current stage: 1 — scout complete (4 lanes, all near misses); waiting on owner data (owner-checklist.md) before validation
 - Status: active
 - Blockers: _none_ (FB-007 applied as CL-007)
 
