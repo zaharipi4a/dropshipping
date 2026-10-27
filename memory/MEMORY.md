@@ -224,3 +224,4 @@ Format: `- YYYY-MM-DD <product/niche> — why rejected`
 - 2026-10-27 Windscreen cover / ice-scraper glove — EUR 8-25, car-specific sizes, no sales figures.
 - 2026-10-27 Personalised dog blanket / pet portrait via POD — only 390-880 searches/mo, POD margin fails L-002.
 - 2026-10-27 Hundemantel / dog coats — size variants and returns (Nov demand 40.5k is real).
+- 2026-10-27 [orchestrator] CORRECTION (append-only) to the gifts-seasonal DE insight: book nook break-even landed is EUR 14.3 (not ~14.5), and EUR ~13.3 once a EUR 1.00 per-order service-fee placeholder (assumed) is included (CM 15.05, ROAS 2.23 fails at 14.3 all-in). L-004 is not yet met (2 signals + 1 unverified); compliance cost (ElektroG EUR 100-400/yr + EU rep EUR 50-150/yr) likely exceeds the ~EUR 150 cap, so the lead is unlikely to survive.
