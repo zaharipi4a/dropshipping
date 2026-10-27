@@ -15,3 +15,4 @@
 
 ## Owner notes from gates
 - 2026-10-27: moved from US to Germany; owner accepted revised criteria.
+- 2026-10-27: owner checked CJ: cat window perch + bird feeder ship from China, 8-18 days, ~EUR 10 shipping -> Katzenkino-Set killed (kill criteria triggered).
