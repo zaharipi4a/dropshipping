@@ -1,8 +1,8 @@
 # Scouting — outdoor-pets-hobby-auto lane — 2026-10-27 (revised after QA round 1)
 
 ## Handoff
-- **Verdict: no pick in this lane. 0 GO. One candidate, the Katzenkino-Set, is a NEAR MISS (not a pick, not a lead to build on).** Second candidate: none.
-- Katzenkino-Set = cat window perch + clear window bird feeder, EUR 49.90, for indoor-cat owners. Appeal 5, strong 3-second hook, 4 demand signals. **It passes L-002 only on Route B' (CJ DE-warehouse), which uses unquoted assumed costs; Routes A and C fail.** B' reaches ROAS 2.15 only with a combined unit of EUR 11.50, below my own estimate range (EUR 14–21). Re-run at the low end of my own range (unit 14.00) it **fails** (ROAS 2.46). Routes A (EU distributor) and C (China-direct) fail at every input tested.
+- **Verdict: no pick in this lane. 0 GO. One candidate, the Katzenkino-Set, is a NEAR MISS (kill-dated conditional, not a pick, not a lead).** Second candidate: none.
+- Katzenkino-Set = cat window perch + clear window bird feeder, EUR 49.90, for indoor-cat owners. Appeal 5, strong 3-second hook, 4 demand signals. **It passes L-002 only on the unquoted, optimistic Route B' (CJ DE-warehouse), which uses assumed costs; Routes A and C fail.** B' reaches ROAS 2.15 only with a combined unit at or below ~EUR 12 (11.97 at EUR 5.50 shipping; the scout used EUR 11.50), below my own estimate range (EUR 14–21). Re-run at the low end of my own range (unit 14.00) it **fails** (ROAS 2.46). Routes A (EU distributor) and C (China-direct) fail at every input tested.
 - Kill criterion: drop the candidate unless, by **Fri 2026-11-06**, a CJ DE-warehouse or EU-stock quote shows **unit + shipping to DE <= EUR 17.45 combined for perch + feeder** (landed <= ~EUR 18 incl. EUR 0.50 packaging, ROAS <= 2.2 at EUR 49.90), delivery <= 5 business days, AND the supplier shows a tested load report for the perch.
 - L-004: the perch is proven in Germany itself (40+ Zooplus listings, Karlie Fensterplatz 179 ratings at EUR 35.99) plus US velocity; that is the opposite of an arbitrage gap. **The arbitrage gap test is not met for the perch.** The bundle gap ("Katzenkino-Set" not found in DE) rests on one web search: `weak evidence`.
 - DE demand (RankHero, `estimated`): "vogelfutterhaus" Nov 40,500 vs Jun/Jul 8,100; "vogelhaus" Nov 74,000; "katzenbett" Oct/Nov 14,800 vs Jun 6,600. Meta Ad Library ad longevity is an **open signal**: not obtained, must be checked by hand.
@@ -56,6 +56,8 @@ Only **one** combo exists because everything else in the lane failed an earlier 
 
 ### Combo 1 (NEAR MISS): Katzenkino-Set → indoor-cat owners, gift or self-purchase
 
+L-004 note: the Set has zero bundle sales signals; its proof is the components' proof, so it is not shortlisted as a product. It is dropped at the kill date unless a bundle listing with sales is found.
+
 **Timing (L-008).** Two routes, classified separately:
 - *Christmas route:* demand is **peaking now** (vogelfutterhaus Nov 40,500, katzenbett Oct/Nov 14,800), so it **fails the "peak 6–10 weeks away" rule**; it can only ride the peak that is already running. Warehouse: unknown, no EU/DE-stock SKU confirmed. If EU stock shows <= 5 business days (BigBuy claims 3–5 average, Q4 +1–2, third-party): latest order for 24 Dec delivery **Fri 2026-12-11** (`assumed`; the end of the demand window around 15 Dec is not an order date). China-direct (7–10 business days, CJ blog): latest order about Dec 1, no organic-test buffer.
 - *Winter tail Jan–Mar:* evergreen-ish. vogelfutterhaus Jan 22,200 / Feb 12,100 / Mar 12,100; katzenbett Jan 12,100, Feb–May 8,100 (`estimated`).
@@ -92,7 +94,9 @@ Name check: DPMAregister / EUIPO eSearch plus for "Katzenkino" and "Katzen-TV" *
 
 **Why the earlier cat-bed rejection does not apply:** earlier rejected cat caves/beds were USD 5–20 US floors, 500–800 g, and heavy for US shipping. German pet-trade window perches sell at EUR 22–38 (Zooplus), a real price tolerance. That is why the perch is examined again, but the weight (assumed 1–1.5 kg) and the cheap parts still make this a near miss, not a lead.
 
-## No pick. One conditional candidate (not a pick)
+## Scout's top pick and why
+
+No pick. One kill-dated conditional candidate (not a pick):
 
 **Final verdict: near miss.** 0 GO, no first pick, no second pick.
 
